@@ -43,7 +43,7 @@ for condition in [
     )
     serialize("tmp/"*condition*"-mass-fractions.js", mass)
 
-    # serialize the proteomics absolute mole fraction data [units: ng/gDW]
+    # serialize the proteomics absolute mole fraction data [units: nmol/gDW]
     mole = Dict(
         Symbol(r.Protein) => r.AbsoluteMoleFraction for
         r in CSV.File("data/"*condition*"-proteomics-absolute-mole-fraction.csv")

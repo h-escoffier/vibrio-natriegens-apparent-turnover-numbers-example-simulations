@@ -218,7 +218,7 @@ sol = DifferentiableMetabolism.optimized_values(
     optimizer = Gurobi.Optimizer,
     sense = COBREXA.Minimal,
 )
-isnothing(sol) && @warn "Descent infeasibility $variant"
+isnothing(sol) && @warn "Descent infeasibility $condition"
 
 parameters = collect(keys(parameter_symbols))
 
