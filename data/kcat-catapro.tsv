@@ -1,0 +1,807 @@
+rxn	rxn_kegg	ec_code	ec_codes	direction	substrates_name	substrates_kegg	products_name	products_kegg	genes	uniprot	catalytic_enzyme	warning_ec	warning_enz	warning_arr	kcat	db	penalty_score	kcat_substrate	kcat_organism	kcat_enzyme	kcat_temperature	kcat_ph	kcat_variant	kcat_id_percent	kcat_organism_score
+TMDK1	R01567	2.7.1.21	2.7.1.145;2.7.1.21;2.7.1.76	forward	Thymidine;ATPc	C00214;C00002	dTMPc;ADPc;Hc	C00364;C00008;C00080	ENSG00000167900	P04183	P04183				9.5	brenda	1.0	thymidine	Homo sapiens	P04183		7.5	wildtype	100.0	0.0
+SMO		1.14.99.7	1.14.13.132;1.14.14.17;1.14.99.7	forward	Hc;NADPHc;O2c;Squalene	C00080;C00005;C00007;C00751	S_Squalene_2_3_epoxide;H2Oc;NADPc	C01054;C00001;C00006	ENSG00000104549	Q14534	Q14534	transferred			0.0233	sabio_rk	1.0	Squalene;NADPH;H+;O2	Homo sapiens	Q14534	37.0		wildtype	100.0	0.0
+PGK	R01512	2.7.2.3	2.7.2.10;2.7.2.3	forward	1_3bisphosphoDglyceratec;ADPc	C00236;C00008	3phosphoDglyceratec;ATPc	C00597;C00002	ENSG00000102144	P00558	P00558				6000.0	sabio_rk	4.0	Glycerate 1,3-bisphosphate;ADP	Homo sapiens	P00558	37.0	7.5	wildtype	100.0	0.0
+PGI	R00771	5.3.1.9	5.3.1.9	forward	glucose6phosphatec	C00092	fructose6phosphatec	C05345	ENSG00000105220	P06744	P06744			2.0	1146.859	brenda	4.0	D-glucose 6-phosphate	Homo sapiens	P06744	37.0	7.5	wildtype	100.0	0.0
+PDHm	R00209	1.8.1.4	1.2.1.104;1.2.1.51;1.2.4.1;1.2.4.2;1.2.4.4;1.8.1.4;2.3.1.12;2.3.1.168;2.3.1.61	forward	CoAm;NADm;pyruvatem	C00010;C00003;C00022	acetylCoAm;CO2m;NADHm	C00024;C00011;C00004	ENSG00000091140;ENSG00000110435;ENSG00000150768;ENSG00000168291;ENSG00000131828	P09622;O00330;P08559;P10515;P11177	P09622				899.0	brenda	4.0	dihydrolipoamide	Homo sapiens	P09622	37.0	8.0	wildtype	100.0	0.0
+AKGDm	R08549	1.8.1.4	1.2.1.105;1.2.1.52;1.2.4.2;1.2.4.4;1.8.1.4;2.3.1.168;2.3.1.61	forward	AKGm;CoAm;NADm	C00026;C00010;C00003	CO2m;NADHm;succinylCoAm	C00011;C00004;C00091	ENSG00000091140;ENSG00000105953;ENSG00000119689	Q02218;P09622;P36957	P09622				899.0	brenda	4.0	dihydrolipoamide	Homo sapiens	P09622	37.0	8.0	wildtype	100.0	0.0
+OIVD1m	R01651;R07602;R04097	1.8.1.4	1.2.1.25;1.2.4.4;1.8.1.4;2.3.1.168	forward	4mopm;CoAm;NADm	C00233;C00010;C00003	CO2m;ivCoAm;NADHm	C00011;C02939;C00004	ENSG00000083123;ENSG00000091140;ENSG00000137992;ENSG00000248098	P21953;P09622;P11182;P12694	P09622				899.0	brenda	4.0	dihydrolipoamide	Homo sapiens	P09622	37.0	8.0	wildtype	100.0	0.0
+OIVD2m	R02662;R07600;R01210	1.8.1.4	1.2.1.25;1.2.4.4;1.8.1.4;2.3.1.168;2.7.11.4	forward	3mobm;CoAm;NADm	C00141;C00010;C00003	CO2m;isobCoAm;NADHm	C00011;C00630;C00004	ENSG00000083123;ENSG00000091140;ENSG00000137992;ENSG00000248098	P21953;P09622;P11182;P12694	P09622				899.0	brenda	4.0	dihydrolipoamide	Homo sapiens	P09622	37.0	8.0	wildtype	100.0	0.0
+2OXOADOXm	R13167;R02571;R01933	1.8.1.4	1.2.1.105;1.2.1.52;1.2.4.2;1.8.1.4;2.3.1.61	forward	2oxoadipatem;CoAm;NADm	C00322;C00010;C00003	CO2m;glutarylCoAm;NADHm	C00011;C00527;C00004	ENSG00000091140;ENSG00000105953;ENSG00000110435;ENSG00000119689	Q02218;P09622;P36957;O00330	P09622				899.0	brenda	4.0	dihydrolipoamide	Homo sapiens	P09622	37.0	8.0	wildtype	100.0	0.0
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	forward	AMPc;ATPc	C00020;C00002	ADPc	C00008	ENSG00000106992	P00568	P00568				879.0	brenda	4.0	ATP	Homo sapiens	P00568	37.0	8.0	wildtype	100.0	0.0
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	reverse	ADPc	C00008	AMPc;ATPc	C00020;C00002	ENSG00000106992	P00568	P00568				879.0	brenda	4.0	ATP	Homo sapiens	P00568	37.0	8.0	wildtype	100.0	0.0
+PYK	R00200	2.7.1.40	2.7.1.40	forward	ADPc;Hc;PEPc	C00008;C00080;C00074	ATPc;pyruvatec	C00002;C00022	ENSG00000143627	P30613	P30613				355.0	sabio_rk	4.0	ADP;Phosphoenolpyruvate	Homo sapiens	P30613	37.0	8.0	wildtype	100.0	0.0
+MMMm	R00833	5.4.99.2	5.4.99.2	forward	RmmalCoAm	C01213	succinylCoAm	C00091	ENSG00000146085	P22033	P22033				283.3333	sabio_rk	4.0	2-Methylmalonyl-CoA	Homo sapiens	P22033	37.0	7.5	wildtype	100.0	0.0
+ILETAm	R01090	2.6.1.42	2.6.1.42	forward	AKGm;isoleucinem	C00026;C16434	3mopm;glutamatem	C03465;C00025	ENSG00000105552	O15382	O15382				230.0	sabio_rk	4.0	L-Isoleucine;alpha-Ketovaline	Homo sapiens	O15382	37.0	7.8	wildtype	100.0	0.0
+ILETAm	R01090	2.6.1.42	2.6.1.42	reverse	3mopm;glutamatem	C03465;C00025	AKGm;isoleucinem	C00026;C16434	ENSG00000105552	O15382	O15382				230.0	sabio_rk	4.0	L-Isoleucine;alpha-Ketovaline	Homo sapiens	O15382	37.0	7.8	wildtype	100.0	0.0
+LEUTAm	R01090	2.6.1.42	2.6.1.1;2.6.1.42;2.6.1.57;2.6.1.6;2.6.1.67;2.6.1.88	forward	AKGm;leucinem	C00026;C16439	4mopm;glutamatem	C00233;C00025	ENSG00000105552	O15382	O15382				230.0	sabio_rk	4.0	L-Isoleucine;alpha-Ketovaline	Homo sapiens	O15382	37.0	7.8	wildtype	100.0	0.0
+LEUTAm	R01090	2.6.1.42	2.6.1.1;2.6.1.42;2.6.1.57;2.6.1.6;2.6.1.67;2.6.1.88	reverse	4mopm;glutamatem	C00233;C00025	AKGm;leucinem	C00026;C16439	ENSG00000105552	O15382	O15382				230.0	sabio_rk	4.0	L-Isoleucine;alpha-Ketovaline	Homo sapiens	O15382	37.0	7.8	wildtype	100.0	0.0
+VALTAim	R01214	2.6.1.42	2.6.1.42;2.6.1.6	forward	AKGm;valinem	C00026;C00183	3mobm;glutamatem	C00141;C00025	ENSG00000105552	O15382	O15382				230.0	sabio_rk	4.0	L-Isoleucine;alpha-Ketovaline	Homo sapiens	O15382	37.0	7.8	wildtype	100.0	0.0
+VALTAim	R01214	2.6.1.42	2.6.1.42;2.6.1.6	reverse	3mobm;glutamatem	C00141;C00025	AKGm;valinem	C00026;C00183	ENSG00000105552	O15382	O15382				230.0	sabio_rk	4.0	L-Isoleucine;alpha-Ketovaline	Homo sapiens	O15382	37.0	7.8	wildtype	100.0	0.0
+HEX1	R00299	2.7.1.1	2.7.1.1;2.7.1.147;2.7.1.2;2.7.1.4;2.7.1.55;2.7.1.59;2.7.1.60	forward	ATPc;glucosec	C00002;C00031	ADPc;glucose6phosphatec;Hc	C00008;C00092;C00080	ENSG00000106633	P35557	P35557				101.0	brenda	4.0	D-glucose	Homo sapiens	P35557	37.0	7.4	wildtype	100.0	0.0
+ICDHyr	R00267	1.1.1.42	1.1.1.42	forward	isocitratec;NADPc	C00311;C00006	AKGc;CO2c;NADPHc	C00026;C00011;C00005	ENSG00000138413	O75874	O75874				85.0	brenda	4.0	isocitrate	Homo sapiens	O75874	37.0	7.5	wildtype	100.0	0.0
+PRO1x	R01248	1.5.99.8	1.5.1.2;1.5.99.8	forward	1Pyrroline5carboxylatec;Hc;NADHc	C04322;C00080;C00004	NADc;prolinec	C00003;C00148	ENSG00000143811	Q96C36	Q96C36	transferred			61.3	brenda	4.0	1-pyrroline-5-carboxylate	Homo sapiens	Q96C36	37.0	7.5	wildtype	100.0	0.0
+P5CR	R01251	1.5.1.2	1.5.1.2	forward	1Pyrroline5carboxylatec;Hc;NADPHc	C04322;C00080;C00005	NADPc;prolinec	C00006;C00148	ENSG00000143811	Q96C36	Q96C36				61.3	brenda	4.0	1-pyrroline-5-carboxylate	Homo sapiens	Q96C36	37.0	7.5	wildtype	100.0	0.0
+r0514	R02236	1.5.1.3	1.5.1.3;1.5.1.33	forward	folatem;NADPHm	C00504;C00005	dihydrofolatem;NADPm	C00415;C00006	ENSG00000228716	P00374	P00374				40.0	brenda	4.0	7,8-dihydrofolate	Homo sapiens	P00374	37.0	7.4	wildtype	100.0	0.0
+DHFRim	R00939	1.5.1.3	1.5.1.3;1.5.1.5	forward	dihydrofolatem;Hm;NADPHm	C00415;C00080;C00005	NADPm;THFm	C00006;C00101	ENSG00000228716	P00374	P00374				40.0	brenda	4.0	7,8-dihydrofolate	Homo sapiens	P00374	37.0	7.4	wildtype	100.0	0.0
+FOLR2	R02236	1.5.1.3	1.5.1.3;1.5.1.33	forward	folatec;NADPHc	C00504;C00005	dihydrofolatec;NADPc	C00415;C00006	ENSG00000228716	P00374	P00374				40.0	brenda	4.0	7,8-dihydrofolate	Homo sapiens	P00374	37.0	7.4	wildtype	100.0	0.0
+DHFR	R00939	1.5.1.3	1.5.1.3;1.5.1.5	forward	dihydrofolatec;Hc;NADPHc	C00415;C00080;C00005	NADPc;THFc	C00006;C00101	ENSG00000228716	P00374	P00374				40.0	brenda	4.0	7,8-dihydrofolate	Homo sapiens	P00374	37.0	7.4	wildtype	100.0	0.0
+DHFR	R00939	1.5.1.3	1.5.1.3;1.5.1.5	reverse	NADPc;THFc	C00006;C00101	dihydrofolatec;Hc;NADPHc	C00415;C00080;C00005	ENSG00000228716	P00374	P00374				40.0	brenda	4.0	7,8-dihydrofolate	Homo sapiens	P00374	37.0	7.4	wildtype	100.0	0.0
+SPRMS	R02869	2.5.1.22	2.5.1.16;2.5.1.22;2.5.1.79	forward	ametamc;spermidinec	C01137;C00315	5mtac;Hc;sperminec	C00170;C00080;C00750	ENSG00000102172	P52788	P52788				32.0	brenda	4.0	spermidine	Homo sapiens	P52788	37.0	7.5	wildtype	100.0	0.0
+FBP	R00762;R01785;R04780	3.1.3.11	3.1.3.11	forward	fructose1_6bisphosphatec;H2Oc	C00354;C00001	fructose6phosphatec;Pic	C05345;C00009	ENSG00000130957	O00757	O00757				23.4	sabio_rk	4.0	D-Fructose 1,6-bisphosphate;H2O	Homo sapiens	O00757	37.0	7.5	wildtype	100.0	0.0
+FBP	R00762;R01785;R04780	3.1.3.11	3.1.3.11	forward	fructose1_6bisphosphatec;H2Oc	C00354;C00001	fructose6phosphatec;Pic	C05345;C00009	ENSG00000165140	P09467	P09467				23.4	brenda	4.0	D-fructose 1,6-bisphosphate	Homo sapiens	P09467	37.0	7.5	wildtype	100.0	0.0
+ICDHym	R00267	1.1.1.42	1.1.1.42	forward	isocitratem;NADPm	C00311;C00006	AKGm;CO2m;NADPHm	C00026;C00011;C00005	ENSG00000182054	P48735	P48735				15.5	brenda	4.0	isocitrate	Homo sapiens	P48735	37.0	8.0	wildtype	100.0	0.0
+ICDHym	R00267	1.1.1.42	1.1.1.42	reverse	AKGm;CO2m;NADPHm	C00026;C00011;C00005	isocitratem;NADPm	C00311;C00006	ENSG00000182054	P48735	P48735				15.5	brenda	4.0	isocitrate	Homo sapiens	P48735	37.0	8.0	wildtype	100.0	0.0
+CBPSam	R07641	6.3.4.16	6.3.4.16;6.3.5.5	forward	ATPm;HCO3m;NH3m	C00002;C01353;C01342	ADPm;carbamoylphosphatem;Hm;Pim	C00008;C00169;C00080;C00009	ENSG00000021826	P31327	P31327				5.73	brenda	4.0	NH3	Homo sapiens	P31327	37.0	7.6	wildtype	100.0	0.0
+CYSTGL	R01001	4.4.1.1	4.4.1.1	forward	cystathioninec;H2Oc	C02291;C00001	2oxobutyratec;cysteinec;NH3c	C00109;C00097;C01342	ENSG00000116761	P32929	P32929				4.9	sabio_rk	4.0	L-Homocysteine	Homo sapiens	P32929	37.0	7.4	wildtype	100.0	0.0
+TMDS	R02101	2.1.1.45	2.1.1.45	forward	dUMPc;5_10methyleneTHFc	C00365;C00143	dihydrofolatec;dTMPc	C00415;C00364	ENSG00000176890	P04818	P04818				4.1667	sabio_rk	4.0	dUMP;5,10-Methylenetetrahydrofolate	Homo sapiens	P04818	37.0	7.4	wildtype	100.0	0.0
+TMDS	R02101	2.1.1.45	2.1.1.45	reverse	dihydrofolatec;dTMPc	C00415;C00364	dUMPc;5_10methyleneTHFc	C00365;C00143	ENSG00000176890	P04818	P04818				4.1667	sabio_rk	4.0	dUMP;5,10-Methylenetetrahydrofolate	Homo sapiens	P04818	37.0	7.4	wildtype	100.0	0.0
+KYN	R00987	3.7.1.3	3.7.1.3	forward	Lkynureninec;H2Oc	C01718;C00001	alaninec;anthc;Hc	C00041;C00108;C00080	ENSG00000115919	Q16719	Q16719				3.5	brenda	4.0	3-hydroxy-L-kynurenine	Homo sapiens	Q16719	37.0	8.0	wildtype	100.0	0.0
+HKYNH	R02668	3.7.1.3	3.7.1.3	forward	H2Oc;3hydroxyLkynureninec	C00001;C02794	3hydroxyanthranilatec;alaninec	C00632;C00041	ENSG00000115919	Q16719	Q16719				3.5	brenda	4.0	3-hydroxy-L-kynurenine	Homo sapiens	Q16719	37.0	8.0	wildtype	100.0	0.0
+r0450	R01939	2.6.1.39	2.6.1.39	forward	2aminoadipatem;AKGm	C00956;C00026	2oxoadipatem;glutamatem	C00322;C00025	ENSG00000109576	Q8N5Z0	Q8N5Z0				3.44	sabio_rk	4.0	Glyoxylate;L-Methionine	Homo sapiens	Q8N5Z0	37.0	7.4	wildtype	100.0	0.0
+r0450	R01939	2.6.1.39	2.6.1.39	reverse	2oxoadipatem;glutamatem	C00322;C00025	2aminoadipatem;AKGm	C00956;C00026	ENSG00000109576	Q8N5Z0	Q8N5Z0				3.44	sabio_rk	4.0	Glyoxylate;L-Methionine	Homo sapiens	Q8N5Z0	37.0	7.4	wildtype	100.0	0.0
+ASNN	R00485	3.5.1.1	3.4.19.5;3.5.1.1;3.5.1.26;3.5.1.38;3.5.5.4	forward	asparaginec;H2Oc	C00152;C00001	aspartatec;NH3c	C00049;C01342	ENSG00000162174	Q7L266	Q7L266				3.19	brenda	4.0	L-asparagine	Homo sapiens	Q7L266	37.0	7.5	wildtype	100.0	0.0
+SPMS	R01920	2.5.1.16	2.5.1.16	forward	ametamc;putrescinec	C01137;C00134	5mtac;Hc;spermidinec	C00170;C00080;C00315	ENSG00000116649	P19623	P19623				1.9	sabio_rk	4.0	Putrescine;S-Adenosylmethioninamine	Homo sapiens	P19623	37.0	7.5	wildtype	100.0	0.0
+SPRMS	R02869	2.5.1.16	2.5.1.16;2.5.1.22;2.5.1.79	forward	ametamc;spermidinec	C01137;C00315	5mtac;Hc;sperminec	C00170;C00080;C00750	ENSG00000116649	P19623	P19623				1.9	sabio_rk	4.0	Putrescine;S-Adenosylmethioninamine	Homo sapiens	P19623	37.0	7.5	wildtype	100.0	0.0
+ADNK1	R00185	2.7.1.20	2.7.1.11;2.7.1.20;2.7.1.74	forward	adenosinec;ATPc	C00212;C00002	ADPc;AMPc;Hc	C00008;C00020;C00080	ENSG00000156110	P55263	P55263				0.5	brenda	4.0	adenosine	Homo sapiens	P55263	37.0	7.5	wildtype	100.0	0.0
+METAT	R00177	2.5.1.6	2.5.1.6	forward	ATPc;H2Oc;methioninec	C00002;C00001;C00073	SAMc;Pic;Ppic	C00019;C00009;C00013	ENSG00000038274;ENSG00000168906	P31153;Q9NZL9	P31153				0.43	brenda	4.0	L-methionine	Homo sapiens	P31153	37.0	8.0	wildtype	100.0	0.0
+DMATT	R01658	2.5.1.29	2.5.1.1;2.5.1.10;2.5.1.29	forward	Dimethylallyl diphosphate;isopentenylpPPc	C00235;C00129	Geranyl diphosphate;Ppic	C00341;C00013	ENSG00000152904	O95749	O95749				0.204	sabio_rk	4.0	Isopentenyl diphosphate;trans,trans-Farnesyl diphosphate	Homo sapiens	O95749	37.0	7.7	wildtype	100.0	0.0
+GRTT	R02003	2.5.1.29	2.5.1.1;2.5.1.10;2.5.1.29	forward	Geranyl diphosphate;isopentenylpPPc	C00341;C00129	farnesylPPc;Ppic	;C00013	ENSG00000152904	O95749	O95749				0.204	sabio_rk	4.0	Isopentenyl diphosphate;trans,trans-Farnesyl diphosphate	Homo sapiens	O95749	37.0	7.7	wildtype	100.0	0.0
+FBA	R01068	4.1.2.13	4.1.2.13;6.2.1.-	forward	fructose1_6bisphosphatec	C00354	DHAPc;GAPc	C00111;C00661	ENSG00000136872	P05062	P05062			2.0	0.0002	sabio_rk	4.0	D-Glyceraldehyde 3-phosphate;Glycerone phosphate	Homo sapiens	P05062	37.0	7.4	wildtype	100.0	0.0
+r0407	R01829	4.1.2.-	4.1.2;4.1.2.-;4.1.2.13	forward	sedoheptulose1_7bisphosphatec	C00447	DHAPc;erythrose4phosphatec	C00111;C00279	ENSG00000136872	P05062	P05062	incomplete		2.0	0.0002	sabio_rk	4.0	D-Glyceraldehyde 3-phosphate;Glycerone phosphate	Homo sapiens	P05062	37.0	7.4	wildtype	100.0	0.0
+r0407	R01829	4.1.2.-	4.1.2;4.1.2.-;4.1.2.13	reverse	DHAPc;erythrose4phosphatec	C00111;C00279	sedoheptulose1_7bisphosphatec	C00447	ENSG00000136872	P05062	P05062	incomplete		2.0	0.0002	sabio_rk	4.0	D-Glyceraldehyde 3-phosphate;Glycerone phosphate	Homo sapiens	P05062	37.0	7.4	wildtype	100.0	0.0
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000104267	P00918	P00918				600000.0	brenda	5.0	CO2	Homo sapiens	P00918		7.5	wildtype	100.0	0.0
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000131686	P23280	P23280				600000.0	brenda	5.0	CO2	Homo sapiens	P23280		7.5	wildtype	100.0	0.0
+CSm	R00351	4.1.3.7	2.3.3.1;2.3.3.14;2.3.3.16;2.3.3.3;4.1.3.7	forward	acetylCoAm;H2Om;OAAm	C00024;C00001;C00036	citratem;CoAm;Hm	C00158;C00010;C00080	ENSG00000062485	O75390	O75390	transferred			260.0	brenda	5.0	acetyl-CoA	Homo sapiens	O75390		8.0	wildtype	100.0	0.0
+G6PDH2r	R10520;R00835	1.1.1.49	1.1.1.363;1.1.1.47;1.1.1.49	forward	glucose6phosphatec;NADPc	C00092;C00006	glucono1_5lactone6phosphatec;Hc;NADPHc	C01236;C00080;C00005	ENSG00000160211	P11413	P11413				247.0	brenda	5.0	D-glucose 6-phosphate	Homo sapiens	P11413	37.0	8.0		100.0	0.0
+G6PDH2r	R10520;R00835	1.1.1.49	1.1.1.363;1.1.1.47;1.1.1.49	reverse	glucono1_5lactone6phosphatec;Hc;NADPHc	C01236;C00080;C00005	glucose6phosphatec;NADPc	C00092;C00006	ENSG00000160211	P11413	P11413				247.0	brenda	5.0	D-glucose 6-phosphate	Homo sapiens	P11413	37.0	8.0		100.0	0.0
+MCPST	R03105;R03106	2.8.1.2	2.8.1.2	forward	cyanc;mercaptopyruvatec	C01326;C00957	Hc;pyruvatec;tcyntc	C00080;C00022;C01755	ENSG00000128309	P25325	P25325				229.0	brenda	5.0	2-mercaptoethanol	Homo sapiens	P25325	37.0	7.4		100.0	0.0
+GLNS	R00253	6.3.1.2	6.3.1.2	forward	ATPc;glutamatec;NH3c	C00002;C00025;C01342	ADPc;glutaminec;Hc;Pic	C00008;C00064;C00080;C00009	ENSG00000135821	P15104	P15104				85.0	brenda	5.0	L-glutamate	Homo sapiens	P15104	37.0	7.4		100.0	0.0
+CYSTS	R01290	4.2.1.22	4.2.1.22	forward	homocysteinec;serinec	C05330;C00065	cystathioninec;H2Oc	C02291;C00001	ENSG00000160200	P35520	P35520				31.34	brenda	5.0	L-cysteine	Homo sapiens	P35520	37.0	7.4		100.0	0.0
+GTHPi	R00274	1.11.1.15	1.11.1.15;1.11.1.9	forward	GSHc;H2O2c	C00051;C00027	GSSGc;H2Oc	C00127;C00001	ENSG00000167468	P36969	P36969	transferred			20.6	brenda	5.0	H2O2	Homo sapiens	P36969	37.0	7.4		100.0	0.0
+GTHPm	R00274	1.11.1.15	1.11.1.15;1.11.1.9	forward	GSHm;H2O2m	C00051;C00027	GSSGm;H2Om	C00127;C00001	ENSG00000167468	P36969	P36969	transferred			20.6	brenda	5.0	H2O2	Homo sapiens	P36969	37.0	7.4		100.0	0.0
+PTRCOX1	R01151	1.4.3.21	1.4.3.10;1.4.3.21;1.4.3.22;1.4.3.6	forward	H2Oc;O2c;putrescinec	C00001;C00007;C00134	4abutnc;H2O2c;NH3c	C00555;C00027;C01342	ENSG00000131471	Q16853	Q16853				7.4	brenda	5.0	Isobutylamine	Homo sapiens	Q16853	37.0	7.4		100.0	0.0
+URIDK2r	R02098	2.7.4.9	2.7.4.13;2.7.4.14;2.7.4.4;2.7.4.9	forward	ADPc;dUDPc	C00008;C01346	ATPc;dUMPc	C00002;C00365	ENSG00000168393	P23919	P23919				4.8	brenda	5.0	dUMP	Homo sapiens	P23919	37.0	7.4		100.0	0.0
+URIDK2r	R02098	2.7.4.9	2.7.4.13;2.7.4.14;2.7.4.4;2.7.4.9	reverse	ATPc;dUMPc	C00002;C00365	ADPc;dUDPc	C00008;C01346	ENSG00000168393	P23919	P23919				4.8	brenda	5.0	dUMP	Homo sapiens	P23919	37.0	7.4		100.0	0.0
+GLUTCOADHm	R02487	1.3.8.6	1.3.8.6;1.3.99.7	forward	FADm;glutarylCoAm;Hm	C00016;C00527;C00080	crotonylCoAm;CO2m;FADH2m	C00877;C00011;C01352	ENSG00000105607	Q92947	Q92947				3.1	brenda	5.0	glutaryl-CoA	Homo sapiens	Q92947		7.8	wildtype	100.0	0.0
+SMO		1.14.99.7	1.14.13.132;1.14.14.17;1.14.99.7	reverse	S_Squalene_2_3_epoxide;H2Oc;NADPc	C01054;C00001;C00006	Hc;NADPHc;O2c;Squalene	C00080;C00005;C00007;C00751	ENSG00000104549	Q14534	Q14534	transferred			0.0233	sabio_rk	5.0	Squalene;NADPH;H+;O2	Homo sapiens	Q14534	37.0		wildtype	100.0	0.0
+TMDK1	R01567	2.7.1.145	2.7.1.145;2.7.1.21;2.7.1.76	forward	Thymidine;ATPc	C00214;C00002	dTMPc;ADPc;Hc	C00364;C00008;C00080	ENSG00000166548	O00142	O00142				15.0	sabio_rk	5.0	Thymidine;ATP	Drosophila melanogaster	Q9XZT6	37.0	8.0	wildtype	31.71	25.0
+IPDDI	R01123	5.3.3.2	5.3.3.2	forward	isopentenylpPPc	C00129	Dimethylallyl diphosphate	C00235	ENSG00000148377	Q9BXS1	Q9BXS1				1.3	sabio_rk	5.0	Isopentenyl diphosphate	Staphylococcus aureus	P58052	37.0	7.0	wildtype	22.29	30.0
+IPDDI	R01123	5.3.3.2	5.3.3.2	forward	isopentenylpPPc	C00129	Dimethylallyl diphosphate	C00235	ENSG00000067064	Q13907	Q13907				1.3	sabio_rk	5.0	Isopentenyl diphosphate	Staphylococcus aureus	P58052	37.0	7.0	wildtype	21.26	30.0
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000185015	Q8N1Q1	Q8N1Q1				150000.0	sabio_rk	6.0	H2O;CO2	Homo sapiens	Q8N1Q1	20.0	7.5	wildtype	100.0	0.0
+FUMm	R01082	4.2.1.2	4.2.1.2	forward	fumaratem;H2Om	C00122;C00001	malatem	C00711	ENSG00000091483	P07954	P07954				380.0	sabio_rk	6.0	H2O;Fumarate	Homo sapiens	P07954	22.0	7.5	wildtype	100.0	0.0
+FUMm	R01082	4.2.1.2	4.2.1.2	reverse	malatem	C00711	fumaratem;H2Om	C00122;C00001	ENSG00000091483	P07954	P07954				380.0	sabio_rk	6.0	H2O;Fumarate	Homo sapiens	P07954	22.0	7.5	wildtype	100.0	0.0
+FUM	R01082	4.2.1.2	4.2.1.2	forward	fumaratec;H2Oc	C00122;C00001	malatec	C00711	ENSG00000091483	P07954	P07954				380.0	sabio_rk	6.0	H2O;Fumarate	Homo sapiens	P07954	22.0	7.5	wildtype	100.0	0.0
+FUM	R01082	4.2.1.2	4.2.1.2	reverse	malatec	C00711	fumaratec;H2Oc	C00122;C00001	ENSG00000091483	P07954	P07954				380.0	sabio_rk	6.0	H2O;Fumarate	Homo sapiens	P07954	22.0	7.5	wildtype	100.0	0.0
+G3PD1ir	R00842	1.1.1.8	1.1.1.8;1.1.1.94;1.1.5.3	forward	DHAPc;Hc;NADHc	C00111;C00080;C00004	glycerol3Pc;NADc	C00093;C00003	ENSG00000167588	P21695	P21695				240.0	brenda	6.0	glycerone phosphate	Homo sapiens	P21695	25.0	7.5	wildtype	100.0	0.0
+ME1m	R00214	1.1.1.38	1.1.1.38;1.1.1.39;1.1.1.40	forward	malatem;NADm	C00711;C00003	CO2m;NADHm;pyruvatem	C00011;C00004;C00022	ENSG00000082212	P23368	P23368				207.9	sabio_rk	6.0	NAD+;L-Malate	Homo sapiens	P23368	30.0	7.4	wildtype	100.0	0.0
+UMPK	R00158	2.7.4.14	2.7.4.14;2.7.4.22;2.7.4.25;2.7.4.4;2.7.4.8	forward	ATPc;UMPc	C00002;C00105	ADPc;UDPc	C00008;C00015	ENSG00000162368	P30085	P30085				188.0	brenda	6.0	UMP	Homo sapiens	P30085			wildtype	100.0	0.0
+UMPK	R00158	2.7.4.14	2.7.4.14;2.7.4.22;2.7.4.25;2.7.4.4;2.7.4.8	reverse	ADPc;UDPc	C00008;C00015	ATPc;UMPc	C00002;C00105	ENSG00000162368	P30085	P30085				188.0	brenda	6.0	UMP	Homo sapiens	P30085			wildtype	100.0	0.0
+CYTK1	R00512	2.7.4.14	2.7.4.14;2.7.4.25	forward	ADPc;CDPc	C00008;C00112	ATPc;CMPc	C00002;C00055	ENSG00000162368	P30085	P30085				188.0	brenda	6.0	UMP	Homo sapiens	P30085			wildtype	100.0	0.0
+CYTK1	R00512	2.7.4.14	2.7.4.14;2.7.4.25	reverse	ATPc;CMPc	C00002;C00055	ADPc;CDPc	C00008;C00112	ENSG00000162368	P30085	P30085				188.0	brenda	6.0	UMP	Homo sapiens	P30085			wildtype	100.0	0.0
+GK1	R00332	2.7.4.8	2.7.4.8	forward	ATPc;GMPc	C00002;C00144	ADPc;GDPc	C00008;C00035	ENSG00000143774	Q16774	Q16774				58.5	brenda	6.0	GMP	Homo sapiens	Q16774	25.0	7.5	wildtype	100.0	0.0
+GK1	R00332	2.7.4.8	2.7.4.8	reverse	ADPc;GDPc	C00008;C00035	ATPc;GMPc	C00002;C00144	ENSG00000143774	Q16774	Q16774				58.5	brenda	6.0	GMP	Homo sapiens	Q16774	25.0	7.5	wildtype	100.0	0.0
+HEX1	R00299	2.7.1.1	2.7.1.1;2.7.1.147;2.7.1.2;2.7.1.4;2.7.1.55;2.7.1.59;2.7.1.60	forward	ATPc;glucosec	C00002;C00031	ADPc;glucose6phosphatec;Hc	C00008;C00092;C00080	ENSG00000159399	P52789	P52789				55.4	sabio_rk	6.0	D-Glucose;ATP	Homo sapiens	P52789	25.0	7.5	wildtype	100.0	0.0
+OCBTm	R01398	2.1.3.3	2.1.3.3;2.1.3.6	forward	carbamoylphosphatem;ornithinem	C00169;C00077	citrullinem;Hm;Pim	C00327;C00080;C00009	ENSG00000036473	P00480	P00480				34.0	brenda	6.0	L-ornithine	Homo sapiens	P00480			wildtype	100.0	0.0
+OCBTm	R01398	2.1.3.3	2.1.3.3;2.1.3.6	reverse	citrullinem;Hm;Pim	C00327;C00080;C00009	carbamoylphosphatem;ornithinem	C00169;C00077	ENSG00000036473	P00480	P00480				34.0	brenda	6.0	L-ornithine	Homo sapiens	P00480			wildtype	100.0	0.0
+ME2	R00216	1.1.1.40	1.1.1.38;1.1.1.39;1.1.1.40;1.1.1.42	forward	malatec;NADPc	C00711;C00006	CO2c;NADPHc;pyruvatec	C00011;C00005;C00022	ENSG00000065833	P48163	P48163				30.0	brenda	6.0	(S)-malate	Homo sapiens	P48163	30.0	7.4	wildtype	100.0	0.0
+ACOAD9m	R02660	1.3.99.12	1.3.8;1.3.8.-;1.3.99;1.3.99.12;1.3.99.3	forward	FADm;isobCoAm	C00016;C00630	mcrCoAm;FADH2m	C03460;C01352	ENSG00000117054	P11310	P11310	transferred			26.4	sabio_rk	6.0	Hexanoyl-CoA;FAD	Homo sapiens	P11310	32.0	8.0	wildtype	100.0	0.0
+GND	R01528	1.1.1.44	1.1.1.351;1.1.1.44	forward	6phosphoDgluconatec;NADPc	C00345;C00006	CO2c;NADPHc;ribulose5phosphatec	C00011;C00005;C00199	ENSG00000142657	P52209	P52209				22.2	brenda	6.0	6-phospho-D-gluconate	Homo sapiens	P52209	25.0	8.0	wildtype	100.0	0.0
+FBA	R01068	4.1.2.13	4.1.2.13;6.2.1.-	forward	fructose1_6bisphosphatec	C00354	DHAPc;GAPc	C00111;C00661	ENSG00000149925	P04075	P04075				16.7	brenda	6.0	D-fructose 1,6-bisphosphate	Homo sapiens	P04075			wildtype	100.0	0.0
+r0407	R01829	4.1.2.-	4.1.2;4.1.2.-;4.1.2.13	forward	sedoheptulose1_7bisphosphatec	C00447	DHAPc;erythrose4phosphatec	C00111;C00279	ENSG00000149925	P04075	P04075	incomplete			16.7	brenda	6.0	D-fructose 1,6-bisphosphate	Homo sapiens	P04075			wildtype	100.0	0.0
+r0407	R01829	4.1.2.-	4.1.2;4.1.2.-;4.1.2.13	reverse	DHAPc;erythrose4phosphatec	C00111;C00279	sedoheptulose1_7bisphosphatec	C00447	ENSG00000149925	P04075	P04075	incomplete			16.7	brenda	6.0	D-fructose 1,6-bisphosphate	Homo sapiens	P04075			wildtype	100.0	0.0
+GTHS	R00497	6.3.2.3	6.3.2.3	forward	ATPc;gammaglutamylcysteinec;glycinec	C00002;C00669;C00037	ADPc;GSHc;Hc;Pic	C00008;C00051;C00080;C00009	ENSG00000100983	P48637	P48637				15.68	brenda	6.0	gamma-L-glutamyl-L-cysteine	Homo sapiens	P48637	37.0	8.2	wildtype	100.0	0.0
+ACCOAC	R00742	6.4.1.2	6.4.1.2	forward	acetylCoAc;ATPc;HCO3c	C00024;C00002;C01353	ADPc;Hc;malonylCoAc;Pic	C00008;C00080;C00083;C00009	ENSG00000076555	O00763	O00763				11.8	brenda	6.0	acetyl-CoA	Homo sapiens	O00763	37.0			100.0	0.0
+ACCOAC	R00742	6.4.1.2	6.4.1.2	forward	acetylCoAc;ATPc;HCO3c	C00024;C00002;C01353	ADPc;Hc;malonylCoAc;Pic	C00008;C00080;C00083;C00009	ENSG00000278540	Q13085	Q13085				11.8	brenda	6.0	acetyl-CoA	Homo sapiens	Q13085	37.0			100.0	0.0
+CYSO	R00893;R02408	1.13.11.20	1.13.11.20	forward	cysteinec;O2c	C00097;C00007	3sulfinoalaninec;Hc	C00606;C00080	ENSG00000129596	Q16878	Q16878				10.35	brenda	6.0	L-cysteine	Homo sapiens	Q16878	37.0	6.1	wildtype	100.0	0.0
+ACOAD8m	R04095	1.3.99.10	1.3.8.4;1.3.8.5;1.3.8.7;1.3.99.10;1.3.99.3	forward	FADm;ivCoAm	C00016;C02939	mcrtCoAm;FADH2m	C03069;C01352	ENSG00000128928	P26440	P26440	transferred			10.0	brenda	6.0	isovaleryl-CoA	Homo sapiens	P26440			wildtype	100.0	0.0
+ACOAD8m	R04095	1.3.99.10	1.3.8.4;1.3.8.5;1.3.8.7;1.3.99.10;1.3.99.3	reverse	mcrtCoAm;FADH2m	C03069;C01352	FADm;ivCoAm	C00016;C02939	ENSG00000128928	P26440	P26440	transferred			10.0	brenda	6.0	isovaleryl-CoA	Homo sapiens	P26440			wildtype	100.0	0.0
+IMPC	R01127	3.5.4.10	2.1.2.3;3.5.4.10	forward	FAICARc	C04734	H2Oc;IMPc	C00001;C00130	ENSG00000138363	P31939	P31939				1.489	CataPro									
+IMPC	R01127	3.5.4.10	2.1.2.3;3.5.4.10	reverse	H2Oc;IMPc	C00001;C00130	FAICARc	C04734	ENSG00000138363	P31939	P31939				8.6	sabio_rk	6.0	1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide	Homo sapiens	P31939	22.0	7.5	wildtype	100.0	0.0
+FBA	R01068	4.1.2.13	4.1.2.13;6.2.1.-	forward	fructose1_6bisphosphatec	C00354	DHAPc;GAPc	C00111;C00661	ENSG00000109107	P09972	P09972				5.2	sabio_rk	6.0	D-Fructose 1,6-bisphosphate	Homo sapiens	P09972	30.0	7.4	wildtype	100.0	0.0
+r0407	R01829	4.1.2.-	4.1.2;4.1.2.-;4.1.2.13	forward	sedoheptulose1_7bisphosphatec	C00447	DHAPc;erythrose4phosphatec	C00111;C00279	ENSG00000109107	P09972	P09972	incomplete			5.2	sabio_rk	6.0	D-Fructose 1,6-bisphosphate	Homo sapiens	P09972	30.0	7.4	wildtype	100.0	0.0
+r0407	R01829	4.1.2.-	4.1.2;4.1.2.-;4.1.2.13	reverse	DHAPc;erythrose4phosphatec	C00111;C00279	sedoheptulose1_7bisphosphatec	C00447	ENSG00000109107	P09972	P09972	incomplete			5.2	sabio_rk	6.0	D-Fructose 1,6-bisphosphate	Homo sapiens	P09972	30.0	7.4	wildtype	100.0	0.0
+PCLAD	R04323	4.1.1.45	4.1.1.45	forward	cmusac;Hc	C04409;C00080	2aminomuconate6semialdehydec;CO2c	C03824;C00011	ENSG00000153086	Q8TDX5	Q8TDX5				4.8	brenda	6.0	2-aminomuconate semialdehyde	Homo sapiens	Q8TDX5		7.0		100.0	0.0
+ADPT	R00190	2.4.2.7	2.4.2.7;2.4.2.8	forward	adeninec;PRPPc	C00147;C00119	AMPc;Ppic	C00020;C00013	ENSG00000198931	P07741	P07741				3.85	brenda	6.0	5-phospho-alpha-D-ribose 1-diphosphate	Homo sapiens	P07741	23.0	7.5	wildtype	100.0	0.0
+34HPPOR	R02521	1.13.11.27	1.13.11.27	forward	hppc;O2c	C01179;C00007	CO2c;hgentisc	C00011;C00544	ENSG00000158104	P32754	P32754				3.7	brenda	6.0	4-hydroxyphenylpyruvate	Homo sapiens	P32754	37.0	6.5	wildtype	100.0	0.0
+ACACT1m	R00238	2.3.1.9	2.3.1.16;2.3.1.38;2.3.1.9	forward	acetoAcCoAm;CoAm	C00332;C00010	acetylCoAm	C00024	ENSG00000075239	P24752	P24752				3.5	sabio_rk	6.0	Acetyl-CoA	Homo sapiens	P24752	30.0	7.4	wildtype	100.0	0.0
+r0643	R03869	1.2.1.3	1.2.1.3	forward	2m3opropm;H2Om;NADm	C00349;C00001;C00003	mmalm;Hm;NADHm	C02170;C00080;C00004	ENSG00000111275	P05091	P05091				3.1667	sabio_rk	6.0	NAD+;H2O;Propanal	Homo sapiens	P05091	25.0	7.4	wildtype	100.0	0.0
+BBHOX	R02397	1.14.11.1	1.14.11.1	forward	4tmeabutnc;AKGc;O2c	C01181;C00026;C00007	CO2c;carnitinec;succinatec	C00011;C00318;C00042	ENSG00000129151	O75936	O75936				1.6	brenda	6.0	2-oxoglutarate	Homo sapiens	O75936		7.5		100.0	0.0
+PGCD	R01513	1.1.1.95	1.1.1.95	forward	3phosphoDglyceratec;NADc	C00597;C00003	3phosphonooxypyruvatec;Hc;NADHc	C03232;C00080;C00004	ENSG00000092621	O43175	O43175				0.017	brenda	6.0	acetylpyridine	Homo sapiens	O43175		7.5		100.0	0.0
+PGCD	R01513	1.1.1.95	1.1.1.95	reverse	3phosphonooxypyruvatec;Hc;NADHc	C03232;C00080;C00004	3phosphoDglyceratec;NADc	C00597;C00003	ENSG00000092621	O43175	O43175				0.017	brenda	6.0	acetylpyridine	Homo sapiens	O43175		7.5		100.0	0.0
+DPGM	R01662	5.4.2.4	5.4.2.1;5.4.2.4	forward	1_3bisphosphoDglyceratec	C00236	2_3bisphosphoDglyceratec;Hc	C03339;C00080	ENSG00000172331	P07738	P07738				0.015	brenda	6.0	2,3-bisphospho-D-glycerate	Homo sapiens	P07738		7.5		100.0	0.0
+DPGase	R01516	5.4.2.4	3.1.3.13;5.4.2.11;5.4.2.4	forward	2_3bisphosphoDglyceratec;H2Oc	C03339;C00001	3phosphoDglyceratec;Pic	C00597;C00009	ENSG00000172331	P07738	P07738				0.015	brenda	6.0	2,3-bisphospho-D-glycerate	Homo sapiens	P07738		7.5		100.0	0.0
+PGM	R01518	5.4.2.1	5.4.2.1;5.4.2.11;5.4.2.12	forward	3phosphoDglyceratec	C00597	2phosphoDglyceratec	C00631	ENSG00000172331	P07738	P07738	transferred			0.015	brenda	6.0	2,3-bisphospho-D-glycerate	Homo sapiens	P07738		7.5		100.0	0.0
+PGM	R01518	5.4.2.1	5.4.2.1;5.4.2.11;5.4.2.12	reverse	2phosphoDglyceratec	C00631	3phosphoDglyceratec	C00597	ENSG00000172331	P07738	P07738	transferred			0.015	brenda	6.0	2,3-bisphospho-D-glycerate	Homo sapiens	P07738		7.5		100.0	0.0
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000107159	Q16790	Q16790				25000000.0	brenda	7.0	CO2	Homo sapiens	Q16790				100.0	0.0
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000164879	P07451	P07451				13000.0	brenda	7.0	CO2	Homo sapiens	P07451	20.0	7.5		100.0	0.0
+ARGN	R00551	3.5.3.1	3.5.3.1;3.5.3.7	forward	argininec;H2Oc	C00062;C00001	ornithinec;ureac	C00077;C00086	ENSG00000118520	P05089	P05089				1132.0	brenda	7.0	L-arginine	Homo sapiens	P05089	37.0	9.4		100.0	0.0
+GDR	R00094	1.8.1.7	1.8.1.7	forward	GSSGc;Hc;NADHc	C00127;C00080;C00004	GSHc;NADc	C00051;C00003	ENSG00000104687	P00390	P00390				210.0	brenda	7.0	GSSG	Homo sapiens	P00390				100.0	0.0
+GTHOr	R00115	1.6.4.2	1.6.4.2;1.8.1.7;1.8.4.2	forward	GSSGc;Hc;NADPHc	C00127;C00080;C00005	GSHc;NADPc	C00051;C00006	ENSG00000104687	P00390	P00390	transferred			210.0	brenda	7.0	GSSG	Homo sapiens	P00390				100.0	0.0
+GDRm	R00094	1.8.1.7	1.8.1.7	forward	GSSGm;Hm;NADHm	C00127;C00080;C00004	GSHm;NADm	C00051;C00003	ENSG00000104687	P00390	P00390				210.0	brenda	7.0	GSSG	Homo sapiens	P00390				100.0	0.0
+GTHOm	R00115	1.6.4.2	1.6.4.2;1.8.1.7;1.8.4.2	forward	GSSGm;Hm;NADPHm	C00127;C00080;C00005	GSHm;NADPm	C00051;C00006	ENSG00000104687	P00390	P00390	transferred			210.0	brenda	7.0	GSSG	Homo sapiens	P00390				100.0	0.0
+MTHFR3	R01224	1.5.1.53	1.5.1.20;1.5.1.53	forward	Hc;5_10methyleneTHFc;NADPHc	C00080;C00143;C00005	5methylTHFc;NADPc	C00440;C00006	ENSG00000177000	P42898	P42898				20.3974	CataPro									
+ACONTm	R01324	4.2.1.3	4.2.1.3	forward	citratem	C00158	isocitratem	C00311	ENSG00000100412	Q99798	Q99798				23.8	brenda	7.0	cis-aconitate	Homo sapiens	Q99798	25.0	7.4		100.0	0.0
+ACONTm	R01324	4.2.1.3	4.2.1.3	reverse	isocitratem	C00311	citratem	C00158	ENSG00000100412	Q99798	Q99798				23.8	brenda	7.0	cis-aconitate	Homo sapiens	Q99798	25.0	7.4		100.0	0.0
+GLUN	R00256	4.3.1	1.4.1.13;1.4.1.14;1.4.7.1;2.4.2;2.4.2.14;2.6.1.85;3.5.1.2;3.5.1.38;4.3.1;4.3.3.6;6.3.4.2;6.3.5.2;6.3.5.4;6.3.5.5;6.3.5.7	forward	glutaminec;H2Oc	C00064;C00001	glutamatec;NH3c	C00025;C01342	ENSG00000115419	O94925	O94925	incomplete			22.0	brenda	7.0	L-glutamine	Homo sapiens	O94925		8.5	wildtype	100.0	0.0
+GLUNm	R00256	4.3.1	1.4.1.13;1.4.1.14;1.4.7.1;2.4.2;2.4.2.14;2.6.1.85;3.5.1.2;3.5.1.38;4.3.1;4.3.3.6;6.3.4.2;6.3.5.2;6.3.5.4;6.3.5.5;6.3.5.7	forward	glutaminem;H2Om	C00064;C00001	glutamatem;NH3m	C00025;C01342	ENSG00000115419	O94925	O94925	incomplete			22.0	brenda	7.0	L-glutamine	Homo sapiens	O94925		8.5	wildtype	100.0	0.0
+MTHFCm	R01655	1.5.1.15	1.5.1.15;3.5.4.9	forward	10formylTHFm;Hm	C00234;C00080	H2Om;5_10methenylTHFm	C00001;C00445	ENSG00000065911	P13995	P13995				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	P13995	30.0	8.0		100.0	0.0
+MTHFCm	R01655	1.5.1.15	1.5.1.15;3.5.4.9	reverse	H2Om;5_10methenylTHFm	C00001;C00445	10formylTHFm;Hm	C00234;C00080	ENSG00000065911	P13995	P13995				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	P13995	30.0	8.0		100.0	0.0
+MTHFDm	R01220	1.5.1.5	1.5.1.15;1.5.1.5	forward	5_10methenylTHFm;NADPHm	C00445;C00005	5_10methyleneTHFm;NADPm	C00143;C00006	ENSG00000065911	P13995	P13995				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	P13995	30.0	8.0		100.0	0.0
+MTHFDm	R01220	1.5.1.5	1.5.1.15;1.5.1.5	reverse	5_10methyleneTHFm;NADPm	C00143;C00006	5_10methenylTHFm;NADPHm	C00445;C00005	ENSG00000065911	P13995	P13995				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	P13995	30.0	8.0		100.0	0.0
+MTHFD2i	R01218	1.5.1.5	1.5.1.15;1.5.1.5	forward	5_10methenylTHFc;NADHc	C00445;C00004	5_10methyleneTHFc;NADc	C00143;C00003	ENSG00000065911	P13995	P13995				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	P13995	30.0	8.0		100.0	0.0
+MTHFD2i	R01218	1.5.1.5	1.5.1.15;1.5.1.5	reverse	5_10methyleneTHFc;NADc	C00143;C00003	5_10methenylTHFc;NADHc	C00445;C00004	ENSG00000065911	P13995	P13995				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	P13995	30.0	8.0		100.0	0.0
+MTHFD2i	R01218	1.5.1.5	1.5.1.15;1.5.1.5	forward	5_10methenylTHFc;NADHc	C00445;C00004	5_10methyleneTHFc;NADc	C00143;C00003	ENSG00000163738	Q9H903	Q9H903				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	Q9H903	30.0	8.0		100.0	0.0
+MTHFD2i	R01218	1.5.1.5	1.5.1.15;1.5.1.5	reverse	5_10methyleneTHFc;NADc	C00143;C00003	5_10methenylTHFc;NADHc	C00445;C00004	ENSG00000163738	Q9H903	Q9H903				15.4	brenda	7.0	5,10-methylenetetrahydropteroylpentaglutamate	Homo sapiens	Q9H903	30.0	8.0		100.0	0.0
+GHMT2r	R00945	2.1.2.1	2.1.2.1	forward	serinec;THFc	C00065;C00101	glycinec;H2Oc;5_10methyleneTHFc	C00037;C00001;C00143	ENSG00000176974	P34896	P34896				15.0	brenda	7.0	L-serine	Homo sapiens	P34896	25.0	7.0		100.0	0.0
+GHMT2r	R00945	2.1.2.1	2.1.2.1	reverse	glycinec;H2Oc;5_10methyleneTHFc	C00037;C00001;C00143	serinec;THFc	C00065;C00101	ENSG00000176974	P34896	P34896				15.0	brenda	7.0	L-serine	Homo sapiens	P34896	25.0	7.0		100.0	0.0
+GHMT3	R03284	4.1.2.-	4.1.2.-	forward	3htmelysc;Hc	C01259;C00080	4tmeabutc;glycinec	C01149;C00037	ENSG00000176974	P34896	P34896	incomplete			15.0	brenda	7.0	L-serine	Homo sapiens	P34896	25.0	7.0		100.0	0.0
+GHMT2rm	R00945	2.1.2.1	2.1.2.1	forward	serinem;THFm	C00065;C00101	glycinem;H2Om;5_10methyleneTHFm	C00037;C00001;C00143	ENSG00000182199	P34897	P34897				13.13	brenda	7.0	L-serine	Homo sapiens	P34897	20.0	7.2		100.0	0.0
+GHMT2rm	R00945	2.1.2.1	2.1.2.1	reverse	glycinem;H2Om;5_10methyleneTHFm	C00037;C00001;C00143	serinem;THFm	C00065;C00101	ENSG00000182199	P34897	P34897				13.13	brenda	7.0	L-serine	Homo sapiens	P34897	20.0	7.2		100.0	0.0
+MGCHrm	R02085	4.2.1.18	4.2.1.18	forward	3mgCoAm;H2Om	C03231;C00001	HMGCoAm	C00356	ENSG00000148090	Q13825	Q13825				6.8	brenda	7.0	crotonyl-CoA	Homo sapiens	Q13825				100.0	0.0
+TKT2	R01067	2.2.1.1	2.2.1.1	forward	erythrose4phosphatec;Dxylulose5phosphatec	C00279;C00231	fructose6phosphatec;GAPc	C05345;C00661	ENSG00000163931	P29401	P29401				6.3	brenda	7.0	D-xylulose 5-phosphate	Homo sapiens	P29401	30.0	7.6		100.0	0.0
+TKT2	R01067	2.2.1.1	2.2.1.1	reverse	fructose6phosphatec;GAPc	C05345;C00661	erythrose4phosphatec;Dxylulose5phosphatec	C00279;C00231	ENSG00000163931	P29401	P29401				6.3	brenda	7.0	D-xylulose 5-phosphate	Homo sapiens	P29401	30.0	7.6		100.0	0.0
+TKT1	R01641	2.2.1.1	2.2.1.1	forward	ribose5phosphatec;Dxylulose5phosphatec	C03736;C00231	GAPc;sedoheptulose7phosphatec	C00661;C05382	ENSG00000163931	P29401	P29401				6.3	brenda	7.0	D-xylulose 5-phosphate	Homo sapiens	P29401	30.0	7.6		100.0	0.0
+TKT1	R01641	2.2.1.1	2.2.1.1	reverse	GAPc;sedoheptulose7phosphatec	C00661;C05382	ribose5phosphatec;Dxylulose5phosphatec	C03736;C00231	ENSG00000163931	P29401	P29401				6.3	brenda	7.0	D-xylulose 5-phosphate	Homo sapiens	P29401	30.0	7.6		100.0	0.0
+DPMVD	R01121	4.1.1.33	4.1.1.33	forward	R_5_Diphosphomevalonate;ATPc	C01143;C00002	ADPc;CO2c;isopentenylpPPc;Pic	C00008;C00011;C00129;C00009	ENSG00000167508	P53602	P53602				4.5	brenda	7.0	5-diphosphomevalonate	Homo sapiens	P53602	30.0		wildtype	100.0	0.0
+RBFK	R00549	2.7.1.26	2.7.1.26	forward	ATPc;riboflavinc	C00002;C00255	ADPc;FMNc;Hc	C00008;C00061;C00080	ENSG00000135002	Q969G6	Q969G6				1.7	brenda	7.0	riboflavin	Homo sapiens	Q969G6	25.0	7.0		100.0	0.0
+OMPDC	R00965	4.1.1.23	4.1.1.23	forward	Hc;orotidine5phosphatec	C00080;C01103	CO2c;UMPc	C00011;C00105	ENSG00000114491	P11172	P11172				5.9748	CataPro									
+PROD2	R10507	1.5.99.8	1.5.-.-;1.5.8;1.5.99.8	forward	FADc;prolinec	C00016;C00148	1Pyrroline5carboxylatec;FADH2c;Hc	C04322;C01352;C00080	ENSG00000250799	Q9UF12	Q9UF12	transferred			0.28	brenda	7.0	menaquinone	Homo sapiens	Q9UF12	25.0	7.5		100.0	0.0
+FUMAC	R01364	3.7.1.2	3.7.1.2	forward	4fumacacc;H2Oc	C01061;C00001	acetoacetatec;fumaratec;Hc	C00164;C00122;C00080	ENSG00000103876	P16930	P16930				0.1	brenda	7.0	4-Fumarylacetoacetate	Homo sapiens	P16930	22.0	7.4		100.0	0.0
+GDHm	R00243	1.4.1.3	1.4.1.14;1.4.1.2;1.4.1.3;1.4.1.4	forward	glutamatem;H2Om;NADm	C00025;C00001;C00003	AKGm;Hm;NADHm;NH3m	C00026;C00080;C00004;C01342	ENSG00000148672	P00367	P00367				65.0	sabio_rk	8.0	NAD+;H2O;L-Glutamate	Homo sapiens	P00367	25.0	9.5	wildtype	100.0	0.0
+GLUDym	R00248	1.4.1.3	1.4.1.13;1.4.1.3;1.4.1.4	forward	AKGm;Hm;NADPHm;NH3m	C00026;C00080;C00005;C01342	glutamatem;H2Om;NADPm	C00025;C00001;C00006	ENSG00000148672	P00367	P00367				65.0	sabio_rk	8.0	NAD+;H2O;L-Glutamate	Homo sapiens	P00367	25.0	9.5	wildtype	100.0	0.0
+GLUDym	R00248	1.4.1.3	1.4.1.13;1.4.1.3;1.4.1.4	reverse	glutamatem;H2Om;NADPm	C00025;C00001;C00006	AKGm;Hm;NADPHm;NH3m	C00026;C00080;C00005;C01342	ENSG00000148672	P00367	P00367				65.0	sabio_rk	8.0	NAD+;H2O;L-Glutamate	Homo sapiens	P00367	25.0	9.5	wildtype	100.0	0.0
+GAPD	R01061	1.2.1.12	1.2.1.12;1.2.1.59	forward	GAPc;NADc;Pic	C00661;C00003;C00009	1_3bisphosphoDglyceratec;Hc;NADHc	C00236;C00080;C00004	ENSG00000105679	O14556	O14556				8.7809	CataPro									
+DHORD9	R01869	1.3.5.2	1.3.1.14;1.3.5.2	forward	Sdihydroorotatec;ubiquinonem	C00337;	orotatec;ubiquinolm	C00295;	ENSG00000102967	Q02127	Q02127				2.8887	CataPro									
+DHORD9	R01869	1.3.5.2	1.3.1.14;1.3.5.2	reverse	orotatec;ubiquinolm	C00295;	Sdihydroorotatec;ubiquinonem	C00337;	ENSG00000102967	Q02127	Q02127				1.1151	CataPro									
+TPI	R01015	5.3.1.1	5.3.1.1	forward	DHAPc	C00111	GAPc	C00661	ENSG00000111669	P60174	P60174				68.7448	CataPro									
+TPI	R01015	5.3.1.1	5.3.1.1	reverse	GAPc	C00661	DHAPc	C00111	ENSG00000111669	P60174	P60174				279.4619	CataPro									
+ASPCT	R01397	2.1.3.2	2.1.3.2	forward	aspartatec;carbamoylphosphatec	C00049;C00169	NcarbamoylLaspartatec;Hc;Pic	C00438;C00080;C00009	ENSG00000084774	P27708	P27708				6.9035	CataPro									
+ASPCT	R01397	2.1.3.2	2.1.3.2	reverse	NcarbamoylLaspartatec;Hc;Pic	C00438;C00080;C00009	aspartatec;carbamoylphosphatec	C00049;C00169	ENSG00000084774	P27708	P27708				8.6285	CataPro									
+DPGase	R01516	5.4.2.11	3.1.3.13;5.4.2.11;5.4.2.4	forward	2_3bisphosphoDglyceratec;H2Oc	C03339;C00001	3phosphoDglyceratec;Pic	C00597;C00009	ENSG00000171314	P18669	P18669			2.0	9.1585	CataPro									
+PGM	R01518	5.4.2.11	5.4.2.1;5.4.2.11;5.4.2.12	forward	3phosphoDglyceratec	C00597	2phosphoDglyceratec	C00631	ENSG00000171314	P18669	P18669			2.0	17.3697	CataPro									
+PGM	R01518	5.4.2.11	5.4.2.1;5.4.2.11;5.4.2.12	reverse	2phosphoDglyceratec	C00631	3phosphoDglyceratec	C00597	ENSG00000171314	P18669	P18669			2.0	10.5149	CataPro									
+TYRTA	R00734	2.6.1.5	2.6.1.1;2.6.1.27;2.6.1.42;2.6.1.5;2.6.1.57;2.6.1.9	forward	AKGc;tyrosinec	C00026;C01536	hppc;glutamatec	C01179;C00025	ENSG00000198650	P17735	P17735				10.8652	CataPro									
+TYRTA	R00734	2.6.1.5	2.6.1.1;2.6.1.27;2.6.1.42;2.6.1.5;2.6.1.57;2.6.1.9	reverse	hppc;glutamatec	C01179;C00025	AKGc;tyrosinec	C00026;C01536	ENSG00000198650	P17735	P17735				15.1023	CataPro									
+PGK	R01512	2.7.2.3	2.7.2.10;2.7.2.3	forward	1_3bisphosphoDglyceratec;ADPc	C00236;C00008	3phosphoDglyceratec;ATPc	C00597;C00002	ENSG00000170950	P07205	P07205				4.335	CataPro									
+METAT	R00177	2.5.1.6	2.5.1.6	forward	ATPc;H2Oc;methioninec	C00002;C00001;C00073	SAMc;Pic;Ppic	C00019;C00009;C00013	ENSG00000151224	Q00266	Q00266				0.8255	CataPro									
+DPGase	R01516	5.4.2.11	3.1.3.13;5.4.2.11;5.4.2.4	forward	2_3bisphosphoDglyceratec;H2Oc	C03339;C00001	3phosphoDglyceratec;Pic	C00597;C00009	ENSG00000164708	P15259	P15259			2.0	9.0934	CataPro									
+PGM	R01518	5.4.2.11	5.4.2.1;5.4.2.11;5.4.2.12	forward	3phosphoDglyceratec	C00597	2phosphoDglyceratec	C00631	ENSG00000164708	P15259	P15259			2.0	17.7235	CataPro									
+PGM	R01518	5.4.2.11	5.4.2.1;5.4.2.11;5.4.2.12	reverse	2phosphoDglyceratec	C00631	3phosphoDglyceratec	C00597	ENSG00000164708	P15259	P15259			2.0	10.7504	CataPro									
+PYK	R00200	2.7.1.40	2.7.1.40	forward	ADPc;Hc;PEPc	C00008;C00080;C00074	ATPc;pyruvatec	C00002;C00022	ENSG00000067225	P14618	P14618				7.8931	CataPro									
+ORNDC	R00670	4.1.1.17	4.1.1.17;4.1.1.19;4.1.1.86	forward	Hc;ornithinec	C00080;C00077	CO2c;putrescinec	C00011;C00134	ENSG00000115758	P11926	P11926				10.9093	CataPro									
+ILETA	R01090	2.6.1.42	2.6.1.42	forward	AKGc;isoleucinec	C00026;C16434	3mopc;glutamatec	C03465;C00025	ENSG00000060982	P54687	P54687				6.6557	CataPro									
+ILETA	R01090	2.6.1.42	2.6.1.42	reverse	3mopc;glutamatec	C03465;C00025	AKGc;isoleucinec	C00026;C16434	ENSG00000060982	P54687	P54687				14.5743	CataPro									
+LEUTA	R01090	2.6.1.42	2.6.1.1;2.6.1.42;2.6.1.57;2.6.1.6;2.6.1.67;2.6.1.88	forward	AKGc;leucinec	C00026;C16439	4mopc;glutamatec	C00233;C00025	ENSG00000060982	P54687	P54687				10.417	CataPro									
+LEUTA	R01090	2.6.1.42	2.6.1.1;2.6.1.42;2.6.1.57;2.6.1.6;2.6.1.67;2.6.1.88	reverse	4mopc;glutamatec	C00233;C00025	AKGc;leucinec	C00026;C16439	ENSG00000060982	P54687	P54687				13.366	CataPro									
+VALTA	R01214	2.6.1.42	2.6.1.42;2.6.1.6	forward	AKGc;valinec	C00026;C00183	3mobc;glutamatec	C00141;C00025	ENSG00000060982	P54687	P54687				10.417	CataPro									
+VALTA	R01214	2.6.1.42	2.6.1.42;2.6.1.6	reverse	3mobc;glutamatec	C00141;C00025	AKGc;valinec	C00026;C00183	ENSG00000060982	P54687	P54687				14.1516	CataPro									
+MDHm	R00342	1.1.1.37	1.1.1.27;1.1.1.299;1.1.1.37;1.1.1.82	forward	malatem;NADm	C00711;C00003	Hm;NADHm;OAAm	C00080;C00004;C00036	ENSG00000146701	P40926	P40926				79.1529	CataPro									
+MDHm	R00342	1.1.1.37	1.1.1.27;1.1.1.299;1.1.1.37;1.1.1.82	reverse	Hm;NADHm;OAAm	C00080;C00004;C00036	malatem;NADm	C00711;C00003	ENSG00000146701	P40926	P40926				191.2073	CataPro									
+MDH	R00342	1.1.1.37	1.1.1.27;1.1.1.299;1.1.1.37;1.1.1.82	forward	malatec;NADc	C00711;C00003	Hc;NADHc;OAAc	C00080;C00004;C00036	ENSG00000014641	P40925	P40925				100.5292	CataPro									
+MDH	R00342	1.1.1.37	1.1.1.27;1.1.1.299;1.1.1.37;1.1.1.82	reverse	Hc;NADHc;OAAc	C00080;C00004;C00036	malatec;NADc	C00711;C00003	ENSG00000014641	P40925	P40925				276.0781	CataPro									
+CTPS1	R00571	6.3.4.2	6.3.4.2	forward	ATPc;NH3c;UTPc	C00002;C01342;C00075	ADPc;CTPc;Hc;Pic	C00008;C00063;C00080;C00009	ENSG00000047230	Q9NRF8	Q9NRF8				6.8487	CataPro									
+CTPS1	R00571	6.3.4.2	6.3.4.2	forward	ATPc;NH3c;UTPc	C00002;C01342;C00075	ADPc;CTPc;Hc;Pic	C00008;C00063;C00080;C00009	ENSG00000171793	P17812	P17812				5.9805	CataPro									
+ADSS	R01135	6.3.4.4	6.3.4.4	forward	aspartatec;GTPc;IMPc	C00049;C00044;C00130	adenylosuccinatec;GDPc;Hc;Pic	C03794;C00035;C00080;C00009	ENSG00000035687	P30520	P30520				3.7664	CataPro									
+ADSS	R01135	6.3.4.4	6.3.4.4	forward	aspartatec;GTPc;IMPc	C00049;C00044;C00130	adenylosuccinatec;GDPc;Hc;Pic	C03794;C00035;C00080;C00009	ENSG00000185100	Q8N142	Q8N142				4.1832	CataPro									
+CBPS	R00575	6.3.4.16	6.3.4.16;6.3.5.5	forward	ATPc;glutaminec;H2Oc;HCO3c	C00002;C00064;C00001;C01353	ADPc;carbamoylphosphatec;glutamatec;Hc;Pic	C00008;C00169;C00025;C00080;C00009	ENSG00000084774	P27708	P27708				5.8479	CataPro									
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	forward	AMPc;ATPc	C00020;C00002	ADPc	C00008	ENSG00000004455	P54819	P54819			10.0	30.1929	CataPro									
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	reverse	ADPc	C00008	AMPc;ATPc	C00020;C00002	ENSG00000004455	P54819	P54819			10.0	43.4612	CataPro									
+ADMDC	R00178	4.1.1.50	4.1.1.50	forward	SAMc;Hc	C00019;C00080	ametamc;CO2c	C01137;C00011	ENSG00000123505	P17707	P17707				9.2004	CataPro									
+RPI	R01056	5.3.1.6	5.3.1.6	forward	ribulose5phosphatec	C00199	ribose5phosphatec	C03736	ENSG00000153574	P49247	P49247				10.506	CataPro									
+RPI	R01056	5.3.1.6	5.3.1.6	reverse	ribose5phosphatec	C03736	ribulose5phosphatec	C00199	ENSG00000153574	P49247	P49247				9.3915	CataPro									
+KYN3OX	R01960	1.14.13.9	1.14.13.9	forward	Lkynureninec;Hc;NADPHc;O2c	C01718;C00080;C00005;C00007	H2Oc;3hydroxyLkynureninec;NADPc	C00001;C02794;C00006	ENSG00000117009	O15229	O15229			3.0	0.8046	CataPro									
+GDHm	R00243	1.4.1.2	1.4.1.14;1.4.1.2;1.4.1.3;1.4.1.4	forward	glutamatem;H2Om;NADm	C00025;C00001;C00003	AKGm;Hm;NADHm;NH3m	C00026;C00080;C00004;C01342	ENSG00000182890	P49448	P49448				20.0493	CataPro									
+HEX1	R00299	2.7.1.1	2.7.1.1;2.7.1.147;2.7.1.2;2.7.1.4;2.7.1.55;2.7.1.59;2.7.1.60	forward	ATPc;glucosec	C00002;C00031	ADPc;glucose6phosphatec;Hc	C00008;C00092;C00080	ENSG00000156510	Q2TB90	Q2TB90				35.8231	CataPro									
+HEX1	R00299	2.7.1.1	2.7.1.1;2.7.1.147;2.7.1.2;2.7.1.4;2.7.1.55;2.7.1.59;2.7.1.60	forward	ATPc;glucosec	C00002;C00031	ADPc;glucose6phosphatec;Hc	C00008;C00092;C00080	ENSG00000156515	P19367	P19367				60.0637	CataPro									
+HEX1	R00299	2.7.1.1	2.7.1.1;2.7.1.147;2.7.1.2;2.7.1.4;2.7.1.55;2.7.1.59;2.7.1.60	forward	ATPc;glucosec	C00002;C00031	ADPc;glucose6phosphatec;Hc	C00008;C00092;C00080	ENSG00000160883	P52790	P52790				14.4474	CataPro									
+PPA	R00004	3.6.1.1	3.1.3;3.1.3.1;3.1.3.2;3.6.1;3.6.1.1;3.6.2.1	forward	H2Oc;Ppic	C00001;C00013	Hc;Pic	C00080;C00009	ENSG00000180817	Q15181	Q15181				33.5866	CataPro									
+GLUNm	R00256	3.5.1.2	1.4.1.13;1.4.1.14;1.4.7.1;2.4.2;2.4.2.14;2.6.1.85;3.5.1.2;3.5.1.38;4.3.1;4.3.3.6;6.3.4.2;6.3.5.2;6.3.5.4;6.3.5.5;6.3.5.7	forward	glutaminem;H2Om	C00064;C00001	glutamatem;NH3m	C00025;C01342	ENSG00000135423	Q9UI32	Q9UI32				14.5468	CataPro									
+HCO3Em	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2m;H2Om	C00011;C00001	Hm;HCO3m	C00080;C01353	ENSG00000174990	P35218	P35218				4582.4931	CataPro									
+ASPTAm	R00355	2.6.1.1	2.6.1.1;2.6.1.19;2.6.1.42;2.6.1.5;2.6.1.57	forward	glutamatem;OAAm	C00025;C00036	AKGm;aspartatem	C00026;C00049	ENSG00000125166	P00505	P00505				18.4431	CataPro									
+ASPTAm	R00355	2.6.1.1	2.6.1.1;2.6.1.19;2.6.1.42;2.6.1.5;2.6.1.57	reverse	AKGm;aspartatem	C00026;C00049	glutamatem;OAAm	C00025;C00036	ENSG00000125166	P00505	P00505				10.3496	CataPro									
+3SALATAim	R02619	2.6.1.1	2.6.1;2.6.1.1;2.6.1.7	forward	3sulfinoalaninem;AKGm;Hm	C00606;C00026;C00080	3sulfinopyruvatem;glutamatem	C05527;C00025	ENSG00000125166	P00505	P00505				10.3496	CataPro									
+PFK	R00756;R04779	2.7.1.11	2.7.1.11	forward	ATPc;fructose6phosphatec	C00002;C05345	ADPc;fructose1_6bisphosphatec;Hc	C00008;C00354;C00080	ENSG00000152556	P08237	P08237				10.6478	CataPro									
+r0408	R01843	2.7.1.11	2.7.1;2.7.1.11	forward	ATPc;sedoheptulose7phosphatec	C00002;C05382	sedoheptulose1_7bisphosphatec;ADPc;Hc	C00447;C00008;C00080	ENSG00000152556	P08237	P08237				7.344	CataPro									
+PFK	R00756;R04779	2.7.1.11	2.7.1.11	forward	ATPc;fructose6phosphatec	C00002;C05345	ADPc;fructose1_6bisphosphatec;Hc	C00008;C00354;C00080	ENSG00000067057	Q01813	Q01813				7.8108	CataPro									
+r0408	R01843	2.7.1.11	2.7.1;2.7.1.11	forward	ATPc;sedoheptulose7phosphatec	C00002;C05382	sedoheptulose1_7bisphosphatec;ADPc;Hc	C00447;C00008;C00080	ENSG00000067057	Q01813	Q01813				5.4213	CataPro									
+PFK	R00756;R04779	2.7.1.11	2.7.1.11	forward	ATPc;fructose6phosphatec	C00002;C05345	ADPc;fructose1_6bisphosphatec;Hc	C00008;C00354;C00080	ENSG00000141959	P17858	P17858				10.8677	CataPro									
+r0408	R01843	2.7.1.11	2.7.1;2.7.1.11	forward	ATPc;sedoheptulose7phosphatec	C00002;C05382	sedoheptulose1_7bisphosphatec;ADPc;Hc	C00447;C00008;C00080	ENSG00000141959	P17858	P17858				7.3678	CataPro									
+MDH	R00342	1.1.1.37	1.1.1.27;1.1.1.299;1.1.1.37;1.1.1.82	forward	malatec;NADc	C00711;C00003	Hc;NADHc;OAAc	C00080;C00004;C00036	ENSG00000138400	Q5I0G3	Q5I0G3				3.5146	CataPro									
+MDH	R00342	1.1.1.37	1.1.1.27;1.1.1.299;1.1.1.37;1.1.1.82	reverse	Hc;NADHc;OAAc	C00080;C00004;C00036	malatec;NADc	C00711;C00003	ENSG00000138400	Q5I0G3	Q5I0G3				7.2476	CataPro									
+ASPTA	R00355	2.6.1.5	2.6.1.1;2.6.1.19;2.6.1.42;2.6.1.5;2.6.1.57	forward	AKGc;aspartatec	C00026;C00049	glutamatec;OAAc	C00025;C00036	ENSG00000120053	P17174	P17174				26.3377	CataPro									
+ASPTA	R00355	2.6.1.5	2.6.1.1;2.6.1.19;2.6.1.42;2.6.1.5;2.6.1.57	reverse	glutamatec;OAAc	C00025;C00036	AKGc;aspartatec	C00026;C00049	ENSG00000120053	P17174	P17174				37.3059	CataPro									
+TYRTA	R00734	2.6.1.5	2.6.1.1;2.6.1.27;2.6.1.42;2.6.1.5;2.6.1.57;2.6.1.9	forward	AKGc;tyrosinec	C00026;C01536	hppc;glutamatec	C01179;C00025	ENSG00000120053	P17174	P17174				6.9922	CataPro									
+TYRTA	R00734	2.6.1.5	2.6.1.1;2.6.1.27;2.6.1.42;2.6.1.5;2.6.1.57;2.6.1.9	reverse	hppc;glutamatec	C01179;C00025	AKGc;tyrosinec	C00026;C01536	ENSG00000120053	P17174	P17174				8.7424	CataPro									
+CYSTA	R00895	2.6.1.1	2.6.1.1;2.6.1.3	forward	AKGc;cysteinec	C00026;C00097	glutamatec;mercaptopyruvatec	C00025;C00957	ENSG00000120053	P17174	P17174				26.3377	CataPro									
+3SALATAi	R02619	2.6.1.1	2.6.1;2.6.1.1	forward	3sulfinoalaninec;AKGc;Hc	C00606;C00026;C00080	3sulfinopyruvatec;glutamatec	C05527;C00025	ENSG00000120053	P17174	P17174				20.0347	CataPro									
+ME2m	R00216	1.1.1.42	1.1.1.38;1.1.1.39;1.1.1.40;1.1.1.42	forward	malatem;NADPm	C00711;C00006	CO2m;NADPHm;pyruvatem	C00011;C00005;C00022	ENSG00000151376	Q16798	Q16798				58.8882	CataPro									
+G6PP	R00303	3.1.3.25	3.1.3.2;3.1.3.25;3.1.3.58;3.1.3.9	forward	glucose6phosphatec;H2Oc	C00092;C00001	glucosec;Pic	C00031;C00009	ENSG00000141349	Q9BUM1	Q9BUM1				2.7206	CataPro									
+ASNN	R00485	3.5.1.1	3.4.19.5;3.5.1.1;3.5.1.26;3.5.1.38;3.5.5.4	forward	asparaginec;H2Oc	C00152;C00001	aspartatec;NH3c	C00049;C01342	ENSG00000166183	Q86U10	Q86U10				7.5129	CataPro									
+AHCi	R00192	3.13.2.1	3.13.2.1;3.3.1.1	forward	SAHc;H2Oc	C00021;C00001	adenosinec;homocysteinec	C00212;C05330	ENSG00000171885	P55087	P55087				4.4612	CataPro									
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000167434	P22748	P22748				4486.5962	CataPro									
+PDHm	R00209	1.8.1.4	1.2.1;1.2.1.-;1.2.1.104;1.2.1.51;1.2.1.M10;1.2.4.1;1.2.4.2;1.2.4.4;1.8.1.4;2.3.1.12;2.3.1.168;2.3.1.61	forward	CoAm;NADm;pyruvatem	C00010;C00003;C00022	acetylCoAm;CO2m;NADHm	C00024;C00011;C00004	ENSG00000163114	P29803	P29803				1.0536	CataPro									
+AIRCr	R04209	5.4.99.18	4.1.1.21;5.4.99.18	forward	AIRc;CO2c	C03373;C00011	5phosphoribosyl4carboxy5aminoimidazolec;Hc	C04751;C00080	ENSG00000128050	P22234	P22234				1.8708	CataPro									
+AIRCr	R04209	5.4.99.18	4.1.1.21;5.4.99.18	reverse	5phosphoribosyl4carboxy5aminoimidazolec;Hc	C04751;C00080	AIRc;CO2c	C03373;C00011	ENSG00000128050	P22234	P22234				1.748	CataPro									
+CYStec	R00895	2.6.1.1	2.6.1.1	forward	cysteinec	C00097	cysteinex	C00097	ENSG00000167703	Q8N370	Q8N370				3.7138	CataPro									
+IPDDI	R01123	5.3.3.2	5.3.3.2	reverse	Dimethylallyl diphosphate	C00235	isopentenylpPPc	C00129	ENSG00000148377	Q9BXS1	Q9BXS1				0.2261	CataPro									
+AHCi	R00192	3.13.2.1	3.13.2.1;3.3.1.1	forward	SAHc;H2Oc	C00021;C00001	adenosinec;homocysteinec	C00212;C05330	ENSG00000103375	O94778	O94778				11.9787	CataPro									
+AHCi	R00192	3.13.2.1	3.13.2.1;3.3.1.1	forward	SAHc;H2Oc	C00021;C00001	adenosinec;homocysteinec	C00212;C05330	ENSG00000167580	P41181	P41181				5.1429	CataPro									
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000133742	P00915	P00915				2765.7505	CataPro									
+GLNS	R00253	6.3.1.2	6.3.1.2	forward	ATPc;glutamatec;NH3c	C00002;C00025;C01342	ADPc;glutaminec;Hc;Pic	C00008;C00064;C00080;C00009	ENSG00000146166	Q5TDP6	Q5TDP6				0.8675	CataPro									
+G6PP	R00303	3.1.3.25	3.1.3.2;3.1.3.25;3.1.3.58;3.1.3.9	forward	glucose6phosphatec;H2Oc	C00092;C00001	glucosec;Pic	C00031;C00009	ENSG00000152254	Q9NQR9	Q9NQR9				1.7717	CataPro									
+AHCi	R00192	3.13.2.1	3.13.2.1;3.3.1.1	forward	SAHc;H2Oc	C00021;C00001	adenosinec;homocysteinec	C00212;C05330	ENSG00000135517	P30301	P30301				3.7762	CataPro									
+PPA	R00004	3.6.1.1	3.1.3;3.1.3.1;3.1.3.2;3.6.1;3.6.1.1;3.6.2.1	forward	H2Oc;Ppic	C00001;C00013	Hc;Pic	C00080;C00009	ENSG00000107902	Q9H008	Q9H008				3.7124	CataPro									
+AHCi	R00192	3.13.2.1	3.13.2.1;3.3.1.1	forward	SAHc;H2Oc	C00021;C00001	adenosinec;homocysteinec	C00212;C05330	ENSG00000161798	P55064	P55064				8.5535	CataPro									
+HCO3Em	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2m;H2Om	C00011;C00001	Hm;HCO3m	C00080;C01353	ENSG00000169239	Q9Y2D0	Q9Y2D0				3798.6596	CataPro									
+AHCi	R00192	3.13.2.1	3.13.2.1;3.3.1.1	forward	SAHc;H2Oc	C00021;C00001	adenosinec;homocysteinec	C00212;C05330	ENSG00000240583	P29972	P29972				10.3646	CataPro									
+G6PP	R00303	3.1.3.25	3.1.3.2;3.1.3.25;3.1.3.58;3.1.3.9	forward	glucose6phosphatec;H2Oc	C00092;C00001	glucosec;Pic	C00031;C00009	ENSG00000131482	P35575	P35575				3.679	CataPro									
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000118298	Q9ULX7	Q9ULX7				1753.141	CataPro									
+IPDDI	R01123	5.3.3.2	5.3.3.2	reverse	Dimethylallyl diphosphate	C00235	isopentenylpPPc	C00129	ENSG00000067064	Q13907	Q13907				0.3595	CataPro									
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	forward	AMPc;ATPc	C00020;C00002	ADPc	C00008	ENSG00000154027	Q9Y6K8	Q9Y6K8				1.6189	CataPro									
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	reverse	ADPc	C00008	AMPc;ATPc	C00020;C00002	ENSG00000154027	Q9Y6K8	Q9Y6K8				2.0303	CataPro									
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000074410	O43570	O43570				1308.0285	CataPro									
+HCO3E	R10092;R00132	4.2.1.1	4.2.1.1	forward	CO2c;H2Oc	C00011;C00001	Hc;HCO3c	C00080;C01353	ENSG00000168748	P43166	P43166				4989.6688	CataPro									
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	forward	AMPc;ATPc	C00020;C00002	ADPc	C00008	ENSG00000140057	Q96M32	Q96M32			10.0	3.0664	CataPro									
+ADK1	R00127	2.7.4.3	2.7.4.10;2.7.4.3;2.7.4.4;2.7.4.8	reverse	ADPc	C00008	AMPc;ATPc	C00020;C00002	ENSG00000140057	Q96M32	Q96M32			10.0	3.5182	CataPro									
+ASP1DC	R00489	4.1.1.11	4.1.1.11;4.1.1.15	forward	aspartatec;Hc	C00049;C00080	bAlac;CO2c	C00099;C00011	ENSG00000128683	Q99259	Q99259				4.7267	CataPro									
+METS	R00946	2.1.1.13	2.1.1.13	forward	5methylTHFc;homocysteinec	C00440;C05330	Hc;methioninec;THFc	C00080;C00073;C00101	ENSG00000116984	Q99707	Q99707				1.3105	CataPro									
+ACACT1r	R00238	2.3.1.16	2.3.1.16;2.3.1.38;2.3.1.9	forward	acetylCoAc	C00024	acetoacetylCoAc;CoAc	C00332;C00010	ENSG00000120437	Q9BWD1	Q9BWD1				4.2543	CataPro									
+ACACT1m	R00238	2.3.1.16	2.3.1.16;2.3.1.38;2.3.1.9	forward	acetoAcCoAm;CoAm	C00332;C00010	acetylCoAm	C00024	ENSG00000084754;ENSG00000138029	P40939;P55084	P55084				0.0053	brenda	9.0	succinyl-CoA	Thermobifida fusca	A0A4D5XMK0	37.0	7.5	wildtype	0.0	30.0
+GTHPi	R00274	1.11.1.9	1.11.1.15;1.11.1.9	forward	GSHc;H2O2c	C00051;C00027	GSSGc;H2Oc	C00127;C00001	ENSG00000117450	Q06830	Q06830				29.3107	CataPro									
+GTHPi	R00274	1.11.1.9	1.11.1.15;1.11.1.9	forward	GSHc;H2O2c	C00051;C00027	GSSGc;H2Oc	C00127;C00001	ENSG00000167815	P32119	P32119				32.3785	CataPro									
+GTHPi	R00274	1.11.1.9	1.11.1.15;1.11.1.9	forward	GSHc;H2O2c	C00051;C00027	GSSGc;H2Oc	C00127;C00001	ENSG00000176153	P18283	P18283				670.0	brenda	9.0	H2O2	Homo sapiens		37.0	7.0	wildtype		0.0
+GTHPi	R00274	1.11.1.9	1.11.1.15;1.11.1.9	forward	GSHc;H2O2c	C00051;C00027	GSSGc;H2Oc	C00127;C00001	ENSG00000233276	P07203	P07203				670.0	brenda	9.0	H2O2	Homo sapiens		37.0	7.0	wildtype		0.0
+GTHPm	R00274	1.11.1.9	1.11.1.15;1.11.1.9	forward	GSHm;H2O2m	C00051;C00027	GSSGm;H2Om	C00127;C00001	ENSG00000165672	P30048	P30048				78.4373	CataPro									
+GTHPm	R00274	1.11.1.9	1.11.1.15;1.11.1.9	forward	GSHm;H2O2m	C00051;C00027	GSSGm;H2Om	C00127;C00001	ENSG00000233276	P07203	P07203				670.0	brenda	9.0	H2O2	Homo sapiens		37.0	7.0	wildtype		0.0
+ATPM	R00086	2.7.1.1	2.3.1.193;2.7.1.1;2.7.1.2;2.7.11.24;3.1.3.1;3.1.3.2;3.1.3.29;3.4.21.53;3.6.1.15;3.6.1.3;3.6.1.5;3.6.1.8;3.6.2.1;3.6.3.11;3.6.4.11;3.6.4.6;3.6.4.7;5.6.1.1;5.6.1.7;5.6.1.8;5.6.2.3;5.6.2.4;7.1.2.1;7.1.2.2;7.6.2.1;7.6.2.2	forward	ATPc;H2Oc	C00002;C00001	ADPc;Hc;Pic	C00008;C00080;C00009					no_gpr		101.0	brenda	9.0	D-glucose	Homo sapiens	P35557	37.0	7.4	wildtype		0.0
+ICDHxm	R00709	1.1.1.42	1.1.1.286;1.1.1.41;1.1.1.42;1.1.1.87	forward	isocitratem;NADm	C00311;C00003	AKGm;CO2m;NADHm	C00026;C00011;C00004	ENSG00000067829;ENSG00000101365;ENSG00000166411	P50213;P51553;O43837			none		85.0	brenda	9.0	isocitrate	Homo sapiens	O75874	37.0	7.5	wildtype		0.0
+ILEtmi		1.1.1.42	1.1.1.42	forward	isoleucinec	C16434	isoleucinem	C16434					no_gpr		85.0	brenda	9.0	isocitrate	Homo sapiens	O75874	37.0	7.5	wildtype		0.0
+ARGDr	R00552	3.5.3.15	3.5.3.15;3.5.3.6	forward	argininec;H2Oc	C00062;C00001	citrullinec;NH3c	C00327;C01342					no_gpr		2.8	brenda	9.0	Nalpha-benzoyl L-arginine ethyl ester	Homo sapiens		37.0	7.6	wildtype		0.0
+UNK3	R07396	2.6.1.5	2.6.1.5;2.6.1.57;2.6.1.88	forward	4methylthio2oxobutanoicacidc;glutamatec	C01180;C00025	AKGc;methioninec	C00026;C00073					no_gpr		576.0	brenda	9.0	L-tyrosine	Rattus norvegicus	P04694	37.0	7.5	wildtype		9.0
+G3PDm	R00848	1.1.5.3	1.1.5.3	forward	FADm;glycerol3Pm	C00016;C00093	DHAPm;FADH2m	C00111;C01352					no_gpr		64.1	sabio_rk	9.0	sn-Glycerol 3-phosphate;Acceptor	Sus scrofa	O02854	37.0	7.6	wildtype		10.0
+PTRCOX1	R01151	1.4.3.21	1.4.3.10;1.4.3.21;1.4.3.22;1.4.3.6	forward	H2Oc;O2c;putrescinec	C00001;C00007;C00134	4abutnc;H2O2c;NH3c	C00555;C00027;C01342	ENSG00000002726	P19801	P19801				2.4385	CataPro									
+PTRCOX1	R01151	1.4.3.21	1.4.3.10;1.4.3.21;1.4.3.22;1.4.3.6	forward	H2Oc;O2c;putrescinec	C00001;C00007;C00134	4abutnc;H2O2c;NH3c	C00555;C00027;C01342	ENSG00000131480	O75106	O75106				1.9152	CataPro									
+GLUCYS	R00894	6.3.2.2	6.3.2.2	forward	ATPc;cysteinec;glutamatec	C00002;C00097;C00025	ADPc;gammaglutamylcysteinec;Hc;Pic	C00008;C00669;C00080;C00009	ENSG00000001084;ENSG00000023909	P48506;P48507	P48506				23.0	brenda	9.0	L-Glu	Trypanosoma brucei		37.0	8.0	wildtype		29.0
+PHETHPTOX2	R07211	1.14.16.1	1.14.16.1	forward	O2c;phenylalaninec;tetrahydrobiopterinc	C00007;C00079;	dihydrobiopterinc;H2Oc;tyrosinec	C02953;C00001;C01536					no_gpr		8.93	brenda	9.0	L-phenylalanine	Dictyostelium discoideum		37.0	7.5	wildtype		29.0
+HACD1m	R01975	1.1.1.35	1.1.1.178;1.1.1.211;1.1.1.35	forward	3hydroxybutanoylCoAm;NADm	C03561;C00003	acetoAcCoAm;Hm;NADHm	C00332;C00080;C00004					no_gpr		13000.0	brenda	9.0	3-acetoacetyl-CoA	Clostridium acetobutylicum		37.0	7.5	wildtype		30.0
+HACD1m	R01975	1.1.1.35	1.1.1.178;1.1.1.211;1.1.1.35	reverse	acetoAcCoAm;Hm;NADHm	C00332;C00080;C00004	3hydroxybutanoylCoAm;NADm	C03561;C00003					no_gpr		13000.0	brenda	9.0	3-acetoacetyl-CoA	Clostridium acetobutylicum		37.0	7.5	wildtype		30.0
+LEUt5m		1.1.1.28	1.1.1.28	forward	leucinec	C16439	leucinem	C16439					no_gpr		11.3	brenda	9.0	phenylpyruvate	Lactobacillus delbrueckii subsp. bulgaricus		37.0	7.4	wildtype		30.0
+ASNS1	R00578	6.3.5.4	6.3.5.4	forward	aspartatec;ATPc;glutaminec;H2Oc	C00049;C00002;C00064;C00001	AMPc;asparaginec;glutamatec;Hc;Ppic	C00020;C00152;C00025;C00080;C00013	ENSG00000070669	P08243	P08243				1.1711	CataPro									
+GLUDC	R00261	4.1.1.15	4.1.1.15	forward	glutamatec;Hc	C00025;C00080	4aminobutyratec;CO2c	C00334;C00011					no_gpr		0.015	brenda	9.0	L-glutamate	Lactiplantibacillus plantarum subsp. plantarum	D7VEX3	37.0	7.0	wildtype		30.0
+ENO	R00658	4.2.1.11	4.2.1.11	forward	2phosphoDglyceratec	C00631	H2Oc;PEPc	C00001;C00074	ENSG00000108515	P13929	P13929				5.732	CataPro									
+ENO	R00658	4.2.1.11	4.2.1.11	reverse	H2Oc;PEPc	C00001;C00074	2phosphoDglyceratec	C00631	ENSG00000108515	P13929	P13929				9.7714	CataPro									
+ENO	R00658	4.2.1.11	4.2.1.11	forward	2phosphoDglyceratec	C00631	H2Oc;PEPc	C00001;C00074	ENSG00000074800	P06733	P06733				5.3156	CataPro									
+ENO	R00658	4.2.1.11	4.2.1.11	reverse	H2Oc;PEPc	C00001;C00074	2phosphoDglyceratec	C00631	ENSG00000074800	P06733	P06733				8.5926	CataPro									
+ENO	R00658	4.2.1.11	4.2.1.11	forward	2phosphoDglyceratec	C00631	H2Oc;PEPc	C00001;C00074	ENSG00000111674	P09104	P09104				7.2009	CataPro									
+ENO	R00658	4.2.1.11	4.2.1.11	reverse	H2Oc;PEPc	C00001;C00074	2phosphoDglyceratec	C00631	ENSG00000111674	P09104	P09104				11.8354	CataPro									
+r0643	R03869	1.2.1.3	1.2.1.3	forward	2m3opropm;H2Om;NADm	C00349;C00001;C00003	mmalm;Hm;NADHm	C02170;C00080;C00004	ENSG00000137124	P30837	P30837				1.1771	CataPro									
+GAPD	R01061	1.2.1.12	1.2.1.12;1.2.1.59	forward	GAPc;NADc;Pic	C00661;C00003;C00009	1_3bisphosphoDglyceratec;Hc;NADHc	C00236;C00080;C00004	ENSG00000111640	P04406	P04406				1.6238	CataPro									
+AICART	R04560	2.1.2.3	2.1.2.3	forward	10formylTHFc;AICARc	C00234;C04677	FAICARc;THFc	C04734;C00101	ENSG00000138363	P31939	P31939				1.4608	CataPro									
+AICART	R04560	2.1.2.3	2.1.2.3	reverse	FAICARc;THFc	C04734;C00101	10formylTHFc;AICARc	C00234;C04677	ENSG00000138363	P31939	P31939				1.3075	CataPro									
+PCm	R00344	6.4.1.1	6.4.1.1	forward	ATPm;HCO3m;pyruvatem	C00002;C01353;C00022	ADPm;Hm;OAAm;Pim	C00008;C00080;C00036;C00009	ENSG00000173599	P11498	P11498				2.1421	CataPro									
+RPE	R01529	5.1.3.1	5.1.3.1	forward	ribulose5phosphatec	C00199	Dxylulose5phosphatec	C00231	ENSG00000197713	Q96AT9	Q96AT9				14.1354	CataPro									
+RPE	R01529	5.1.3.1	5.1.3.1	reverse	Dxylulose5phosphatec	C00231	ribulose5phosphatec	C00199	ENSG00000197713	Q96AT9	Q96AT9				14.4388	CataPro									
+ARGSL	R01086	4.3.2.1	4.3.2.1	forward	argininosuccinatec	C03406	argininec;fumaratec	C00062;C00122	ENSG00000126522	P04424	P04424				4.9307	CataPro									
+ARGSL	R01086	4.3.2.1	4.3.2.1	reverse	argininec;fumaratec	C00062;C00122	argininosuccinatec	C03406	ENSG00000126522	P04424	P04424				2.1821	CataPro									
+HISDr	R01168	4.3.1.3	4.3.1.3	forward	histidinec	C00768	NH3c;urcanc	C01342;	ENSG00000084110	P42357	P42357				0.4617	CataPro									
+r0643	R03869	1.2.1.3	1.2.1.3	forward	2m3opropm;H2Om;NADm	C00349;C00001;C00003	mmalm;Hm;NADHm	C02170;C00080;C00004	ENSG00000143149	P49189	P49189				0.7772	CataPro									
+TMABADH	R03283	1.2.1.3	1.2.1.3;1.2.1.47	forward	4tmeabutc;H2Oc;NADc	C01149;C00001;C00003	4tmeabutnc;Hc;NADHc	C01181;C00080;C00004	ENSG00000143149	P49189	P49189				0.5985	CataPro									
+RPE	R01529	5.1.3.1	5.1.3.1	forward	ribulose5phosphatec	C00199	Dxylulose5phosphatec	C00231	ENSG00000235376	Q2QD12	Q2QD12				0.32	CataPro									
+RPE	R01529	5.1.3.1	5.1.3.1	reverse	Dxylulose5phosphatec	C00231	ribulose5phosphatec	C00199	ENSG00000235376	Q2QD12	Q2QD12				0.3268	CataPro									
+ADSL2r	R04559	4.3.2.2	4.3.2.2	forward	SAICARc	C04823	AICARc;fumaratec	C04677;C00122	ENSG00000239900	P30566	P30566				1.2893	CataPro									
+ADSL2r	R04559	4.3.2.2	4.3.2.2	reverse	AICARc;fumaratec	C04677;C00122	SAICARc	C04823	ENSG00000239900	P30566	P30566				1.259	CataPro									
+ADSL1r	R01083	4.3.2.2	4.3.2.2	forward	adenylosuccinatec	C03794	AMPc;fumaratec	C00020;C00122	ENSG00000239900	P30566	P30566				1.1492	CataPro									
+ADSL1r	R01083	4.3.2.2	4.3.2.2	reverse	AMPc;fumaratec	C00020;C00122	adenylosuccinatec	C03794	ENSG00000239900	P30566	P30566				1.259	CataPro									
+ECOAH12m	R04224	4.2.1.17	4.2.1.150;4.2.1.17	forward	mcrCoAm;H2Om	C03460;C00001	3hoxisobCoAm	C06000	ENSG00000127884	P30084	P30084				7.9538	CataPro									
+r0643	R03869	1.2.1.3	1.2.1.3	forward	2m3opropm;H2Om;NADm	C00349;C00001;C00003	mmalm;Hm;NADHm	C02170;C00080;C00004	ENSG00000164904	P49419	P49419				1.0682	CataPro									
+TKT2	R01067	2.2.1.1	2.2.1.1	forward	erythrose4phosphatec;Dxylulose5phosphatec	C00279;C00231	fructose6phosphatec;GAPc	C05345;C00661	ENSG00000151005	Q9H0I9	Q9H0I9				0.1113	CataPro									
+TKT2	R01067	2.2.1.1	2.2.1.1	reverse	fructose6phosphatec;GAPc	C05345;C00661	erythrose4phosphatec;Dxylulose5phosphatec	C00279;C00231	ENSG00000151005	Q9H0I9	Q9H0I9				0.0955	CataPro									
+TKT1	R01641	2.2.1.1	2.2.1.1	forward	ribose5phosphatec;Dxylulose5phosphatec	C03736;C00231	GAPc;sedoheptulose7phosphatec	C00661;C05382	ENSG00000151005	Q9H0I9	Q9H0I9				0.1364	CataPro									
+TKT1	R01641	2.2.1.1	2.2.1.1	reverse	GAPc;sedoheptulose7phosphatec	C00661;C05382	ribose5phosphatec;Dxylulose5phosphatec	C03736;C00231	ENSG00000151005	Q9H0I9	Q9H0I9				0.0955	CataPro									
+GLUDym	R00248	1.4.1.4	1.4.1.13;1.4.1.3;1.4.1.4	forward	AKGm;Hm;NADPHm;NH3m	C00026;C00080;C00005;C01342	glutamatem;H2Om;NADPm	C00025;C00001;C00006	ENSG00000182890	P49448	P49448				22.2336	CataPro									
+GLUDym	R00248	1.4.1.4	1.4.1.13;1.4.1.3;1.4.1.4	reverse	glutamatem;H2Om;NADPm	C00025;C00001;C00006	AKGm;Hm;NADPHm;NH3m	C00026;C00080;C00005;C01342	ENSG00000182890	P49448	P49448				20.0493	CataPro									
+r0643	R03869	1.2.1.3	1.2.1.3	forward	2m3opropm;H2Om;NADm	C00349;C00001;C00003	mmalm;Hm;NADHm	C02170;C00080;C00004	ENSG00000072210	P51648	P51648				1.2021	CataPro									
+3HAO	R02665	1.13.11.6	1.13.11.6	forward	3hydroxyanthranilatec;O2c	C00632;C00007	cmusac;Hc	C04409;C00080	ENSG00000162882	P46952	P46952				1.1208	CataPro									
+TKT2	R01067	2.2.1.1	2.2.1.1	forward	erythrose4phosphatec;Dxylulose5phosphatec	C00279;C00231	fructose6phosphatec;GAPc	C05345;C00661	ENSG00000007350	P51854	P51854				0.2043	CataPro									
+TKT2	R01067	2.2.1.1	2.2.1.1	reverse	fructose6phosphatec;GAPc	C05345;C00661	erythrose4phosphatec;Dxylulose5phosphatec	C00279;C00231	ENSG00000007350	P51854	P51854				0.1788	CataPro									
+TKT1	R01641	2.2.1.1	2.2.1.1	forward	ribose5phosphatec;Dxylulose5phosphatec	C03736;C00231	GAPc;sedoheptulose7phosphatec	C00661;C05382	ENSG00000007350	P51854	P51854				0.2457	CataPro									
+TKT1	R01641	2.2.1.1	2.2.1.1	reverse	GAPc;sedoheptulose7phosphatec	C00661;C05382	ribose5phosphatec;Dxylulose5phosphatec	C03736;C00231	ENSG00000007350	P51854	P51854				0.1682	CataPro									
+ORPT	R01870	2.4.2.10	2.4.2.10	forward	orotatec;PRPPc	C00295;C00119	orotidine5phosphatec;Ppic	C01103;C00013	ENSG00000114491	P11172	P11172				4.7606	CataPro									
+ORPT	R01870	2.4.2.10	2.4.2.10	reverse	orotidine5phosphatec;Ppic	C01103;C00013	orotatec;PRPPc	C00295;C00119	ENSG00000114491	P11172	P11172				5.9748	CataPro									
+ECOAH12m	R04224	4.2.1.17	4.2.1.150;4.2.1.17	forward	mcrCoAm;H2Om	C03460;C00001	3hoxisobCoAm	C06000	ENSG00000084754;ENSG00000138029	P40939;P55084	P40939				181.2	brenda	10.0	3-oxo-chol-4,22-diene-24-oyl-CoA	Mycobacterium tuberculosis	O53561		7.4	wildtype	18.96	30.0
+C3STDH1		5.3.3.1	1.1.1.170;1.1.1.418;5.3.3.1	forward	4-Methylzymosterol-intermediate-1;NADc	C15808;C00003	3_keto_4_methylzymosterol;CO2c;Hc;NADHc	C15816;C00011;C00080;C00004	ENSG00000147383	Q15738	Q15738				0.5742	CataPro									
+DHORTS	R01993	3.5.2.3	3.5.2.3	forward	NcarbamoylLaspartatec;Hc	C00438;C00080	Sdihydroorotatec;H2Oc	C00337;C00001	ENSG00000084774	P27708	P27708				8.6285	CataPro									
+DHORTS	R01993	3.5.2.3	3.5.2.3	reverse	Sdihydroorotatec;H2Oc	C00337;C00001	NcarbamoylLaspartatec;Hc	C00438;C00080	ENSG00000084774	P27708	P27708				4.4717	CataPro									
+r0074	R00245	1.2.1.5	1.2.1.24;1.2.1.5;1.2.1.88;1.5.1.12	forward	glutamatem;Hm;NADHm	C00025;C00080;C00004	Lglu5semialdehydem;H2Om;NADm	C01165;C00001;C00003	ENSG00000159423	P30038	P30038				3.4249	CataPro									
+r0074	R00245	1.2.1.5	1.2.1.24;1.2.1.5;1.2.1.88;1.5.1.12	reverse	Lglu5semialdehydem;H2Om;NADm	C01165;C00001;C00003	glutamatem;Hm;NADHm	C00025;C00080;C00004	ENSG00000159423	P30038	P30038				6.079	CataPro									
+HGNTOR	R02519	1.13.11.5	1.13.11.5	forward	hgentisc;O2c	C00544;C00007	4mlacacc;Hc	C01036;C00080	ENSG00000113924	Q93099	Q93099				34.1052	CataPro									
+GTHRDt2		1.8.1.9	1.8.1.9	forward	GSHc	C00051	GSHx	C00051					no_gpr		18.73	brenda	10.0	5,5'-dithiobis(2-nitrobenzoic acid)	Homo sapiens		37.0	7.0			0.0
+TRPO2	R00678	1.13.11.52	1.13.11.11;1.13.11.52	forward	O2c;tryptophanc	C00007;C00078	NformylLkynureninec	C05648					no_gpr		12.0	brenda	10.0	L-tryptophan	Homo sapiens	P14902	37.0	7.4			0.0
+DTMPK	R02094	2.7.4.9	2.7.4.12;2.7.4.13;2.7.4.9	forward	ATPc;dTMPc	C00002;C00364	ADPc;dTDPc	C00008;C00363					no_gpr		4.8	brenda	10.0	dUMP	Homo sapiens	P23919	37.0	7.4			0.0
+DTMPK	R02094	2.7.4.9	2.7.4.12;2.7.4.13;2.7.4.9	reverse	ADPc;dTDPc	C00008;C00363	ATPc;dTMPc	C00002;C00364					no_gpr		4.8	brenda	10.0	dUMP	Homo sapiens	P23919	37.0	7.4			0.0
+MCCCrm	R04138	6.4.1.4	6.4.1.4	forward	mcrtCoAm;ATPm;HCO3m	C03069;C00002;C01353	3mgCoAm;ADPm;Hm;Pim	C03231;C00008;C00080;C00009	ENSG00000078070;ENSG00000131844	Q9HCC0;Q96RQ3	Q9HCC0;Q96RQ3		multiple		4.0	brenda	10.0	3-methylcrotonyl-CoA	Homo sapiens		37.0	8.0			0.0
+FMNAT	R00161	2.7.7.2	2.7.7.2	forward	ATPc;FMNc;Hc	C00002;C00061;C00080	FADc;Ppic	C00016;C00013	ENSG00000160688	Q8NFF5	Q8NFF5				0.6025	CataPro									
+ABUTD	R02549	1.2.1.3	1.2.1.19;1.2.1.3	forward	4abutnc;H2Oc;NADc	C00555;C00001;C00003	4aminobutyratec;Hc;NADHc	C00334;C00080;C00004					no_gpr		0.04	brenda	10.0	glutathione-4-oxonon-2-enal	Homo sapiens		37.0	7.4			0.0
+MTAP	R01402	2.4.2.28	2.4.2.28	forward	5mtac;Pic	C00170;C00009	5mdr1pc;adeninec	C04188;C00147	ENSG00000099810	Q13126	Q13126				3.2709	CataPro									
+r0760	R04952	2.3.1.41	2.3.1.179;2.3.1.41;2.3.1.85	forward	malonylACPc;butyryl_ACP	C01209;	3_oxohexanoyl_ACP;CO2c;ACPc	;C00011;	ENSG00000169710	P49327	P49327				3.07	brenda	10.0	C10-[acyl-carrier protein]	Plasmodium falciparum		37.0	7.5			29.0
+r0764	R04957	2.3.1.41	2.3.1.179;2.3.1.41;2.3.1.85	forward	malonylACPc;hexanoyl_ACP	C01209;	3_oxooctanoyl_ACP;CO2c;ACPc	;C00011;	ENSG00000169710	P49327	P49327				3.07	brenda	10.0	C10-[acyl-carrier protein]	Plasmodium falciparum		37.0	7.5			29.0
+r0766	R04960	2.3.1.41	2.3.1.179;2.3.1.41;2.3.1.85	forward	malonylACPc;octanoyl_ACP	C01209;	3_oxodecanoyl_ACP;CO2c;ACPc	;C00011;	ENSG00000169710	P49327	P49327				3.07	brenda	10.0	C10-[acyl-carrier protein]	Plasmodium falciparum		37.0	7.5			29.0
+r0768	R04963	2.3.1.41	2.3.1.179;2.3.1.41;2.3.1.85	forward	malonylACPc;decanoyl_ACP	C01209;	3_oxododecanoyl_ACP;CO2c;ACPc	;C00011;	ENSG00000169710	P49327	P49327				3.07	brenda	10.0	C10-[acyl-carrier protein]	Plasmodium falciparum		37.0	7.5			29.0
+r0713	R04726	2.3.1.41	2.3.1.179;2.3.1.41;2.3.1.85	forward	malonylACPc;dodecanoyl_ACP	C01209;	3_oxotetradecanoyl_ACP;CO2c;ACPc	;C00011;	ENSG00000169710	P49327	P49327				3.07	brenda	10.0	C10-[acyl-carrier protein]	Plasmodium falciparum		37.0	7.5			29.0
+r0772	R04968	2.3.1.41	2.3.1.179;2.3.1.41;2.3.1.85	forward	malonylACPc;tetradecanoyl_ACP	C01209;	3_oxohexadecanoyl_ACP;CO2c;ACPc	;C00011;	ENSG00000169710	P49327	P49327				3.07	brenda	10.0	C10-[acyl-carrier protein]	Plasmodium falciparum		37.0	7.5			29.0
+PRPPS	R01049	2.7.6.1	2.7.6.1	forward	ATPc;ribose5phosphatec	C00002;C03736	AMPc;Hc;PRPPc	C00020;C00080;C00119	ENSG00000101911	P11908	P11908				2.2944	CataPro									
+PRPPS	R01049	2.7.6.1	2.7.6.1	forward	ATPc;ribose5phosphatec	C00002;C03736	AMPc;Hc;PRPPc	C00020;C00080;C00119	ENSG00000147224	P60891	P60891				1.8124	CataPro									
+PRPPS	R01049	2.7.6.1	2.7.6.1	forward	ATPc;ribose5phosphatec	C00002;C03736	AMPc;Hc;PRPPc	C00020;C00080;C00119	ENSG00000229937	P21108	P21108				0.5088	CataPro									
+ATPS4mi	R00086	7.1.2.2	7.1.2.2	forward	ADPm;Hc;Pim	C00008;C00080;C00009	ATPm;H2Om;Hm	C00002;C00001;C00080	ENSG00000099624;ENSG00000110955;ENSG00000116459;ENSG00000124172;ENSG00000152234;ENSG00000154723;ENSG00000165629;ENSG00000167283;ENSG00000167863;ENSG00000169020;ENSG00000198899;ENSG00000228253;ENSG00000241468;ENSG00000241837;ENSG00000135390	P24539;P03928;Q06055;P36542;O75964;O75947;P06576;P56385;P30049;P56134;P48047;P25705;P18859;P00846;P56381	P06576				20.0	brenda	10.0	phosphate	Escherichia coli			7.5	wildtype		30.0
+ATPS4mi	R00086	7.1.2.2	3.6.3.14;7.1.2.2	forward	ADPm;Hc;Pim	C00008;C00080;C00009	ATPm;H2Om;Hm	C00002;C00001;C00080	ENSG00000154518	P48201	P48201				81.3967	CataPro									
+ATPS4mi	R00086	7.1.2.2	3.6.3.14;7.1.2.2	forward	ADPm;Hc;Pim	C00008;C00080;C00009	ATPm;H2Om;Hm	C00002;C00001;C00080	ENSG00000159199	P05496	P05496				11.9952	CataPro									
+SUCD1m	R02164;R00408	1.3.5.1	1.3.5.1;1.3.99.1	forward	FADm;succinatem	C00016;C00042	FADH2m;fumaratem	C01352;C00122	ENSG00000073578;ENSG00000117118;ENSG00000143252;ENSG00000204370	P21912;Q99643;O14521;P31040	P21912;P31040		multiple		3.16	brenda	10.0	succinate	Mycolicibacterium smegmatis	A0QT08 AND A0QT07 AND A0QT10 AND A0QT09	37.0	7.4			30.0
+SUCD1m	R02164;R00408	1.3.5.1	1.3.5.1;1.3.99.1	reverse	FADH2m;fumaratem	C01352;C00122	FADm;succinatem	C00016;C00042	ENSG00000073578;ENSG00000117118;ENSG00000143252;ENSG00000204370	P21912;Q99643;O14521;P31040	P21912;P31040		multiple		3.16	brenda	10.0	succinate	Mycolicibacterium smegmatis	A0QT08 AND A0QT07 AND A0QT10 AND A0QT09	37.0	7.4			30.0
+DPGM	R01662	5.4.2.4	5.4.2.1;5.4.2.4	forward	1_3bisphosphoDglyceratec	C00236	2_3bisphosphoDglyceratec;Hc	C03339;C00080	ENSG00000171314	P18669	P18669				4.8871	CataPro									
+PGL	R02035	3.1.1.31	3.1.1.31	forward	glucono1_5lactone6phosphatec;H2Oc	C01236;C00001	6phosphoDgluconatec;Hc	C00345;C00080	ENSG00000130313	O95336	O95336				51.2296	CataPro									
+GACMTRc	R01883	2.1.1.2	2.1.1.2	forward	SAMc;guanidinoacetatec	C00019;C00581	SAHc;creatinec;Hc	C00021;C00300;C00080	ENSG00000130005	Q14353	Q14353				0.3468	CataPro									
+GACMTRc	R01883	2.1.1.2	2.1.1.2	reverse	SAHc;creatinec;Hc	C00021;C00300;C00080	SAMc;guanidinoacetatec	C00019;C00581	ENSG00000130005	Q14353	Q14353				0.5094	CataPro									
+DPGM	R01662	5.4.2.4	5.4.2.1;5.4.2.4	forward	1_3bisphosphoDglyceratec	C00236	2_3bisphosphoDglyceratec;Hc	C03339;C00080	ENSG00000164708	P15259	P15259				5.1607	CataPro									
+NDPK2	R00156	2.7.4.6	2.7.4.6	forward	ATPc;UDPc	C00002;C00015	ADPc;UTPc	C00008;C00075	ENSG00000103024	Q13232	Q13232				26.3589	CataPro									
+NDPK2	R00156	2.7.4.6	2.7.4.6	reverse	ADPc;UTPc	C00008;C00075	ATPc;UDPc	C00002;C00015	ENSG00000103024	Q13232	Q13232				21.4715	CataPro									
+NDPK3	R00570	2.7.4.6	2.7.4.6	forward	ADPc;CTPc	C00008;C00063	ATPc;CDPc	C00002;C00112	ENSG00000103024	Q13232	Q13232				25.4693	CataPro									
+NDPK3	R00570	2.7.4.6	2.7.4.6	reverse	ATPc;CDPc	C00002;C00112	ADPc;CTPc	C00008;C00063	ENSG00000103024	Q13232	Q13232				29.8984	CataPro									
+NDPK1	R00330	2.7.4.6	2.7.4.6	forward	ATPc;GDPc	C00002;C00035	ADPc;GTPc	C00008;C00044	ENSG00000103024	Q13232	Q13232				27.7703	CataPro									
+NDPK5	R01857	2.7.4.6	2.7.4.6	forward	ATPc;dGDPc	C00002;C00361	ADPc;dGTPc	C00008;C00286	ENSG00000103024	Q13232	Q13232				16.5287	CataPro									
+NDPK5	R01857	2.7.4.6	2.7.4.6	reverse	ADPc;dGTPc	C00008;C00286	ATPc;dGDPc	C00002;C00361	ENSG00000103024	Q13232	Q13232				15.278	CataPro									
+NDPK8	R01137	2.7.4.6	2.7.4.6	forward	ATPc;dADPc	C00002;C00206	ADPc;dATPc	C00008;C00131	ENSG00000103024	Q13232	Q13232				21.5973	CataPro									
+NDPK8	R01137	2.7.4.6	2.7.4.6	reverse	ADPc;dATPc	C00008;C00131	ATPc;dADPc	C00002;C00206	ENSG00000103024	Q13232	Q13232				19.7601	CataPro									
+NDPK7	R02326	2.7.4.6	2.7.4.6	forward	ATPc;dCDPc	C00002;C00705	ADPc;dCTPc	C00008;C00458	ENSG00000103024	Q13232	Q13232				14.1006	CataPro									
+NDPK7	R02326	2.7.4.6	2.7.4.6	reverse	ADPc;dCTPc	C00008;C00458	ATPc;dCDPc	C00002;C00705	ENSG00000103024	Q13232	Q13232				12.9144	CataPro									
+NDPK4	R02093	2.7.4.6	2.7.4.6	forward	ATPc;dTDPc	C00002;C00363	ADPc;dTTPc	C00008;C00459	ENSG00000103024	Q13232	Q13232				16.4975	CataPro									
+NDPK4	R02093	2.7.4.6	2.7.4.6	reverse	ADPc;dTTPc	C00008;C00459	ATPc;dTDPc	C00002;C00363	ENSG00000103024	Q13232	Q13232				12.0705	CataPro									
+GMPS	R01230	6.3.5.2	6.3.4.1;6.3.5.2	forward	ATPc;NH3c;xanthosine5Pc	C00002;C01342;C00655	AMPc;GMPc;Hc;Ppic	C00020;C00144;C00080;C00013	ENSG00000163655	P49915	P49915				4.1684	CataPro									
+GMPS2	R01231	6.3.5.2	6.3.5.2	forward	ATPc;glutaminec;H2Oc;xanthosine5Pc	C00002;C00064;C00001;C00655	AMPc;glutamatec;Ppic;GMPc;Hc	C00020;C00025;C00013;C00144;C00080	ENSG00000163655	P49915	P49915				4.1684	CataPro									
+ASPT	R00490	4.3.1.1	3.5.1.38;4.3.1.1	forward	aspartatec	C00049	fumaratec;NH3c	C00122;C01342	ENSG00000091483	P07954	P07954				2.5985	CataPro									
+NDPK2	R00156	2.7.4.6	2.7.4.6	forward	ATPc;UDPc	C00002;C00015	ADPc;UTPc	C00008;C00075	ENSG00000172113	O75414	O75414				25.1558	CataPro									
+NDPK2	R00156	2.7.4.6	2.7.4.6	reverse	ADPc;UTPc	C00008;C00075	ATPc;UDPc	C00002;C00015	ENSG00000172113	O75414	O75414				21.9572	CataPro									
+NDPK3	R00570	2.7.4.6	2.7.4.6	forward	ADPc;CTPc	C00008;C00063	ATPc;CDPc	C00002;C00112	ENSG00000172113	O75414	O75414				25.3531	CataPro									
+NDPK3	R00570	2.7.4.6	2.7.4.6	reverse	ATPc;CDPc	C00002;C00112	ADPc;CTPc	C00008;C00063	ENSG00000172113	O75414	O75414				28.3904	CataPro									
+NDPK1	R00330	2.7.4.6	2.7.4.6	forward	ATPc;GDPc	C00002;C00035	ADPc;GTPc	C00008;C00044	ENSG00000172113	O75414	O75414				22.5309	CataPro									
+NDPK5	R01857	2.7.4.6	2.7.4.6	forward	ATPc;dGDPc	C00002;C00361	ADPc;dGTPc	C00008;C00286	ENSG00000172113	O75414	O75414				15.9156	CataPro									
+NDPK5	R01857	2.7.4.6	2.7.4.6	reverse	ADPc;dGTPc	C00008;C00286	ATPc;dGDPc	C00002;C00361	ENSG00000172113	O75414	O75414				15.7745	CataPro									
+NDPK8	R01137	2.7.4.6	2.7.4.6	forward	ATPc;dADPc	C00002;C00206	ADPc;dATPc	C00008;C00131	ENSG00000172113	O75414	O75414				23.6523	CataPro									
+NDPK8	R01137	2.7.4.6	2.7.4.6	reverse	ADPc;dATPc	C00008;C00131	ATPc;dADPc	C00002;C00206	ENSG00000172113	O75414	O75414				23.4636	CataPro									
+NDPK7	R02326	2.7.4.6	2.7.4.6	forward	ATPc;dCDPc	C00002;C00705	ADPc;dCTPc	C00008;C00458	ENSG00000172113	O75414	O75414				15.2932	CataPro									
+NDPK7	R02326	2.7.4.6	2.7.4.6	reverse	ADPc;dCTPc	C00008;C00458	ATPc;dCDPc	C00002;C00705	ENSG00000172113	O75414	O75414				15.2196	CataPro									
+NDPK4	R02093	2.7.4.6	2.7.4.6	forward	ATPc;dTDPc	C00002;C00363	ADPc;dTTPc	C00008;C00459	ENSG00000172113	O75414	O75414				16.2857	CataPro									
+NDPK4	R02093	2.7.4.6	2.7.4.6	reverse	ADPc;dTTPc	C00008;C00459	ATPc;dTDPc	C00002;C00363	ENSG00000172113	O75414	O75414				13.6588	CataPro									
+TALA	R08575	2.2.1.2	2.2.1.2	forward	GAPc;sedoheptulose7phosphatec	C00661;C05382	erythrose4phosphatec;fructose6phosphatec	C00279;C05345	ENSG00000177156	P37837	P37837				4.5994	CataPro									
+TALA	R08575	2.2.1.2	2.2.1.2	reverse	erythrose4phosphatec;fructose6phosphatec	C00279;C05345	GAPc;sedoheptulose7phosphatec	C00661;C05382	ENSG00000177156	P37837	P37837				4.633	CataPro									
+FA160ACPH	R01706	3.1.2.14	2.3.1.85;3.1.2.14	forward	H2Oc;hexadecanoyl_ACP	C00001;	palmitatec;ACPc	C00249;	ENSG00000152463	Q9NV23	Q9NV23				13.7257	CataPro									
+FA160ACPH	R01706	3.1.2.14	2.3.1.85;3.1.2.14	reverse	palmitatec;ACPc	C00249;	H2Oc;hexadecanoyl_ACP	C00001;	ENSG00000152463	Q9NV23	Q9NV23				0.1164	CataPro									
+ATPtm	R00124	2.7.4.6	2.7.4.6	forward	ADPc;ATPm	C00008;C00002	ADPm;ATPc	C00008;C00002	ENSG00000005022	P05141	P05141				0.3748	CataPro									
+ATPtm	R00124	2.7.4.6	2.7.4.6	forward	ADPc;ATPm	C00008;C00002	ADPm;ATPc	C00008;C00002	ENSG00000169100	P12236	P12236				0.3612	CataPro									
+MTHFD	R01220	1.5.1.5	1.5.1.15;1.5.1.5	forward	5_10methenylTHFc;NADPHc	C00445;C00005	5_10methyleneTHFc;NADPc	C00143;C00006	ENSG00000177000	P42898	P42898				8.0415	CataPro									
+NDPK2	R00156	2.7.4.6	2.7.4.6	forward	ATPc;UDPc	C00002;C00015	ADPc;UTPc	C00008;C00075	ENSG00000143156	Q9Y5B8	Q9Y5B8				13.0503	CataPro									
+NDPK2	R00156	2.7.4.6	2.7.4.6	reverse	ADPc;UTPc	C00008;C00075	ATPc;UDPc	C00002;C00015	ENSG00000143156	Q9Y5B8	Q9Y5B8				11.0895	CataPro									
+NDPK3	R00570	2.7.4.6	2.7.4.6	forward	ADPc;CTPc	C00008;C00063	ATPc;CDPc	C00002;C00112	ENSG00000143156	Q9Y5B8	Q9Y5B8				11.6325	CataPro									
+NDPK3	R00570	2.7.4.6	2.7.4.6	reverse	ATPc;CDPc	C00002;C00112	ADPc;CTPc	C00008;C00063	ENSG00000143156	Q9Y5B8	Q9Y5B8				13.1546	CataPro									
+NDPK1	R00330	2.7.4.6	2.7.4.6	forward	ATPc;GDPc	C00002;C00035	ADPc;GTPc	C00008;C00044	ENSG00000143156	Q9Y5B8	Q9Y5B8				11.3579	CataPro									
+NDPK5	R01857	2.7.4.6	2.7.4.6	forward	ATPc;dGDPc	C00002;C00361	ADPc;dGTPc	C00008;C00286	ENSG00000143156	Q9Y5B8	Q9Y5B8				7.005	CataPro									
+NDPK5	R01857	2.7.4.6	2.7.4.6	reverse	ADPc;dGTPc	C00008;C00286	ATPc;dGDPc	C00002;C00361	ENSG00000143156	Q9Y5B8	Q9Y5B8				7.0404	CataPro									
+NDPK8	R01137	2.7.4.6	2.7.4.6	forward	ATPc;dADPc	C00002;C00206	ADPc;dATPc	C00008;C00131	ENSG00000143156	Q9Y5B8	Q9Y5B8				9.9455	CataPro									
+NDPK8	R01137	2.7.4.6	2.7.4.6	reverse	ADPc;dATPc	C00008;C00131	ATPc;dADPc	C00002;C00206	ENSG00000143156	Q9Y5B8	Q9Y5B8				9.8606	CataPro									
+NDPK7	R02326	2.7.4.6	2.7.4.6	forward	ATPc;dCDPc	C00002;C00705	ADPc;dCTPc	C00008;C00458	ENSG00000143156	Q9Y5B8	Q9Y5B8				6.2113	CataPro									
+NDPK7	R02326	2.7.4.6	2.7.4.6	reverse	ADPc;dCTPc	C00008;C00458	ATPc;dCDPc	C00002;C00705	ENSG00000143156	Q9Y5B8	Q9Y5B8				6.0506	CataPro									
+NDPK4	R02093	2.7.4.6	2.7.4.6	forward	ATPc;dTDPc	C00002;C00363	ADPc;dTTPc	C00008;C00459	ENSG00000143156	Q9Y5B8	Q9Y5B8				7.0309	CataPro									
+NDPK4	R02093	2.7.4.6	2.7.4.6	reverse	ADPc;dTTPc	C00008;C00459	ATPc;dTDPc	C00002;C00363	ENSG00000143156	Q9Y5B8	Q9Y5B8				5.6583	CataPro									
+ATPtm	R00124	2.7.4.6	2.7.4.6	forward	ADPc;ATPm	C00008;C00002	ADPm;ATPc	C00008;C00002	ENSG00000151729	P12235	P12235				0.2911	CataPro									
+MTHFDm	R01220	1.5.1.5	1.5.1.15;1.5.1.5	forward	5_10methenylTHFm;NADPHm	C00445;C00005	5_10methyleneTHFm;NADPm	C00143;C00006	ENSG00000100714	P11586	P11586				14.0148	CataPro									
+MTHFDm	R01220	1.5.1.5	1.5.1.15;1.5.1.5	reverse	5_10methyleneTHFm;NADPm	C00143;C00006	5_10methenylTHFm;NADPHm	C00445;C00005	ENSG00000100714	P11586	P11586				13.9012	CataPro									
+MTHFD	R01220	1.5.1.5	1.5.1.15;1.5.1.5	forward	5_10methenylTHFc;NADPHc	C00445;C00005	5_10methyleneTHFc;NADPc	C00143;C00006	ENSG00000100714	P11586	P11586				14.0148	CataPro									
+FTHFLmi	R00943	3.5.4.9	3.5.4.9;6.3.4.3	forward	ATPm;formatem;THFm	C00002;C00058;C00101	10formylTHFm;ADPm;Pim	C00234;C00008;C00009	ENSG00000100714	P11586	P11586				13.0815	CataPro									
+FTHFLi	R00943;R02301	3.5.4.9	3.5.4.9;6.3.4.3	forward	ATPc;formatec;THFc	C00002;C00058;C00101	10formylTHFc;ADPc;Pic	C00234;C00008;C00009	ENSG00000100714	P11586	P11586				13.0815	CataPro									
+MTHFC	R01655	3.5.4.9	1.5.1.15;3.5.4.9	forward	10formylTHFc;Hc	C00234;C00080	H2Oc;5_10methenylTHFc	C00001;C00445	ENSG00000100714	P11586	P11586				16.0831	CataPro									
+MTHFC	R01655	3.5.4.9	1.5.1.15;3.5.4.9	reverse	H2Oc;5_10methenylTHFc	C00001;C00445	10formylTHFc;Hc	C00234;C00080	ENSG00000100714	P11586	P11586				14.0148	CataPro									
+PGL	R02035	3.1.1.31	3.1.1.31	forward	glucono1_5lactone6phosphatec;H2Oc	C01236;C00001	6phosphoDgluconatec;Hc	C00345;C00080	ENSG00000049239	O95479	O95479				47.3262	CataPro									
+FTHFLmi	R00943	3.5.4.9	3.5.4.9;6.3.4.3	forward	ATPm;formatem;THFm	C00002;C00058;C00101	10formylTHFm;ADPm;Pim	C00234;C00008;C00009	ENSG00000120254	Q6UB35	Q6UB35				7.0607	CataPro									
+GARFT	R04325	2.1.2.2	2.1.2.2	forward	10formylTHFc;GARc	C00234;C03838	NformylGARc;Hc;THFc	C04376;C00080;C00101	ENSG00000159131	P22102	P22102				4.1163	CataPro									
+FA160ACPH	R01706	3.1.2.14	2.3.1.85;3.1.2.14	forward	H2Oc;hexadecanoyl_ACP	C00001;	palmitatec;ACPc	C00249;	ENSG00000169710	P49327	P49327				18.8535	CataPro									
+FA160ACPH	R01706	3.1.2.14	2.3.1.85;3.1.2.14	reverse	palmitatec;ACPc	C00249;	H2Oc;hexadecanoyl_ACP	C00001;	ENSG00000169710	P49327	P49327				0.3998	CataPro									
+r0691	R04533	1.1.1.100	1.1.1.100;2.3.1.85;2.3.1.86	forward	acetoacetylACPc;Hc;NADPHc	C05744;C00080;C00005	R_3_hydroxybutanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0761	R04953	1.1.1.100	1.1.1.100;2.3.1.85;2.3.1.86	forward	Hc;NADPHc;3_oxohexanoyl_ACP	C00080;C00005;	D_3_hydroxyhexanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0694	R04536	1.1.1.100	1.1.1.100;2.3.1.85;2.3.1.86	forward	Hc;NADPHc;3_oxooctanoyl_ACP	C00080;C00005;	R_3_hydroxyoctanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0692	R04534	1.1.1.100	1.1.1.100;2.3.1.85;2.3.1.86	forward	Hc;NADPHc;3_oxodecanoyl_ACP	C00080;C00005;	R_3_hydroxydecanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0769	R04964	1.1.1.100	1.1.1.100;2.3.1.85;2.3.1.86	forward	Hc;NADPHc;3_oxododecanoyl_ACP	C00080;C00005;	D_3_hydroxydodecanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0696	R04543	1.1.1.100	1.1.1.100;2.3.1.85;2.3.1.86	forward	Hc;NADPHc;3_oxohexadecanoyl_ACP	C00080;C00005;	R_3_hydroxypalmitoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0682	R04430	1.3.1.39	1.3.1.39;2.1.3.85	forward	Hc;NADPHc;but_2_enoyl_ACP	C00080;C00005;	butyryl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0763	R04956	1.3.1.39	1.3.1.39;2.3.1.85	forward	Hc;NADPHc;2E_hexenoyl_ACP	C00080;C00005;	hexanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0765	R04959	1.3.1.39	1.3.1.39;2.3.1.85	forward	Hc;NADPHc;2E_octenoyl_ACP	C00080;C00005;	octanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0767	R04962	1.3.1.39	1.3.1.39;2.3.1.85	forward	Hc;NADPHc;2E_decenoyl_ACP	C00080;C00005;	decanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0712	R04725	1.3.1.39	1.3.1.39;2.3.1.85	forward	Hc;NADPHc;2E_dodecenoyl_ACP	C00080;C00005;	dodecanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0771	R04967	1.3.1.39	1.3.1.39;2.3.1.85	forward	Hc;NADPHc;2E_tetradecenoyl_ACP	C00080;C00005;	tetradecanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+r0773	R04970	1.3.1.39	1.3.1.39;2.3.1.85	forward	Hc;NADPHc;2E_hexadecenoyl_ACP	C00080;C00005;	hexadecanoyl_ACP;NADPc	;C00006	ENSG00000169710	P49327	P49327				3.2049	CataPro									
+SPODMm	R00275	1.15.1.1	1.15.1.1	forward	Hm;superoxideAnionm	C00080;C00704	H2O2m;O2m	C00027;C00007	ENSG00000112096				none		40000.0	brenda	11.0	O2-	Homo sapiens		25.0	7.5	wildtype		0.0
+MACACI	R03181	5.2.1.2	5.2.1.2	forward	4mlacacc	C01036	4fumacacc	C01061	ENSG00000100577	O43708	O43708				3.855	CataPro									
+OBDHc		1.2.4.4	1.2.1.25;1.2.4.4;1.2.7.2;2.3.1.168	forward	2oxobutyratec;CoAc;NADc	C00109;C00010;C00003	CO2c;NADHc;propCoAc	C00011;C00004;C00100					no_gpr		9.4	brenda	11.0	2-oxo-isovalerate	Homo sapiens				wildtype		0.0
+r0681	R04428	2.3.1.85	2.3.1.85;4.2.1.59	forward	R_3_hydroxybutanoyl_ACP		but_2_enoyl_ACP;H2Oc	;C00001	ENSG00000169710	P49327	P49327				2.7	brenda	11.0	malonyl-CoA	Homo sapiens				wildtype		0.0
+r0762	R04954	2.3.1.85	2.3.1.85;4.2.1.59	forward	D_3_hydroxyhexanoyl_ACP		2E_hexenoyl_ACP;H2Oc	;C00001	ENSG00000169710	P49327	P49327				2.7	brenda	11.0	malonyl-CoA	Homo sapiens				wildtype		0.0
+r0762	R04954	2.3.1.85	2.3.1.85;4.2.1.59	reverse	2E_hexenoyl_ACP;H2Oc	;C00001	D_3_hydroxyhexanoyl_ACP		ENSG00000169710	P49327	P49327				18.8535	CataPro									
+r0695	R04537	2.3.1.85	2.3.1.85;4.2.1.59	forward	R_3_hydroxyoctanoyl_ACP		2E_octenoyl_ACP;H2Oc	;C00001	ENSG00000169710	P49327	P49327				2.7	brenda	11.0	malonyl-CoA	Homo sapiens				wildtype		0.0
+r0693	R04535	2.3.1.85	2.3.1.85;4.2.1.59	forward	R_3_hydroxydecanoyl_ACP		2E_decenoyl_ACP;H2Oc	;C00001	ENSG00000169710	P49327	P49327				2.7	brenda	11.0	malonyl-CoA	Homo sapiens				wildtype		0.0
+r0770	R04965	2.3.1.85	2.3.1.85;4.2.1.59	forward	D_3_hydroxydodecanoyl_ACP		2E_dodecenoyl_ACP;H2Oc	;C00001	ENSG00000169710	P49327	P49327				2.7	brenda	11.0	malonyl-CoA	Homo sapiens				wildtype		0.0
+r0702	R04568	2.3.1.85	2.3.1.85;4.2.1.59	forward	HMA	C04688	2E_tetradecenoyl_ACP;H2Oc	;C00001	ENSG00000169710	P49327	P49327				2.7	brenda	11.0	malonyl-CoA	Homo sapiens				wildtype		0.0
+r0697	R04544	2.3.1.85	2.3.1.85;4.2.1.59	forward	R_3_hydroxypalmitoyl_ACP		2E_hexadecenoyl_ACP;H2Oc	;C00001	ENSG00000169710	P49327	P49327				2.7	brenda	11.0	malonyl-CoA	Homo sapiens				wildtype		0.0
+AM6SAD		1.2.1.32	1.2.1.32	forward	2aminomuconate6semialdehydec;H2Oc;NADc	C03824;C00001;C00003	2aminomuconatec;Hc;NADHc	;C00080;C00004					no_gpr		0.42	brenda	11.0	2-aminomuconate 6-semialdehyde	Homo sapiens	Q9H2A2			wildtype		0.0
+AM6SAD		1.2.1.32	1.2.1.32	reverse	2aminomuconatec;Hc;NADHc	;C00080;C00004	2aminomuconate6semialdehydec;H2Oc;NADc	C03824;C00001;C00003					no_gpr		0.42	brenda	11.0	2-aminomuconate 6-semialdehyde	Homo sapiens	Q9H2A2			wildtype		0.0
+MMEm	R02765	5.1.99.1	5.1.99.1	forward	mmalCoAm	C00683	RmmalCoAm	C01213	ENSG00000124370	Q96PE7	Q96PE7				14.2331	CataPro									
+3HBCOAHLm	R03352;R05064	3.1.2.4	3.1.2.4	forward	3hoxisobCoAm;H2Om	C06000;C00001	3hoxisobm;CoAm;Hm	C06001;C00010;C00080					no_gpr		266.0	sabio_rk	11.0	(S)-3-Hydroxyisobutyryl-CoA;H2O	Rattus norvegicus	Q5XIE6	30.0	8.0	wildtype		9.0
+MEVK1	R02245	2.7.1.36	2.7.1.36	forward	ATPc;RMevalonate	C00002;C00418	R_5_Phosphomevalonate;ADPc;Hc	C01107;C00008;C00080	ENSG00000110921	Q03426	Q03426				0.996	CataPro									
+FADH2ETC		1.5.5.1	1.5.5.1	forward	FADH2m;ubiquinonem	C01352;	FADm;ubiquinolm	C00016;	ENSG00000171503;ENSG00000105379;ENSG00000140374	P13804;Q16134;P38117	Q16134				40.0	brenda	11.0	electron-transferring flavoprotein	Sus scrofa			7.0			10.0
+ACONTm	R01324	4.2.1.3	4.2.1.3	forward	citratem	C00158	isocitratem	C00311	ENSG00000122729	P21399	P21399				31.9036	CataPro									
+ACONTm	R01324	4.2.1.3	4.2.1.3	reverse	isocitratem	C00311	citratem	C00158	ENSG00000122729	P21399	P21399				65.312	CataPro									
+ACONT	R01324	4.2.1.3	4.2.1.3	forward	citratec	C00158	isocitratec	C00311	ENSG00000122729	P21399	P21399				31.9036	CataPro									
+ACONT	R01324	4.2.1.3	4.2.1.3	reverse	isocitratec	C00311	citratec	C00158	ENSG00000122729	P21399	P21399				65.312	CataPro									
+HMGCOAS	R01978	2.3.3.10	2.3.3.10;4.1.3.5	forward	acetoacetylCoAc;acetylCoAc;H2Oc	C00332;C00024;C00001	CoAc;Hc;HMGCoAc	C00010;C00080;C00356	ENSG00000112972	Q01581	Q01581				1.1108	CataPro									
+HMGCOASm	R01978	2.3.3.10	2.3.3.10;4.1.3.5	forward	acetoAcCoAm;acetylCoAm;H2Om	C00332;C00024;C00001	CoAm;Hm;HMGCoAm	C00010;C00080;C00356	ENSG00000134240	P54868	P54868				2.7242	CataPro									
+THD1m	R00112	7.1.1.1	1.6.1.2;1.6.1.5;7.1.1.1	forward	Hc;NADHm;NADPm	C00080;C00004;C00006	Hm;NADm;NADPHm	C00080;C00003;C00005	ENSG00000112992	Q13423	Q13423				59.7808	CataPro									
+NDPK2	R00156	2.7.4.6	2.7.4.6	forward	ATPc;UDPc	C00002;C00015	ADPc;UTPc	C00008;C00075	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK2	R00156	2.7.4.6	2.7.4.6	reverse	ADPc;UTPc	C00008;C00075	ATPc;UDPc	C00002;C00015	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK3	R00570	2.7.4.6	2.7.4.6	forward	ADPc;CTPc	C00008;C00063	ATPc;CDPc	C00002;C00112	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK3	R00570	2.7.4.6	2.7.4.6	reverse	ATPc;CDPc	C00002;C00112	ADPc;CTPc	C00008;C00063	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK1	R00330	2.7.4.6	2.7.4.6	forward	ATPc;GDPc	C00002;C00035	ADPc;GTPc	C00008;C00044	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK5	R01857	2.7.4.6	2.7.4.6	forward	ATPc;dGDPc	C00002;C00361	ADPc;dGTPc	C00008;C00286	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK5	R01857	2.7.4.6	2.7.4.6	reverse	ADPc;dGTPc	C00008;C00286	ATPc;dGDPc	C00002;C00361	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK8	R01137	2.7.4.6	2.7.4.6	forward	ATPc;dADPc	C00002;C00206	ADPc;dATPc	C00008;C00131	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK8	R01137	2.7.4.6	2.7.4.6	reverse	ADPc;dATPc	C00008;C00131	ATPc;dADPc	C00002;C00206	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK7	R02326	2.7.4.6	2.7.4.6	forward	ATPc;dCDPc	C00002;C00705	ADPc;dCTPc	C00008;C00458	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK7	R02326	2.7.4.6	2.7.4.6	reverse	ADPc;dCTPc	C00008;C00458	ATPc;dCDPc	C00002;C00705	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK4	R02093	2.7.4.6	2.7.4.6	forward	ATPc;dTDPc	C00002;C00363	ADPc;dTTPc	C00008;C00459	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+NDPK4	R02093	2.7.4.6	2.7.4.6	reverse	ADPc;dTTPc	C00008;C00459	ATPc;dTDPc	C00002;C00363	ENSG00000239672;ENSG00000243678	P22392;P15531	P22392;P15531		multiple		38.0	brenda	11.0	GDP	Thermus thermophilus			7.5			30.0
+RNDR2	R02019	1.17.4.1	1.17.4.1	forward	GDPc	C00035	dGDPc;H2Oc	C00361;C00001	ENSG00000167325;ENSG00000048392	Q7LG56;P23921	Q7LG56;P23921		multiple		8.2	brenda	11.0	CDP	Falseniella ignava				wildtype		30.0
+RNDR2	R02019	1.17.4.1	1.17.4.1	forward	GDPc	C00035	dGDPc;H2Oc	C00361;C00001	ENSG00000171848	P31350	P31350				3.117	CataPro									
+RNDR1	R02017	1.17.4.1	1.17.4.1	forward	ADPc	C00008	dADPc;H2Oc	C00206;C00001	ENSG00000167325;ENSG00000048392	Q7LG56;P23921	Q7LG56;P23921		multiple		8.2	brenda	11.0	CDP	Falseniella ignava				wildtype		30.0
+RNDR1	R02017	1.17.4.1	1.17.4.1	forward	ADPc	C00008	dADPc;H2Oc	C00206;C00001	ENSG00000171848	P31350	P31350				5.3746	CataPro									
+RNDR4	R02018	1.17.4.1	1.17.4.1	forward	UDPc	C00015	dUDPc;H2Oc	C01346;C00001	ENSG00000167325;ENSG00000048392	Q7LG56;P23921	Q7LG56;P23921		multiple		8.2	brenda	11.0	CDP	Falseniella ignava				wildtype		30.0
+RNDR4	R02018	1.17.4.1	1.17.4.1	forward	UDPc	C00015	dUDPc;H2Oc	C01346;C00001	ENSG00000171848	P31350	P31350				3.5763	CataPro									
+RNDR3	R02024	1.17.4.1	1.17.4.1	forward	CDPc	C00112	dCDPc;H2Oc	C00705;C00001	ENSG00000167325;ENSG00000048392	Q7LG56;P23921	Q7LG56;P23921		multiple		8.2	brenda	11.0	CDP	Falseniella ignava				wildtype		30.0
+RNDR3	R02024	1.17.4.1	1.17.4.1	forward	CDPc	C00112	dCDPc;H2Oc	C00705;C00001	ENSG00000171848	P31350	P31350				4.0509	CataPro									
+PSERT	R04173	2.6.1.52	2.6.1.52	forward	3phosphonooxypyruvatec;glutamatec	C03232;C00025	AKGc;3phosphoserinec	C00026;C01005	ENSG00000135069	Q9Y617	Q9Y617				1.6503	CataPro									
+PSERT	R04173	2.6.1.52	2.6.1.52	reverse	AKGc;3phosphoserinec	C00026;C01005	3phosphonooxypyruvatec;glutamatec	C03232;C00025	ENSG00000135069	Q9Y617	Q9Y617				1.2965	CataPro									
+MDRPD	R07392	4.2.1.109	4.2.1.109	forward	5mdru1pc	C04582	dkmppc;H2Oc	C15650;C00001	ENSG00000161798	P55064	P55064				15.6041	CataPro									
+OCOAT1m	R00410	2.8.3.18	2.8.3.18;2.8.3.5	forward	acetoacetatem;succinylCoAm	C00164;C00091	acetoAcCoAm;succinatem	C00332;C00042	ENSG00000083720	P55809	P55809				4.8848	CataPro									
+MDRPD	R07392	4.2.1.109	4.2.1.109	forward	5mdru1pc	C04582	dkmppc;H2Oc	C15650;C00001	ENSG00000240583	P29972	P29972				14.7251	CataPro									
+OCOAT1m	R00410	2.8.3.18	2.8.3.18;2.8.3.5	forward	acetoacetatem;succinylCoAm	C00164;C00091	acetoAcCoAm;succinatem	C00332;C00042	ENSG00000198754	Q9BYC2	Q9BYC2				1.7945	CataPro									
+MDRPD	R07392	4.2.1.109	4.2.1.109	forward	5mdru1pc	C04582	dkmppc;H2Oc	C15650;C00001	ENSG00000167580	P41181	P41181				8.978	CataPro									
+MDRPD	R07392	4.2.1.109	4.2.1.109	forward	5mdru1pc	C04582	dkmppc;H2Oc	C15650;C00001	ENSG00000103375	O94778	O94778				16.4355	CataPro									
+MDRPD	R07392	4.2.1.109	4.2.1.109	forward	5mdru1pc	C04582	dkmppc;H2Oc	C15650;C00001	ENSG00000135517	P30301	P30301				6.8829	CataPro									
+MDRPD	R07392	4.2.1.109	4.2.1.109	forward	5mdru1pc	C04582	dkmppc;H2Oc	C15650;C00001	ENSG00000171885	P55087	P55087				7.8399	CataPro									
+AACOAT	R01357	6.2.1.16	6.2.1.16	forward	acetoacetatec;ATPc;CoAc	C00164;C00002;C00010	acetoacetylCoAc;AMPc;Ppic	C00332;C00020;C00013	ENSG00000081760	Q86V21	Q86V21				1.3038	CataPro									
+HIBDm	R02047	1.1.1.31	1.1.1.31	forward	3hoxisobm;NADm	C06001;C00003	2m3opropm;Hm;NADHm	C00349;C00080;C00004	ENSG00000106049	P31937	P31937				7.9914	CataPro									
+FTHFDH	R00941	1.5.1.6	1.5.1.6	forward	10formylTHFc;H2Oc;NADPc	C00234;C00001;C00006	CO2c;Hc;NADPHc;THFc	C00011;C00080;C00005;C00101	ENSG00000136010	Q3SY69	Q3SY69				2.8077	CataPro									
+FTHFDH	R00941	1.5.1.6	1.5.1.6	forward	10formylTHFc;H2Oc;NADPc	C00234;C00001;C00006	CO2c;Hc;NADPHc;THFc	C00011;C00080;C00005;C00101	ENSG00000144908	O75891	O75891				2.5425	CataPro									
+HMGCOAR	R02082	1.1.1.34	1.1.1.34	forward	Hc;HMGCoAc;NADPHc	C00080;C00356;C00005	CoAc;RMevalonate;NADPc	C00010;C00418;C00006	ENSG00000113161	P04035	P04035				5.6135	CataPro									
+HMGCOAR	R02082	1.1.1.34	1.1.1.34	reverse	CoAc;RMevalonate;NADPc	C00010;C00418;C00006	Hc;HMGCoAc;NADPHc	C00080;C00356;C00005	ENSG00000113161	P04035	P04035				2.0128	CataPro									
+PHLACHt		3.1.1.4	3.1.1.4	forward	Hc	C00080	Hx	C00080					no_gpr		43.3	brenda	12.0	1,2-diheptanoyl-sn-glycero-3-phosphorylcholine	Bos taurus						10.0
+PHLACHt		3.1.1.4	3.1.1.4	reverse	Hx	C00080	Hc	C00080					no_gpr		43.3	brenda	12.0	1,2-diheptanoyl-sn-glycero-3-phosphorylcholine	Bos taurus						10.0
+PMEVK	R03245	2.7.4.2	2.7.4.2	forward	R_5_Phosphomevalonate;ATPc	C01107;C00002	R_5_Diphosphomevalonate;ADPc	C01143;C00008	ENSG00000163344	Q15126	Q15126				0.4454	CataPro									
+PRAGSr	R04144	6.3.4.13	6.3.4.13	forward	ATPc;glycinec;5phosphoribosylaminec	C00002;C00037;C03090	ADPc;GARc;Hc;Pic	C00008;C03838;C00080;C00009	ENSG00000159131	P22102	P22102				4.3719	CataPro									
+FKYNH	R01958	3.5.1.9	3.5.1.9	forward	NformylLkynureninec;H2Oc	C05648;C00001	Lkynureninec;formatec;Hc	C01718;C00058;C00080					no_gpr		26.4	brenda	12.0	N-formyl-L-kynurenine	Drosophila melanogaster	Q9VMC9	22.0	7.4			25.0
+AASAD3m	R03102	1.2.1.31	1.2.1.31	forward	allysinem;H2Om;NADm	C04076;C00001;C00003	2aminoadipatem;Hm;NADHm	C00956;C00080;C00004					no_gpr		66.0	brenda	12.0	L-2-aminoadipate	Penicillium chrysogenum		30.0	8.0			28.0
+MTRI	R04420	5.3.1.23	5.3.1.23	forward	5mdr1pc	C04188	5mdru1pc	C04582					no_gpr		0.14	brenda	12.0	S-methyl-5-thio-alpha-D-ribose 1-phosphate	Methanocaldococcus jannaschii	Q57896	60.0	7.0			30.0
+PRFGS	R04463	6.3.5.3	6.3.5.3	forward	ATPc;NformylGARc;glutaminec;H2Oc	C00002;C04376;C00064;C00001	ADPc;5phosphoribosylformylglycinamidinec;glutamatec;Hc;Pic	C00008;C04640;C00025;C00080;C00009	ENSG00000178921	O15067	O15067				6.6548	CataPro									
+GluForTx	R02287	2.1.2.5	2.1.2.5;4.3.1.4	forward	forgluc;H2Oc;THFc	C00439;C00001;C00101	5forthfc;glutamatec	;C00025					no_gpr		0.0193	brenda	12.0	5-formimidoyltetrahydrofolate	Picrophilus oshimae		30.0	7.3			30.0
+MMSAD1m	R00922	1.2.1.27	1.2.1.27	forward	2m3opropm;CoAm;NADm	C00349;C00010;C00003	CO2m;NADHm;propCoAm	C00011;C00004;C00100	ENSG00000119711	Q02252	Q02252				1.8343	CataPro									
+GLYAMDTRc	R00565	2.1.4.1	2.1.4.1	forward	argininec;glycinec	C00062;C00037	guanidinoacetatec;ornithinec	C00581;C00077	ENSG00000171766	P50440	P50440				1.5508	CataPro									
+GLYAMDTRc	R00565	2.1.4.1	2.1.4.1	reverse	guanidinoacetatec;ornithinec	C00581;C00077	argininec;glycinec	C00062;C00037	ENSG00000171766	P50440	P50440				0.8775	CataPro									
+G5SADs	R03314	1.5.1.12	1.5.1.12	forward	Lglu5semialdehydec	C01165	1Pyrroline5carboxylatec;H2Oc;Hc	C04322;C00001;C00080	ENSG00000159423	P30038	P30038	transferred			6.079	CataPro									
+G5SADs	R03314	1.5.1.12	1.5.1.12	reverse	1Pyrroline5carboxylatec;H2Oc;Hc	C04322;C00001;C00080	Lglu5semialdehydec	C01165	ENSG00000159423	P30038	P30038	transferred			2.4681	CataPro									
+PYRt2				forward	pyruvatex;Hx	C00022;C00080	Hc;pyruvatec	C00080;C00022	ENSG00000118596	O60669	O60669	missing			4.1523	CataPro									
+PYRt2				forward	pyruvatex;Hx	C00022;C00080	Hc;pyruvatec	C00080;C00022	ENSG00000141526	O15427	O15427	missing			4.064	CataPro									
+PYRt2				forward	pyruvatex;Hx	C00022;C00080	Hc;pyruvatec	C00080;C00022	ENSG00000155380	P53985	P53985	missing			4.4613	CataPro									
+LDH_L	R00703			forward	Hc;NADHc;pyruvatec	C00080;C00004;C00022	lactatec;NADc	C00186;C00003	ENSG00000111716	P07195	P07195	missing			67.884	CataPro									
+LDH_L	R00703			forward	Hc;NADHc;pyruvatec	C00080;C00004;C00022	lactatec;NADc	C00186;C00003	ENSG00000134333	P00338	P00338	missing			80.1578	CataPro									
+LDH_L	R00703			forward	Hc;NADHc;pyruvatec	C00080;C00004;C00022	lactatec;NADc	C00186;C00003	ENSG00000151116	Q8IX04	Q8IX04	missing			2.0283	CataPro									
+LDH_L	R00703			forward	Hc;NADHc;pyruvatec	C00080;C00004;C00022	lactatec;NADc	C00186;C00003	ENSG00000166796	P07864	P07864	missing			78.6045	CataPro									
+LDH_L	R00703			forward	Hc;NADHc;pyruvatec	C00080;C00004;C00022	lactatec;NADc	C00186;C00003	ENSG00000166800	Q6ZMR3	Q6ZMR3	missing			28.3162	CataPro									
+LDH_L	R00703			forward	Hc;NADHc;pyruvatec	C00080;C00004;C00022	lactatec;NADc	C00186;C00003	ENSG00000171989	Q9BYZ2	Q9BYZ2	missing			64.0296	CataPro									
+PEPCK_re	R00431			forward	GTPc;OAAc	C00044;C00036	CO2c;GDPc;PEPc	C00011;C00035;C00074	ENSG00000124253	P35558	P35558	missing			11.0435	CataPro									
+SUCOAS1m	R00432	6.2.1.4	6.2.1.4	forward	GDPm;Pim;succinylCoAm	C00035;C00009;C00091	CoAm;GTPm;succinatem	C00010;C00044;C00042	ENSG00000163541;ENSG00000172340	Q96I99;P53597	Q96I99;P53597		multiple				16.0								
+SUCOAS1m	R00432	6.2.1.4	6.2.1.4	reverse	CoAm;GTPm;succinatem	C00010;C00044;C00042	GDPm;Pim;succinylCoAm	C00035;C00009;C00091	ENSG00000163541;ENSG00000172340	Q96I99;P53597	Q96I99;P53597		multiple				16.0								
+ACITL	R00352	4.1.3.6	2.3.3.8;4.1.3.6	forward	ATPc;citratec;CoAc	C00002;C00158;C00010	acetylCoAc;ADPc;OAAc;Pic	C00024;C00008;C00036;C00009	ENSG00000131473	P53396	P53396				8.1789	CataPro									
+AKGMALtm				forward	AKGc;malatem	C00026;C00711	AKGm;malatec	C00026;C00711	ENSG00000108528	Q02978	Q02978	missing			0.6984	CataPro									
+AKGMALtm				reverse	AKGm;malatec	C00026;C00711	AKGc;malatem	C00026;C00711	ENSG00000108528	Q02978	Q02978	missing			0.6984	CataPro									
+AKGMALtm				forward	AKGc;malatem	C00026;C00711	AKGm;malatec	C00026;C00711	ENSG00000183048	Q9UBX3	Q9UBX3	missing			1.3665	CataPro									
+AKGMALtm				reverse	AKGm;malatec	C00026;C00711	AKGc;malatem	C00026;C00711	ENSG00000183048	Q9UBX3	Q9UBX3	missing			1.3665	CataPro									
+CYOOm2i	R00081	1.9.3.1	1.9.3.1	forward	ferrocytochromeCm;Hm;O2m	;C00080;C00007	ferricytochromeCm;H2Om;Hc	;C00001;C00080	ENSG00000187581	Q7Z4L0	Q7Z4L0	transferred			9.5931	CataPro									
+r0885		2.A.29.2.7	2.A.29.2.7	forward	GSHc;Pim	C00051;C00009	GSHm;Pic	C00051;C00009	ENSG00000183048	Q9UBX3	Q9UBX3	incomplete			4.3316	CataPro									
+r0885		2.A.29.2.7	2.A.29.2.7	reverse	GSHm;Pic	C00051;C00009	GSHc;Pim	C00051;C00009	ENSG00000183048	Q9UBX3	Q9UBX3	incomplete			4.3316	CataPro									
+PYRt2m				forward	Hc;pyruvatec	C00080;C00022	Hm;pyruvatem	C00080;C00022	ENSG00000060762	Q9Y5U8	Q9Y5U8	missing			4.3771	CataPro									
+PYRt2m				reverse	Hm;pyruvatem	C00080;C00022	Hc;pyruvatec	C00080;C00022	ENSG00000060762	Q9Y5U8	Q9Y5U8	missing			4.3771	CataPro									
+PYRt2m				forward	Hc;pyruvatec	C00080;C00022	Hm;pyruvatem	C00080;C00022	ENSG00000143158	O95563	O95563	missing			10.6357	CataPro									
+PYRt2m				reverse	Hm;pyruvatem	C00080;C00022	Hc;pyruvatec	C00080;C00022	ENSG00000143158	O95563	O95563	missing			10.6357	CataPro									
+PYRt2m				forward	Hc;pyruvatec	C00080;C00022	Hm;pyruvatem	C00080;C00022	ENSG00000155380	P53985	P53985	missing			4.4613	CataPro									
+PYRt2m				reverse	Hm;pyruvatem	C00080;C00022	Hc;pyruvatec	C00080;C00022	ENSG00000155380	P53985	P53985	missing			4.4613	CataPro									
+HMR_4964				forward	citratem;Hm;malatec	C00158;C00080;C00711	citratec;Hc;malatem	C00158;C00080;C00711	ENSG00000100075	P53007	P53007	missing			0.5896	CataPro									
+HMR_4964				reverse	citratec;Hc;malatem	C00158;C00080;C00711	citratem;Hm;malatec	C00158;C00080;C00711	ENSG00000100075	P53007	P53007	missing			0.5896	CataPro									
+r2420		2.A.29.2.7	2.A.29.2.7	forward	Hc;Pic	C00080;C00009	Hm;Pim	C00080;C00009	ENSG00000075415	Q00325	Q00325	incomplete			1.8693	CataPro									
+FUMtm				forward	fumaratec;Pim	C00122;C00009	fumaratem;Pic	C00122;C00009	ENSG00000183048	Q9UBX3	Q9UBX3	missing			2.4148	CataPro									
+FUMtm				reverse	fumaratem;Pic	C00122;C00009	fumaratec;Pim	C00122;C00009	ENSG00000183048	Q9UBX3	Q9UBX3	missing			2.4148	CataPro									
+r0801		2.A.29.21.1	2.A.29.21.1	forward	GDPc;GTPm	C00035;C00044	GDPm;GTPc	C00035;C00044	ENSG00000169100	P12236	P12236	incomplete			0.2003	CataPro									
+r0801		2.A.29.21.1	2.A.29.21.1	reverse	GDPm;GTPc	C00035;C00044	GDPc;GTPm	C00035;C00044	ENSG00000169100	P12236	P12236	incomplete			0.2003	CataPro									
+H2Otm				forward	H2Oc	C00001	H2Om	C00001	ENSG00000103375	O94778	O94778	missing			130.1852	CataPro									
+H2Otm				reverse	H2Om	C00001	H2Oc	C00001	ENSG00000103375	O94778	O94778	missing			130.1852	CataPro									
+GLUt2m				forward	glutamatec;Hc	C00025;C00080	glutamatem;Hm	C00025;C00080	ENSG00000177542	Q9H936	Q9H936	missing			1.3265	CataPro									
+GLUt2m				forward	glutamatec;Hc	C00025;C00080	glutamatem;Hm	C00025;C00080	ENSG00000182902	Q9H1K4	Q9H1K4	missing			0.7292	CataPro									
+GLUPRT	R01072	2.4.2.14	2.4.2.14	forward	glutaminec;H2Oc;PRPPc	C00064;C00001;C00119	glutamatec;Ppic;5phosphoribosylaminec	C00025;C00013;C03090	ENSG00000128059	Q06203	Q06203				2.9202	CataPro									
+PRAIS	R04208	6.3.3.1	6.3.3.1	forward	ATPc;5phosphoribosylformylglycinamidinec	C00002;C04640	ADPc;AIRc;Hc;Pic	C00008;C03373;C00080;C00009	ENSG00000159131	P22102	P22102				6.2975	CataPro									
+PRASCSi	R04591	6.3.2.6	6.3.2.6	forward	5phosphoribosyl4carboxy5aminoimidazolec;aspartatec;ATPc	C04751;C00049;C00002	SAICARc;ADPc;Hc;Pic	C04823;C00008;C00080;C00009	ENSG00000128050	P22234	P22234				1.5871	CataPro									
+IMPDH2				forward	H2Oc;IMPc;NADc	C00001;C00130;C00003	Hc;NADHc;xanthosine5Pc	C00080;C00004;C00655	ENSG00000106348	P20839	P20839	missing			1.3325	CataPro									
+IMPDH2				forward	H2Oc;IMPc;NADc	C00001;C00130;C00003	Hc;NADHc;xanthosine5Pc	C00080;C00004;C00655	ENSG00000178035	P12268	P12268	missing			0.9749	CataPro									
+ASPGLUm				forward	aspartatem;glutamatec;Hc	C00049;C00025;C00080	aspartatec;glutamatem;Hm	C00049;C00025;C00080	ENSG00000004864	Q9UJS0	Q9UJS0	missing			1.6407	CataPro									
+ASPGLUm				forward	aspartatem;glutamatec;Hc	C00049;C00025;C00080	aspartatec;glutamatem;Hm	C00049;C00025;C00080	ENSG00000115840	O75746	O75746	missing			1.4672	CataPro									
+ORNt4m				forward	citrullinem;Hc;ornithinec	C00327;C00080;C00077	citrullinec;Hm;ornithinem	C00327;C00080;C00077	ENSG00000102743	Q9Y619	Q9Y619	missing			3.1221	CataPro									
+ORNt4m				forward	citrullinem;Hc;ornithinec	C00327;C00080;C00077	citrullinec;Hm;ornithinem	C00327;C00080;C00077	ENSG00000120329	Q9BXI2	Q9BXI2	missing			1.0559	CataPro									
+ARGSS	R01954	6.3.4.5	6.3.4.5	forward	aspartatec;ATPc;citrullinec	C00049;C00002;C00327	AMPc;argininosuccinatec;Hc;Ppic	C00020;C03406;C00080;C00013	ENSG00000130707	P00966	P00966				4.8714	CataPro									
+5MTHFt				forward	5methylTHFc	C00440	5methylTHFx	C00440	ENSG00000110195	P15328	P15328	missing			0.6921	CataPro									
+5MTHFt				forward	5methylTHFc	C00440	5methylTHFx	C00440	ENSG00000110203	P41439	P41439	missing			0.8541	CataPro									
+ACOAD9m	R02660	1.3.99.12	1.3.8;1.3.8.-;1.3.99;1.3.99.12;1.3.99.3	forward	FADm;isobCoAm	C00016;C00630	mcrCoAm;FADH2m	C03460;C01352	ENSG00000151498	Q9UKU7	Q9UKU7	transferred			2.5591	CataPro									
+MMTSADm	R03381	1.2.1.18	1.2.1.18	forward	2m3opropm;CoAm;NADm	C00349;C00010;C00003	Hm;RmmalCoAm;NADHm	C00080;C01213;C00004					no_gpr				16.0								
+PSP_L	R00582			forward	H2Oc;3phosphoserinec	C00001;C01005	Pic;serinec	C00009;C00065	ENSG00000146733	P78330	P78330	missing			4.2143	CataPro									
+SERD_L	R00220			forward	serinec	C00065	NH3c;pyruvatec	C01342;C00022	ENSG00000135094	P20132	P20132	missing			5.9592	CataPro									
+SERD_L	R00220			forward	serinec	C00065	NH3c;pyruvatec	C01342;C00022	ENSG00000139410	Q96GA7	Q96GA7	missing			2.916	CataPro									
+ALATA_L	R00258			forward	glutamatec;pyruvatec	C00025;C00022	AKGc;alaninec	C00026;C00041	ENSG00000166123	Q8TD30	Q8TD30	missing			4.5486	CataPro									
+ALATA_L	R00258			reverse	AKGc;alaninec	C00026;C00041	glutamatec;pyruvatec	C00025;C00022	ENSG00000166123	Q8TD30	Q8TD30	missing			10.6466	CataPro									
+ALATA_L	R00258			forward	glutamatec;pyruvatec	C00025;C00022	AKGc;alaninec	C00026;C00041	ENSG00000167701	P24298	P24298	missing			2.4241	CataPro									
+ALATA_L	R00258			reverse	AKGc;alaninec	C00026;C00041	glutamatec;pyruvatec	C00025;C00022	ENSG00000167701	P24298	P24298	missing			5.4386	CataPro									
+r0962				forward	folatec	C00504	folatem	C00504	ENSG00000164933	Q9H2D1	Q9H2D1	missing			0.5278	CataPro									
+HMR_1465	R00702			forward	farnesylPPc		Presqualene Diphosphate;Ppic	;C00013	ENSG00000079459	P37268	P37268	missing					16.0								
+HMR_1465	R00702			reverse	Presqualene Diphosphate;Ppic	;C00013	farnesylPPc		ENSG00000079459	P37268	P37268	missing			0.4343	CataPro									
+HMR_1467	R02872			forward	Presqualene Diphosphate;Hc;NADPHc	;C00080;C00005	NADPc;Ppic;Squalene	C00006;C00013;C00751	ENSG00000079459	P37268	P37268	missing			0.4777	CataPro									
+LNSTLS	R03199	5.4.99.7	5.4.99.7	forward	S_Squalene_2_3_epoxide	C01054	Lanosterol	C01724	ENSG00000160285	P48449	P48449				0.1695	CataPro									
+HMR_1477				forward	Hc;Lanosterol;NADPHc;O2c	C00080;C01724;C00005;C00007	4,4-Dimethyl-14Alpha-Hydroxymethyl-5Alpha-Cholesta-8,24-Dien-3Beta-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000001630	Q16850	Q16850	missing			0.1941	CataPro									
+HMR_1478				forward	4,4-Dimethyl-14Alpha-Hydroxymethyl-5Alpha-Cholesta-8,24-Dien-3Beta-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4,4-Dimethyl-14Alpha-Formyl-5Alpha-Cholesta-8,24-Dien-3Beta-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000001630	Q16850	Q16850	missing			1.4325	CataPro									
+HMR_1479	R05640			forward	4,4-Dimethyl-14Alpha-Formyl-5Alpha-Cholesta-8,24-Dien-3Beta-Ol;NADPHc;O2c	;C00005;C00007	4,4-dimethylcholesta-8-14-24-trienol;formatec;H2Oc;NADPc	C11455;C00058;C00001;C00006	ENSG00000001630	Q16850	Q16850	missing			1.4325	CataPro									
+C14STR	R05639	1.3.1.70	1.3.1.70	forward	4,4-dimethylcholesta-8-14-24-trienol;Hc;NADPHc	C11455;C00080;C00005	4,4-dimethylzymosterol;NADPc	C05108;C00006	ENSG00000143815	Q14739	Q14739				1.2667	CataPro									
+C14STR	R05639	1.3.1.70	1.3.1.70	forward	4,4-dimethylcholesta-8-14-24-trienol;Hc;NADPHc	C11455;C00080;C00005	4,4-dimethylzymosterol;NADPc	C05108;C00006	ENSG00000149809	O76062	O76062				1.4838	CataPro									
+HMR_1490				forward	4,4-dimethylzymosterol;Hc;NADPHc;O2c	C05108;C00080;C00005;C00007	4-Hydroxymethyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000052802	Q15800	Q15800	missing			0.0946	CataPro									
+HMR_1490				forward	4,4-dimethylzymosterol;Hc;NADPHc;O2c	C05108;C00080;C00005;C00007	4-Hydroxymethyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000170271	Q96IV6	Q96IV6	missing			0.0683	CataPro									
+HMR_1493				forward	4-Hydroxymethyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Formyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000052802	Q15800	Q15800	missing			0.6534	CataPro									
+HMR_1493				forward	4-Hydroxymethyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Formyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000170271	Q96IV6	Q96IV6	missing			0.4611	CataPro									
+HMR_1494				forward	4-Formyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Methylzymosterol-intermediate-1;H2Oc;NADPc	C15808;C00001;C00006	ENSG00000052802	Q15800	Q15800	missing			0.6534	CataPro									
+HMR_1494				forward	4-Formyl-4-Methyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Methylzymosterol-intermediate-1;H2Oc;NADPc	C15808;C00001;C00006	ENSG00000170271	Q96IV6	Q96IV6	missing			0.4611	CataPro									
+HMR_1495	R07494			forward	4-Methylzymosterol-intermediate-1;NADPc	C15808;C00006	3_keto_4_methylzymosterol;CO2c;Hc;NADPHc	C15816;C00011;C00080;C00005	ENSG00000147383	Q15738	Q15738	missing			0.5742	CataPro									
+HMR_1495	R07494			forward	4-Methylzymosterol-intermediate-1;NADPc	C15808;C00006	3_keto_4_methylzymosterol;CO2c;Hc;NADPHc	C15816;C00011;C00080;C00005	ENSG00000183305	P43356	P43356	missing			0.0202	CataPro									
+HMR_1500	R07495			forward	3_keto_4_methylzymosterol;Hc;NADPc	C15816;C00080;C00006	4Alpha-Methylzymosterol;NADPHc	C05103;C00005	ENSG00000132196	P56937	P56937	missing			0.1737	CataPro									
+HMR_1500	R07495			reverse	4Alpha-Methylzymosterol;NADPHc	C05103;C00005	3_keto_4_methylzymosterol;Hc;NADPc	C15816;C00080;C00006	ENSG00000132196	P56937	P56937	missing			0.1166	CataPro									
+HMR_1502				forward	4Alpha-Methylzymosterol;Hc;NADPHc;O2c	C05103;C00080;C00005;C00007	4-Hydroxymethyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000052802	Q15800	Q15800	missing			0.0826	CataPro									
+HMR_1502				forward	4Alpha-Methylzymosterol;Hc;NADPHc;O2c	C05103;C00080;C00005;C00007	4-Hydroxymethyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000170271	Q96IV6	Q96IV6	missing			0.057	CataPro									
+HMR_1503				forward	4-Hydroxymethyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Formyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000052802	Q15800	Q15800	missing			0.6534	CataPro									
+HMR_1503				forward	4-Hydroxymethyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Formyl-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000170271	Q96IV6	Q96IV6	missing			0.4611	CataPro									
+HMR_1504				forward	4-Formyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Carboxy-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000052802	Q15800	Q15800	missing			0.6534	CataPro									
+HMR_1504				forward	4-Formyl-5-Cholesta-8,24-Dien-3-Ol;Hc;NADPHc;O2c	;C00080;C00005;C00007	4-Carboxy-5-Cholesta-8,24-Dien-3-Ol;H2Oc;NADPc	;C00001;C00006	ENSG00000170271	Q96IV6	Q96IV6	missing			0.4611	CataPro									
+HMR_1505				forward	4-Carboxy-5-Cholesta-8,24-Dien-3-Ol;NADPc	;C00006	5Alpha-Cholesta-8,24-Dien-3-One;CO2c;Hc;NADPHc	C22136;C00011;C00080;C00005	ENSG00000147383	Q15738	Q15738	missing			1.9457	CataPro									
+HMR_1505				reverse	5Alpha-Cholesta-8,24-Dien-3-One;CO2c;Hc;NADPHc	C22136;C00011;C00080;C00005	4-Carboxy-5-Cholesta-8,24-Dien-3-Ol;NADPc	;C00006	ENSG00000147383	Q15738	Q15738	missing			1.0126	CataPro									
+HMR_1509	R12405			forward	5Alpha-Cholesta-8,24-Dien-3-One;Hc;NADPHc	C22136;C00080;C00005	NADPc;Zymosterol C27H44O	C00006;C05437	ENSG00000132196	P56937	P56937	missing			0.3359	CataPro									
+CHLSTI_1	R04804			forward	Zymosterol C27H44O	C05437	5alpha-Cholesta-7,24-dien-3beta-ol	C05439	ENSG00000147155	Q15125	Q15125	missing			0.5234	CataPro									
+HMR_1516	R04667			forward	5alpha-Cholesta-7,24-dien-3beta-ol;Hc;NADPHc;O2c	C05439;C00080;C00005;C00007	7-Dehydrodesmosterol;H2Oc;NADPc	C05107;C00001;C00006	ENSG00000109929	O75845	O75845	missing			0.1737	CataPro									
+HMR_1516	R04667			reverse	7-Dehydrodesmosterol;H2Oc;NADPc	C05107;C00001;C00006	5alpha-Cholesta-7,24-dien-3beta-ol;Hc;NADPHc;O2c	C05439;C00080;C00005;C00007	ENSG00000109929	O75845	O75845	missing			0.1085	CataPro									
+RE2410C	R03724	1.3.1.21	1.3.1.21	forward	7-Dehydrodesmosterol;Hc;NADPHc	C05107;C00080;C00005	Desmosterol; 3beta-cholesta-5,24-dien-3-ol;NADPc	C01802;C00006					no_gpr				16.0								
+RE2410C	R03724	1.3.1.21	1.3.1.21	reverse	Desmosterol; 3beta-cholesta-5,24-dien-3-ol;NADPc	C01802;C00006	7-Dehydrodesmosterol;Hc;NADPHc	C05107;C00080;C00005					no_gpr				16.0								
+DSMSTOLR	R01457	1.3.1.72	1.3.1.72	forward	Desmosterol; 3beta-cholesta-5,24-dien-3-ol;Hc;NADPHc	C01802;C00080;C00005	cholesterolc;NADPc	C00187;C00006					no_gpr				16.0								
+FASN				forward	ACPc;acetylCoAc	;C00024	acetylACPc;CoAc	;C00010	ENSG00000169710	P49327	P49327	missing			2.1322	CataPro									
+MCAT				forward	ACPc;malonylCoAc	;C00083	CoAc;malonylACPc	C00010;C01209	ENSG00000169710	P49327	P49327	missing			1.6384	CataPro									
+AcetoacetylACPsynthesis				forward	acetylACPc;malonylACPc	;C01209	ACPc;acetoacetylACPc;CO2c	;C05744;C00011	ENSG00000169710	P49327	P49327	missing					16.0								
+r0701				forward	Hc;NADPHc;3_oxotetradecanoyl_ACP	C00080;C00005;	HMA;NADPc	C04688;C00006	ENSG00000169710	P49327	P49327	missing			3.2049	CataPro									
+TMLYSOX	R03451	1.14.11.8	1.14.11.8	forward	AKGc;O2c;tmlysc	C00026;C00007;C03793	3htmelysc;CO2c;succinatec	C01259;C00011;C00042	ENSG00000185973	Q9NVH6	Q9NVH6				3.0464	CataPro									
+SUCFUMtm				forward	fumaratec;succinatem	C00122;C00042	fumaratem;succinatec	C00122;C00042	ENSG00000183048	Q9UBX3	Q9UBX3	missing			1.1487	CataPro									
+SUCFUMtm				reverse	fumaratem;succinatec	C00122;C00042	fumaratec;succinatem	C00122;C00042	ENSG00000183048	Q9UBX3	Q9UBX3	missing			1.1487	CataPro									
+palmitateActivation				forward	ATPc;CoAc;palmitatec	C00002;C00010;C00249	AMPc;Ppic;palmitoylCoAc	C00020;C00013;C00831	ENSG00000068366	O60488	O60488	missing			0.6665	CataPro									
+palmitateActivation				forward	ATPc;CoAc;palmitatec	C00002;C00010;C00249	AMPc;Ppic;palmitoylCoAc	C00020;C00013;C00831	ENSG00000123983	O95573	O95573	missing			0.5778	CataPro									
+palmitateActivation				forward	ATPc;CoAc;palmitatec	C00002;C00010;C00249	AMPc;Ppic;palmitoylCoAc	C00020;C00013;C00831	ENSG00000151726	P33121	P33121	missing			0.7024	CataPro									
+palmitateActivation				forward	ATPc;CoAc;palmitatec	C00002;C00010;C00249	AMPc;Ppic;palmitoylCoAc	C00020;C00013;C00831	ENSG00000164398	Q9UKU0	Q9UKU0	missing			0.7339	CataPro									
+carnitineAcylTransferaseI				forward	carnitinec;palmitoylCoAc	C00318;C00831	CoAc;palmitoyl_carnitinec	C00010;C02990	ENSG00000110090	P50416	P50416	missing			9.9804	CataPro									
+carnitineAcylTransferaseI				reverse	CoAc;palmitoyl_carnitinec	C00010;C02990	carnitinec;palmitoylCoAc	C00318;C00831	ENSG00000110090	P50416	P50416	missing			8.6442	CataPro									
+carnitineAcylTransferaseI				forward	carnitinec;palmitoylCoAc	C00318;C00831	CoAc;palmitoyl_carnitinec	C00010;C02990	ENSG00000169169	Q8TCG5	Q8TCG5	missing			5.6606	CataPro									
+carnitineAcylTransferaseI				reverse	CoAc;palmitoyl_carnitinec	C00010;C02990	carnitinec;palmitoylCoAc	C00318;C00831	ENSG00000169169	Q8TCG5	Q8TCG5	missing			4.8394	CataPro									
+carnitineAcylTransferaseI				forward	carnitinec;palmitoylCoAc	C00318;C00831	CoAc;palmitoyl_carnitinec	C00010;C02990	ENSG00000205560	Q92523	Q92523	missing			11.1831	CataPro									
+carnitineAcylTransferaseI				reverse	CoAc;palmitoyl_carnitinec	C00010;C02990	carnitinec;palmitoylCoAc	C00318;C00831	ENSG00000205560	Q92523	Q92523	missing			10.3662	CataPro									
+CARN160t_m				forward	carnitinem;palmitoyl_carnitinec	C00318;C02990	carnitinec;palmitoyl_carnitinem	C00318;C02990	ENSG00000178537	O43772	O43772	missing			2.8344	CataPro									
+CARN160t_m				reverse	carnitinec;palmitoyl_carnitinem	C00318;C02990	carnitinem;palmitoyl_carnitinec	C00318;C02990	ENSG00000178537	O43772	O43772	missing			2.8344	CataPro									
+carnitineAcylTransferaseII				forward	CoAm;palmitoyl_carnitinem	C00010;C02990	carnitinem;palmitoylCoAm	C00318;C00831	ENSG00000157184	P23786	P23786	missing			22.2352	CataPro									
+carnitineAcylTransferaseII				reverse	carnitinem;palmitoylCoAm	C00318;C00831	CoAm;palmitoyl_carnitinem	C00010;C02990	ENSG00000157184	P23786	P23786	missing			17.3876	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000059804	P11169	P11169	missing			8.5296	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000100170	P13866	P13866	missing			12.528	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000100191	Q9NY91	Q9NY91	missing			4.4242	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000105641	Q92911	Q92911	missing			7.4769	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000109667	Q9NRM0	Q9NRM0	missing			6.2595	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000115665	Q9GZV3	Q9GZV3	missing			12.1471	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000117394	P11166	P11166	missing			10.1421	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000117834	Q2M3M2	Q2M3M2	missing			6.9615	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000133460	Q9BYW1	Q9BYW1	missing			3.1791	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000136856	Q9NY64	Q9NY64	missing			6.0233	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000138074	Q9Y289	Q9Y289	missing			7.0011	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000140675	P31639	P31639	missing			8.7525	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000142583	P22732	P22732	missing			9.5092	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000146411	Q8TD20	Q8TD20	missing			1.6034	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000148942	Q1EHB4	Q1EHB4	missing			8.0399	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000151229	Q96QE2	Q96QE2	missing			10.4754	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000154025	A0PJK1	A0PJK1	missing			6.5261	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000158865	Q8WWX8	Q8WWX8	missing			9.4742	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000160326	Q9UGQ3	Q9UGQ3	missing			4.6255	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000163581	P11168	P11168	missing			3.5215	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000173262	Q8TDB8	Q8TDB8	missing			8.4787	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000181856	P14672	P14672	missing			14.6863	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000197241	Q6PXP3	Q6PXP3	missing			1.3265	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000197496	O95528	O95528	missing			3.7148	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000198743	P53794	P53794	missing			6.9758	CataPro									
+GLCt1				forward	glucosec	C00031	glucosex	C00031	ENSG00000256870	Q8N695	Q8N695	missing			10.477	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000017483	Q8WUX1	Q8WUX1	missing			9.6421	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000111371	Q9H2H9	Q9H2H9	missing			5.0502	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000134294	Q96QD8	Q96QD8	missing			7.7969	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000139209	Q969I6	Q969I6	missing			12.9502	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000149150	O75387	O75387	missing			2.7962	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000174358	Q695T7	Q695T7	missing			38.6699	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000188338	Q99624	Q99624	missing			8.9049	CataPro									
+GLNt				forward	glutaminec	C00064	glutaminex	C00064	ENSG00000268104	Q9UN76	Q9UN76	missing			15.6395	CataPro									
+r0963				forward	folatec	C00504	folatex	C00504	ENSG00000110195	P15328	P15328	missing			0.1812	CataPro									
+r0963				forward	folatec	C00504	folatex	C00504	ENSG00000110203	P41439	P41439	missing			0.2211	CataPro									
+r0963				forward	folatec	C00504	folatex	C00504	ENSG00000165457	P14207	P14207	missing			0.2585	CataPro									
+ARGt5r				forward	argininec	C00062	argininex	C00062	ENSG00000003989	P52569	P52569	missing			4.5793	CataPro									
+ARGt5r				forward	argininec	C00062	argininex	C00062	ENSG00000139209	Q969I6	Q969I6	missing			6.4991	CataPro									
+ARGt5r				forward	argininec	C00062	argininex	C00062	ENSG00000139514	P30825	P30825	missing			5.4573	CataPro									
+ARGt5r				forward	argininec	C00062	argininex	C00062	ENSG00000165349	Q8WY07	Q8WY07	missing			4.1521	CataPro									
+ARGt5r				forward	argininec	C00062	argininex	C00062	ENSG00000268104	Q9UN76	Q9UN76	missing			8.882	CataPro									
+PHEtec				forward	phenylalaninec	C00079	phenylalaninex	C00079	ENSG00000112394	Q8TF71	Q8TF71	missing			4.5593	CataPro									
+PHEtec				forward	phenylalaninec	C00079	phenylalaninex	C00079	ENSG00000149150	O75387	O75387	missing			1.7513	CataPro									
+PHEtec				forward	phenylalaninec	C00079	phenylalaninex	C00079	ENSG00000167703	Q8N370	Q8N370	missing			2.7612	CataPro									
+ILEtec				forward	isoleucinec	C16434	isoleucinex	C16434	ENSG00000149150	O75387	O75387	missing			1.2421	CataPro									
+ILEtec				forward	isoleucinec	C16434	isoleucinex	C16434	ENSG00000167703	Q8N370	Q8N370	missing			2.2664	CataPro									
+LEUtec				forward	leucinec	C16439	leucinex	C16439	ENSG00000149150	O75387	O75387	missing			1.7951	CataPro									
+LEUtec				forward	leucinec	C16439	leucinex	C16439	ENSG00000167703	Q8N370	Q8N370	missing			3.2238	CataPro									
+VALtec				forward	valinec	C00183	valinex	C00183	ENSG00000149150	O75387	O75387	missing			2.2887	CataPro									
+VALtec				forward	valinec	C00183	valinex	C00183	ENSG00000167703	Q8N370	Q8N370	missing			4.0775	CataPro									
+METtec				forward	methioninec	C00073	methionine	C00073	ENSG00000149150	O75387	O75387	missing			1.2872	CataPro									
+METtec				forward	methioninec	C00073	methionine	C00073	ENSG00000167703	Q8N370	Q8N370	missing			2.1645	CataPro									
+r2526		2.A.1.44.1	2.A.1.44.1	forward	serinec	C00065	serinex	C00065	ENSG00000017483	Q8WUX1	Q8WUX1	incomplete			3.9221	CataPro									
+r2526		2.A.1.44.1	2.A.1.44.1	forward	serinec	C00065	serinex	C00065	ENSG00000111371	Q9H2H9	Q9H2H9	incomplete			2.0155	CataPro									
+r2526		2.A.1.44.1	2.A.1.44.1	forward	serinec	C00065	serinex	C00065	ENSG00000123643	Q7Z2H8	Q7Z2H8	incomplete			3.6395	CataPro									
+r2526		2.A.1.44.1	2.A.1.44.1	forward	serinec	C00065	serinex	C00065	ENSG00000134294	Q96QD8	Q96QD8	incomplete			3.2091	CataPro									
+r2526		2.A.1.44.1	2.A.1.44.1	forward	serinec	C00065	serinex	C00065	ENSG00000139209	Q969I6	Q969I6	incomplete			5.2187	CataPro									
+r2526		2.A.1.44.1	2.A.1.44.1	forward	serinec	C00065	serinex	C00065	ENSG00000149150	O75387	O75387	incomplete			1.1742	CataPro									
+r2526		2.A.1.44.1	2.A.1.44.1	forward	serinec	C00065	serinex	C00065	ENSG00000268104	Q9UN76	Q9UN76	incomplete			8.015	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000017483	Q8WUX1	Q8WUX1	missing			4.5788	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000111371	Q9H2H9	Q9H2H9	missing			2.6509	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000123643	Q7Z2H8	Q7Z2H8	missing			4.9466	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000134294	Q96QD8	Q96QD8	missing			4.3407	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000139209	Q969I6	Q969I6	missing			7.8178	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000165970	Q9Y345	Q9Y345	missing			8.2675	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000186335	Q495M3	Q495M3	missing			4.0434	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000196517	P48067	P48067	missing			21.8214	CataPro									
+GLYt4				forward	glycinec	C00037	glycinex	C00037	ENSG00000268104	Q9UN76	Q9UN76	missing			11.7828	CataPro									
+r2532		2.A.1.44.1	2.A.1.44.1	forward	asparaginec	C00152	asparaginex	C00152	ENSG00000017483	Q8WUX1	Q8WUX1	incomplete			10.7731	CataPro									
+r2532		2.A.1.44.1	2.A.1.44.1	forward	asparaginec	C00152	asparaginex	C00152	ENSG00000111371	Q9H2H9	Q9H2H9	incomplete			5.5698	CataPro									
+r2532		2.A.1.44.1	2.A.1.44.1	forward	asparaginec	C00152	asparaginex	C00152	ENSG00000134294	Q96QD8	Q96QD8	incomplete			8.7306	CataPro									
+r2532		2.A.1.44.1	2.A.1.44.1	forward	asparaginec	C00152	asparaginex	C00152	ENSG00000139209	Q969I6	Q969I6	incomplete			14.4175	CataPro									
+r2532		2.A.1.44.1	2.A.1.44.1	forward	asparaginec	C00152	asparaginex	C00152	ENSG00000149150	O75387	O75387	incomplete			3.4345	CataPro									
+r2532		2.A.1.44.1	2.A.1.44.1	forward	asparaginec	C00152	asparaginex	C00152	ENSG00000188338	Q99624	Q99624	incomplete			10.3332	CataPro									
+r2532		2.A.1.44.1	2.A.1.44.1	forward	asparaginec	C00152	asparaginex	C00152	ENSG00000268104	Q9UN76	Q9UN76	incomplete			18.8508	CataPro									
+PROPAT4te				forward	prolinec	C00148	prolinex	C00148	ENSG00000123643	Q7Z2H8	Q7Z2H8	missing			6.157	CataPro									
+PROPAT4te				reverse	prolinex	C00148	prolinec	C00148	ENSG00000123643	Q7Z2H8	Q7Z2H8	missing			6.157	CataPro									
+PROPAT4te				forward	prolinec	C00148	prolinex	C00148	ENSG00000186335	Q495M3	Q495M3	missing			4.8063	CataPro									
+PROPAT4te				reverse	prolinex	C00148	prolinec	C00148	ENSG00000186335	Q495M3	Q495M3	missing			4.8063	CataPro									
+HDCAt				forward	palmitatex	C00249	palmitatec	C00249	ENSG00000125166	P00505	P00505	missing			1.42	CataPro									
+HDCAt				forward	palmitatex	C00249	palmitatec	C00249	ENSG00000130304	Q6PCB7	Q6PCB7	missing			0.5078	CataPro									
+HDCAt				forward	palmitatex	C00249	palmitatec	C00249	ENSG00000135218	P16671	P16671	missing			10.0921	CataPro									
+HDCAt				forward	palmitatex	C00249	palmitatec	C00249	ENSG00000167114	Q6P1M0	Q6P1M0	missing			0.532	CataPro									
+CRNt				forward	carnitinec	C00318	carnitinex	C00318	ENSG00000197375	O76082	O76082	missing			6.0768	CataPro									
+CRNt				reverse	carnitinex	C00318	carnitinec	C00318	ENSG00000197375	O76082	O76082	missing			6.0768	CataPro									
+DmLact				forward	lactatec	C00186	lactatex	C00186	ENSG00000100156	O95907	O95907	missing			5.7799	CataPro									
+DmLact				forward	lactatec	C00186	lactatex	C00186	ENSG00000118596	O60669	O60669	missing			7.9864	CataPro									
+DmLact				forward	lactatec	C00186	lactatex	C00186	ENSG00000141526	O15427	O15427	missing			8.4192	CataPro									
+DmLact				forward	lactatec	C00186	lactatex	C00186	ENSG00000155380	P53985	P53985	missing			8.239	CataPro									
+DmLact				forward	lactatec	C00186	lactatex	C00186	ENSG00000256870	Q8N695	Q8N695	missing			12.9149	CataPro									
+UREAt				forward	ureac	C00086	ureax	C00086	ENSG00000132874	Q15849	Q15849	missing			39.6029	CataPro									
+UREAt				forward	ureac	C00086	ureax	C00086	ENSG00000141469	Q13336	Q13336	missing			11.1795	CataPro									
+CE2705t				forward	dihydrobiopterinc	C02953	dihydrobiopterinx	C02953	ENSG00000112759	Q99808	Q99808	missing			3.6113	CataPro									
+CE2705t				forward	dihydrobiopterinc	C02953	dihydrobiopterinx	C02953	ENSG00000174669	Q14542	Q14542	missing			7.343	CataPro									
+H2Ot				forward	H2Ox	C00001	H2Oc	C00001	ENSG00000103375	O94778	O94778	missing			130.1852	CataPro									
+H2Ot				reverse	H2Oc	C00001	H2Ox	C00001	ENSG00000103375	O94778	O94778	missing			130.1852	CataPro									
+H2Ot				forward	H2Ox	C00001	H2Oc	C00001	ENSG00000135517	P30301	P30301	missing			55.9934	CataPro									
+H2Ot				reverse	H2Oc	C00001	H2Ox	C00001	ENSG00000135517	P30301	P30301	missing			55.9934	CataPro									
+H2Ot				forward	H2Ox	C00001	H2Oc	C00001	ENSG00000161798	P55064	P55064	missing			108.6637	CataPro									
+H2Ot				reverse	H2Oc	C00001	H2Ox	C00001	ENSG00000161798	P55064	P55064	missing			108.6637	CataPro									
+H2Ot				forward	H2Ox	C00001	H2Oc	C00001	ENSG00000167580	P41181	P41181	missing			67.0907	CataPro									
+H2Ot				reverse	H2Oc	C00001	H2Ox	C00001	ENSG00000167580	P41181	P41181	missing			67.0907	CataPro									
+H2Ot				forward	H2Ox	C00001	H2Oc	C00001	ENSG00000171885	P55087	P55087	missing			50.0525	CataPro									
+H2Ot				reverse	H2Oc	C00001	H2Ox	C00001	ENSG00000171885	P55087	P55087	missing			50.0525	CataPro									
+H2Ot				forward	H2Ox	C00001	H2Oc	C00001	ENSG00000240583	P29972	P29972	missing			103.0138	CataPro									
+H2Ot				reverse	H2Oc	C00001	H2Ox	C00001	ENSG00000240583	P29972	P29972	missing			103.0138	CataPro									
+GLUt4				forward	glutamatec	C00025	glutamatex	C00025	ENSG00000188338	Q99624	Q99624	missing			7.0849	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000003989	P52569	P52569	missing			6.9593	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000017483	Q8WUX1	Q8WUX1	missing			8.1588	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000111371	Q9H2H9	Q9H2H9	missing			4.0833	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000123643	Q7Z2H8	Q7Z2H8	missing			6.9541	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000134294	Q96QD8	Q96QD8	missing			6.9147	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000139209	Q969I6	Q969I6	missing			11.8468	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000139514	P30825	P30825	missing			8.1231	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000165349	Q8WY07	Q8WY07	missing			6.0665	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000180773	Q6YBV0	Q6YBV0	missing			7.4777	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000186335	Q495M3	Q495M3	missing			5.9961	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000188338	Q99624	Q99624	missing			7.7881	CataPro									
+ALAPAT4te				forward	alaninex	C00041	alaninec	C00041	ENSG00000268104	Q9UN76	Q9UN76	missing			15.5049	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000003989	P52569	P52569	missing			6.9593	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000017483	Q8WUX1	Q8WUX1	missing			8.1588	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000111371	Q9H2H9	Q9H2H9	missing			4.0833	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000123643	Q7Z2H8	Q7Z2H8	missing			6.9541	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000134294	Q96QD8	Q96QD8	missing			6.9147	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000139209	Q969I6	Q969I6	missing			11.8468	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000139514	P30825	P30825	missing			8.1231	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000165349	Q8WY07	Q8WY07	missing			6.0665	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000180773	Q6YBV0	Q6YBV0	missing			7.4777	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000186335	Q495M3	Q495M3	missing			5.9961	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000188338	Q99624	Q99624	missing			7.7881	CataPro									
+DmAla				forward	alaninec	C00041	alaninex	C00041	ENSG00000268104	Q9UN76	Q9UN76	missing			15.5049	CataPro									
+ASPte				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000079215	P43003	P43003	missing			14.7249	CataPro									
+ASPte				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000105143	P48664	P48664	missing			16.4295	CataPro									
+ASPte				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000106688	P43005	P43005	missing			11.5511	CataPro									
+ASPte				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000110436	P43004	P43004	missing			15.3158	CataPro									
+ASPte				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000162383	O00341	O00341	missing			12.8518	CataPro									
+DmAsp				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000079215	P43003	P43003	missing			14.7249	CataPro									
+DmAsp				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000105143	P48664	P48664	missing			16.4295	CataPro									
+DmAsp				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000106688	P43005	P43005	missing			11.5511	CataPro									
+DmAsp				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000110436	P43004	P43004	missing			15.3158	CataPro									
+DmAsp				forward	aspartatec	C00049	aspartatex	C00049	ENSG00000162383	O00341	O00341	missing			12.8518	CataPro									
+DmPalm				forward	palmitatec	C00249	palmitatex	C00249	ENSG00000125166	P00505	P00505	missing			1.42	CataPro									
+DmPalm				forward	palmitatec	C00249	palmitatex	C00249	ENSG00000130304	Q6PCB7	Q6PCB7	missing			0.5078	CataPro									
+DmPalm				forward	palmitatec	C00249	palmitatex	C00249	ENSG00000135218	P16671	P16671	missing			10.0921	CataPro									
+DmPalm				forward	palmitatec	C00249	palmitatex	C00249	ENSG00000167114	Q6P1M0	Q6P1M0	missing			0.532	CataPro									
+CKc_cho	R01881			forward	ATPc;creatinec	C00002;C00300	ADPc;Hc;creatinePc	C00008;C00080;C02305	ENSG00000104879	P06732	P06732	missing			48.1986	CataPro									
+CKc_cho	R01881			reverse	ADPc;Hc;creatinePc	C00008;C00080;C02305	ATPc;creatinec	C00002;C00300	ENSG00000104879	P06732	P06732	missing			14.6498	CataPro									
+CKc_cho	R01881			forward	ATPc;creatinec	C00002;C00300	ADPc;Hc;creatinePc	C00008;C00080;C02305	ENSG00000166165	P12277	P12277	missing			21.6893	CataPro									
+CKc_cho	R01881			reverse	ADPc;Hc;creatinePc	C00008;C00080;C02305	ATPc;creatinec	C00002;C00300	ENSG00000166165	P12277	P12277	missing			6.9256	CataPro									
+HIStiDF				forward	histidinec	C00768	histidinex	C00768	ENSG00000139209	Q969I6	Q969I6	missing			5.9433	CataPro									
+r0465_1				forward	4aminobutyratec;ATPc;histidinec	C00334;C00002;C00768	hcarnc;AMPc;Hc;Ppic	C00884;C00020;C00080;C00013	ENSG00000172508	A5YM72	A5YM72	missing			0.3607	CataPro									
+ABUTH				forward	hcarnc;H2Oc	C00884;C00001	4aminobutyratec;histidinec	C00334;C00768	ENSG00000103375	O94778	O94778	missing			17.6156	CataPro									
+ABUTH				forward	hcarnc;H2Oc	C00884;C00001	4aminobutyratec;histidinec	C00334;C00768	ENSG00000135517	P30301	P30301	missing			5.803	CataPro									
+ABUTH				forward	hcarnc;H2Oc	C00884;C00001	4aminobutyratec;histidinec	C00334;C00768	ENSG00000161798	P55064	P55064	missing			12.5505	CataPro									
+ABUTH				forward	hcarnc;H2Oc	C00884;C00001	4aminobutyratec;histidinec	C00334;C00768	ENSG00000167580	P41181	P41181	missing			7.4885	CataPro									
+ABUTH				forward	hcarnc;H2Oc	C00884;C00001	4aminobutyratec;histidinec	C00334;C00768	ENSG00000171885	P55087	P55087	missing			5.0959	CataPro									
+ABUTH				forward	hcarnc;H2Oc	C00884;C00001	4aminobutyratec;histidinec	C00334;C00768	ENSG00000240583	P29972	P29972	missing			14.384	CataPro									
+URCN	R02914	4.2.1.49	4.2.1.49	forward	H2Oc;urcanc	C00001;	4izpc		ENSG00000103375	O94778	O94778				130.1852	CataPro									
+URCN	R02914	4.2.1.49	4.2.1.49	forward	H2Oc;urcanc	C00001;	4izpc		ENSG00000135517	P30301	P30301				55.9934	CataPro									
+URCN	R02914	4.2.1.49	4.2.1.49	forward	H2Oc;urcanc	C00001;	4izpc		ENSG00000161798	P55064	P55064				108.6637	CataPro									
+URCN	R02914	4.2.1.49	4.2.1.49	forward	H2Oc;urcanc	C00001;	4izpc		ENSG00000167580	P41181	P41181				67.0907	CataPro									
+URCN	R02914	4.2.1.49	4.2.1.49	forward	H2Oc;urcanc	C00001;	4izpc		ENSG00000171885	P55087	P55087				50.0525	CataPro									
+URCN	R02914	4.2.1.49	4.2.1.49	forward	H2Oc;urcanc	C00001;	4izpc		ENSG00000240583	P29972	P29972				103.0138	CataPro									
+IZPN	R02288	3.5.2.7	3.5.2;3.5.2.7	forward	4izpc;H2Oc	;C00001	forgluc;Hc	C00439;C00080	ENSG00000139344	Q96NU7	Q96NU7				34.9252	CataPro									
+FTCD	R02302	4.3.1.4	4.3.1.4	forward	5forthfc;Hc	;C00080	5_10methenylTHFc;NH3c	C00445;C01342	ENSG00000160282	O95954	O95954				16.8849	CataPro									
+CARPEPT1tc				forward	carnosinec;Hc	C00386;C00080	carnosinex;Hx	C00386;C00080	ENSG00000088386	P46059	P46059	missing			6.0421	CataPro									
+NBAHH_ir	R01166			forward	carnosinec;H2Oc	C00386;C00001	bAlac;histidinec	C00099;C00768	ENSG00000103375	O94778	O94778	missing			14.696	CataPro									
+NBAHH_ir	R01166			forward	carnosinec;H2Oc	C00386;C00001	bAlac;histidinec	C00099;C00768	ENSG00000135517	P30301	P30301	missing			4.78	CataPro									
+NBAHH_ir	R01166			forward	carnosinec;H2Oc	C00386;C00001	bAlac;histidinec	C00099;C00768	ENSG00000161798	P55064	P55064	missing			10.612	CataPro									
+NBAHH_ir	R01166			forward	carnosinec;H2Oc	C00386;C00001	bAlac;histidinec	C00099;C00768	ENSG00000167580	P41181	P41181	missing			6.3278	CataPro									
+NBAHH_ir	R01166			forward	carnosinec;H2Oc	C00386;C00001	bAlac;histidinec	C00099;C00768	ENSG00000171885	P55087	P55087	missing			4.299	CataPro									
+NBAHH_ir	R01166			forward	carnosinec;H2Oc	C00386;C00001	bAlac;histidinec	C00099;C00768	ENSG00000240583	P29972	P29972	missing			12.3684	CataPro									
+r0283	R01164	6.3.2.11	6.3.2.11	forward	bAlac;ATPc;histidinec	C00099;C00002;C00768	AMPc;carnosinec;Hc;Ppic	C00020;C00386;C00080;C00013	ENSG00000172508	A5YM72	A5YM72				0.4293	CataPro									
+CSNt	R00974			forward	csnc	C00380	csnx	C00380	ENSG00000174669	Q14542	Q14542	missing			11.7466	CataPro									
+LYSt5r				forward	lysinec	C16440	lysinex	C16440	ENSG00000003989	P52569	P52569	missing			2.5828	CataPro									
+LYSt5r				forward	lysinec	C16440	lysinex	C16440	ENSG00000139209	Q969I6	Q969I6	missing			4.0492	CataPro									
+LYSt5r				forward	lysinec	C16440	lysinex	C16440	ENSG00000139514	P30825	P30825	missing			3.406	CataPro									
+LYSt5r				forward	lysinec	C16440	lysinex	C16440	ENSG00000165349	Q8WY07	Q8WY07	missing			2.5926	CataPro									
+LYStm				forward	Hm;lysinec	C00080;C16440	Hc;lysinem	C00080;C16440	ENSG00000102743	Q9Y619	Q9Y619	missing			1.1256	CataPro									
+LYStm				forward	Hm;lysinec	C00080;C16440	Hc;lysinem	C00080;C16440	ENSG00000120329	Q9BXI2	Q9BXI2	missing			0.3952	CataPro									
+SACCD3m	R00716	1.5.1.8	1.5.1.8	forward	AKGm;Hm;lysinem;NADPHm	C00026;C00080;C16440;C00005	H2Om;NADPm;saccharopinatem	C00001;C00006;C00449	ENSG00000008311	Q9UDR5	Q9UDR5				2.5311	CataPro									
+r0525	R02313	1.5.1.9	1.5.1.9	forward	H2Om;NADm;saccharopinatem	C00001;C00003;C00449	allysinem;glutamatem;Hm;NADHm	C04076;C00025;C00080;C00004	ENSG00000008311	Q9UDR5	Q9UDR5				8.4669	CataPro									
+r0525	R02313	1.5.1.9	1.5.1.9	reverse	allysinem;glutamatem;Hm;NADHm	C04076;C00025;C00080;C00004	H2Om;NADm;saccharopinatem	C00001;C00003;C00449	ENSG00000008311	Q9UDR5	Q9UDR5				6.8207	CataPro									
+3HBCDm	R03027	4.2.1.55	4.2.1.55	forward	crotonylCoAm;H2Om	C00877;C00001	3hydroxybutanoylCoAm	C03561	ENSG00000121310	Q86YB7	Q86YB7				3.2237	CataPro									
+3SALAASPm				forward	3sulfinoalaninec;aspartatem	C00606;C00049	3sulfinoalaninem;aspartatec	C00606;C00049	ENSG00000004864	Q9UJS0	Q9UJS0	missing			1.032	CataPro									
+3SALAASPm				reverse	3sulfinoalaninem;aspartatec	C00606;C00049	3sulfinoalaninec;aspartatem	C00606;C00049	ENSG00000004864	Q9UJS0	Q9UJS0	missing			1.032	CataPro									
+3SALAASPm				forward	3sulfinoalaninec;aspartatem	C00606;C00049	3sulfinoalaninem;aspartatec	C00606;C00049	ENSG00000115840	O75746	O75746	missing			0.8943	CataPro									
+3SALAASPm				reverse	3sulfinoalaninem;aspartatec	C00606;C00049	3sulfinoalaninec;aspartatem	C00606;C00049	ENSG00000115840	O75746	O75746	missing			0.8943	CataPro									
+TYRt				forward	tyrosinec	C01536	tyrosinex	C01536	ENSG00000112394	Q8TF71	Q8TF71	missing			1.513	CataPro									
+r2534		2.A.1.44.1	2.A.1.44.1	forward	threoninec	C00188	threoninex	C00188	ENSG00000149150	O75387	O75387	incomplete			1.8982	CataPro									
+r1616		2.A.3.8.1	2.A.3.8.1	forward	tryptophanc	C00078	tryptophanx	C00078	ENSG00000103257	Q01650	Q01650	incomplete			12.7133	CataPro									
+2OXOADPTm				forward	2oxoadipatec;AKGm	C00322;C00026	2oxoadipatem;AKGc	C00322;C00026	ENSG00000183032	Q9BQT8	Q9BQT8	missing			1.1556	CataPro									
+2OXOADPTm				reverse	2oxoadipatem;AKGc	C00322;C00026	2oxoadipatec;AKGm	C00322;C00026	ENSG00000183032	Q9BQT8	Q9BQT8	missing			1.1556	CataPro									
+CystineReductaseNADPH				forward	cystinec;Hc;NADPHc	C00491;C00080;C00005	cysteinec;NADPc	C00097;C00006	ENSG00000184470	Q9NNW7	Q9NNW7	missing					16.0								
+CystineReductaseNADPH				forward	cystinec;Hc;NADPHc	C00491;C00080;C00005	cysteinec;NADPc	C00097;C00006	ENSG00000198431	Q16881	Q16881	missing					16.0								
+THYMDt1				forward	Thymidine	C00214	Thymidine	C00214	ENSG00000112759	Q99808	Q99808	missing			10.0448	CataPro									
+THYMDt1				forward	Thymidine	C00214	Thymidine	C00214	ENSG00000174669	Q14542	Q14542	missing			20.6509	CataPro									

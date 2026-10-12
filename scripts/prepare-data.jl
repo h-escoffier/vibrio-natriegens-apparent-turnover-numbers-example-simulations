@@ -1,80 +1,73 @@
-using CSV, DataFrames, DataFramesMeta, Serialization
-using VibrioNatriegens, COBREXA, JSONFBCModels, AbstractFBCModels
+using CSV, DataFrames, DataFramesMeta, Serialization, Statistics
+using COBREXA, SBMLFBCModels, AbstractFBCModels
+
+include("utils-engro.jl")
 
 isdir("tmp") || mkdir("tmp") # create dir if necessary
 
 # save molar mass data
 mw = Dict(
-    CSV.File(
-        "data/vnat_molar_masses.csv",
-        drop = ["Length"],
-        types = [String, Float64, Float64],
-    ),
-)
+    String(row.gene) => (Float64(row.mw))
+    for row in CSV.File("data/engro2-molar-masses.tsv"; delim = '\t')
+        if !ismissing(row.gene) && !ismissing(row.mw)
+            )
+
 serialize("tmp/molar-masses.js", mw)
 
-# prepare condition specific data
-for condition in [
-    "Acetate"
-    "Alanine"
-    "Glutamate"
-    "Succinate"
-    "Ribose"
-    "Glucose"
-]
+# Unlike vnat analysis, the model is not condition specific
+model = convert(
+    AbstractFBCModels.CanonicalModel.Model, 
+    AbstractFBCModels.load("data/model-engro2.xml")) 
+serialize("tmp/model.js", model)
 
-    # serialize the condition specific models
-    model = AbstractFBCModels.load(
-        JSONFBCModels.JSONFBCModel,
-        "data/"*condition*"-vibrio-natriegens-model.json",
+# kinetics paramaters (retrived using WILDkCAT) [units: M/h]
+reaction_isozymes = build_reaction_isozymes(model, "data/kcat.tsv", "data/engro2-molar-masses.tsv")
+serialize("tmp/reaction-isozymes.js", reaction_isozymes)
+
+# currently the test is done only on mcf7 condition 
+
+condition = "MCF7"
+
+# NOT USED - serialize a specific flux sample [units: mmol/gDW/h]
+# fluxes = Dict(
+#     Symbol(r.Reaction) => r.Flux for r in CSV.File("data/"*condition*"-fluxes.csv")
+# )
+# serialize("tmp/"*condition*"-fluxes.js", fluxes)
+
+# serialize the proteomics mass fraction data
+table = CSV.File(
+    "data/"*condition*"-mass-fraction.tsv";
+    delim='\t'
     )
-    serialize("tmp/"*condition*"-model.js", model)
 
-    # serialize a specific flux sample [units: mmol/gDW/h]
-    fluxes = Dict(
-        Symbol(r.Reaction) => r.Flux for r in CSV.File("data/"*condition*"-fluxes.csv")
+value_cols = filter(name -> name ∉ (:ENSEMBLID, :UniProtIDs), propertynames(table)) # Select columns 
+mass = Dict(
+    row.ENSEMBLID => mean(skipmissing([getproperty(row, col) for col in value_cols])) # or median() ?
+    for row in table)
+
+mass = Dict(
+    String15(k) => Float64(v)
+    for (k, v) in mass
+    if v != 0
+)
+
+serialize("tmp/"*condition*"-mass-fractions.js", mass)
+
+# serialize the proteomics absolute mole fraction data [units: ng/gDW]
+table = CSV.File(
+    "data/"*condition*"-absolute-mole-fraction.tsv";
+    delim='\t'
     )
-    serialize("tmp/"*condition*"-fluxes.js", fluxes)
 
-    # serialize the proteomics mass fraction data
-    mass = Dict(
-        r.Protein => r.MassFraction for
-        r in CSV.File("data/"*condition*"-proteomics-mass-fraction.csv")
-    )
-    serialize("tmp/"*condition*"-mass-fractions.js", mass)
+value_cols = filter(name -> name ∉ (:ENSEMBLID, :UniProtIDs), propertynames(table))
+mole = Dict(
+    row.ENSEMBLID => mean(skipmissing([getproperty(row, col) for col in value_cols])) # or median() ?
+    for row in table)
 
-    # serialize the proteomics absolute mole fraction data [units: ng/gDW]
-    mole = Dict(
-        Symbol(r.Protein) => r.AbsoluteMoleFraction for
-        r in CSV.File("data/"*condition*"-proteomics-absolute-mole-fraction.csv")
-    )
-    serialize("tmp/"*condition*"-mole-fractions.js", mole)
+mole = Dict(
+    Symbol(k) => Float64(v)
+    for (k, v) in mole
+    if v != 0
+)
 
-    # prepare the reaction isozyme data which includes the gene reaction rules and kinetics [kinetics unit: M/h]
-    reaction_isozymes = Dict{String,Dict{String,COBREXA.Isozyme}}()
-    for r in CSV.File("data/"*condition*"-reaction-isozymes.csv")
-        if haskey(reaction_isozymes, r.Reaction)
-            if haskey(reaction_isozymes[r.Reaction], r.Isozyme)
-                iso = reaction_isozymes[r.Reaction][r.Isozyme]
-                iso.gene_product_stoichiometry[r.Protein] = r.Stoichiometry
-            else
-                iso = COBREXA.Isozyme(
-                    Dict(r.Protein => r.Stoichiometry),
-                    r.KcatForward,
-                    r.KcatReverse,
-                )
-                reaction_isozymes[r.Reaction] = Dict(r.Isozyme => iso)
-            end
-        else
-            isos = Dict{String,COBREXA.Isozyme}()
-            isos[r.Isozyme] = COBREXA.Isozyme(
-                Dict(r.Protein => r.Stoichiometry),
-                r.KcatForward,
-                r.KcatReverse,
-            )
-            reaction_isozymes[r.Reaction] = isos
-        end
-    end
-    reaction_isozymes
-    serialize("tmp/"*condition*"-reaction-isozymes.js", reaction_isozymes)
-end
+serialize("tmp/"*condition*"-mole-fractions.js", mole)
