@@ -18,6 +18,17 @@ serialize("tmp/molar-masses.js", mw)
 model = convert(
     AbstractFBCModels.CanonicalModel.Model, 
     AbstractFBCModels.load("data/model-engro2.xml")) 
+
+strip_prefix(id, prefix) = startswith(id, prefix) ? id[length(prefix)+1:end] : id
+model = identifier_map(
+    model,
+    reaction_map = id -> strip_prefix(id, "R_"),
+    metabolite_map = id -> strip_prefix(id, "M_"),
+    gene_map = id -> strip_prefix(id, "G_"),
+    compartment_map = id -> strip_prefix(id, "C_"),
+    coupling_map = id -> strip_prefix(id, "X_"),
+);
+
 serialize("tmp/model.js", model)
 
 # kinetics paramaters (retrived using WILDkCAT) [units: M/h]
